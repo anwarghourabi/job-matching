@@ -1,0 +1,29 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Données (optionnel - commenter si vous voulez les inclure)
+# data/raw/
+# data/processed/
+
+# Fichiers temporaires
+*.log
+.pytest_cache/
+
+# Mac
+.DS_Store

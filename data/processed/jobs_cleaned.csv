@@ -1,0 +1,280 @@
+job_title,salary_usd,experience_level,employment_type,location,remote_ratio,company_size,source
+data scientist,79833.0,mid-level,FT,DE,0,L,huggingface
+machine learning scientist,260000.0,senior,FT,JP,0,S,huggingface
+big data engineer,109024.0,senior,FT,GB,50,M,huggingface
+product data analyst,20000.0,mid-level,FT,HN,0,S,huggingface
+machine learning engineer,150000.0,senior,FT,US,50,L,huggingface
+data analyst,72000.0,entry-level,FT,US,100,L,huggingface
+lead data scientist,190000.0,senior,FT,US,100,S,huggingface
+data scientist,35735.0,mid-level,FT,HU,50,L,huggingface
+business data analyst,135000.0,mid-level,FT,US,100,L,huggingface
+lead data engineer,125000.0,senior,FT,NZ,50,S,huggingface
+data scientist,51321.0,entry-level,FT,FR,0,S,huggingface
+data scientist,40481.0,mid-level,FT,IN,0,L,huggingface
+lead data analyst,87000.0,mid-level,FT,US,100,L,huggingface
+data analyst,8000.0,mid-level,FT,PK,50,L,huggingface
+data engineer,41689.0,entry-level,FT,JP,100,S,huggingface
+data science consultant,5707.0,entry-level,FT,IN,50,M,huggingface
+lead data engineer,56000.0,mid-level,FT,US,100,M,huggingface
+machine learning engineer,43331.0,mid-level,FT,CN,0,M,huggingface
+product data analyst,6072.0,mid-level,FT,IN,100,L,huggingface
+data engineer,47899.0,senior,FT,GR,50,L,huggingface
+bi data analyst,98000.0,mid-level,FT,US,0,M,huggingface
+lead data scientist,115000.0,mid-level,FT,AE,0,L,huggingface
+director of data science,325000.0,executive,FT,US,100,L,huggingface
+research scientist,42000.0,entry-level,FT,NL,50,L,huggingface
+data engineer,33511.0,senior,FT,MX,0,S,huggingface
+machine learning manager,117104.0,senior,FT,CA,50,L,huggingface
+data engineering manager,59303.0,mid-level,FT,DE,100,S,huggingface
+big data engineer,70000.0,entry-level,FT,US,100,L,huggingface
+data scientist,68428.0,senior,FT,US,100,L,huggingface
+research scientist,450000.0,mid-level,FT,US,0,M,huggingface
+data analyst,46759.0,mid-level,FT,FR,50,L,huggingface
+data engineer,74130.0,mid-level,FT,AT,50,L,huggingface
+data science consultant,103000.0,mid-level,FT,US,100,L,huggingface
+data analyst,10000.0,entry-level,FT,NG,100,S,huggingface
+data engineering manager,79833.0,executive,FT,ES,50,L,huggingface
+machine learning infrastructure engineer,50180.0,mid-level,FT,PT,0,M,huggingface
+data engineer,106000.0,mid-level,FT,US,100,L,huggingface
+data engineer,112872.0,mid-level,FT,GB,50,L,huggingface
+ml engineer,15966.0,entry-level,PT,DE,100,S,huggingface
+data scientist,76958.0,mid-level,FT,GB,100,S,huggingface
+data engineer,70139.0,mid-level,FT,FR,50,L,huggingface
+data analyst,6072.0,entry-level,FT,IN,0,S,huggingface
+ai scientist,45896.0,entry-level,FT,DK,50,S,huggingface
+data engineer,54742.0,entry-level,FT,DE,100,L,huggingface
+computer vision engineer,60000.0,senior,FL,US,100,S,huggingface
+principal data scientist,148261.0,senior,FT,DE,100,M,huggingface
+data scientist,38776.0,mid-level,FT,ES,100,M,huggingface
+data scientist,21669.0,entry-level,PT,IT,50,S,huggingface
+machine learning engineer,45618.0,senior,FT,HR,100,S,huggingface
+data science manager,190200.0,senior,FT,US,100,M,huggingface
+data scientist,91237.0,senior,FT,AT,0,S,huggingface
+data scientist,62726.0,mid-level,FT,LU,50,S,huggingface
+research scientist,82528.0,entry-level,FT,GB,50,L,huggingface
+head of data,235000.0,executive,FT,US,100,L,huggingface
+3d computer vision researcher,5409.0,mid-level,PT,IN,50,M,huggingface
+ml engineer,270000.0,mid-level,CT,US,100,L,huggingface
+data analytics engineer,79197.0,senior,FT,DE,100,L,huggingface
+applied data scientist,54238.0,mid-level,FT,CA,50,L,huggingface
+machine learning engineer,47282.0,mid-level,FT,ES,100,S,huggingface
+director of data science,153667.0,executive,FT,PL,100,L,huggingface
+data engineer,28476.0,mid-level,FT,PL,100,L,huggingface
+data analytics engineer,110000.0,mid-level,FT,US,100,L,huggingface
+marketing data analyst,88654.0,senior,FT,DK,100,L,huggingface
+data science consultant,76833.0,entry-level,FT,DE,100,S,huggingface
+lead data analyst,19609.0,mid-level,FT,IN,100,L,huggingface
+cloud data engineer,89294.0,mid-level,FT,SG,50,L,huggingface
+ai scientist,12000.0,entry-level,PT,US,100,S,huggingface
+financial data analyst,450000.0,mid-level,FT,US,100,L,huggingface
+computer vision software engineer,70000.0,entry-level,FT,US,100,M,huggingface
+data analyst,51519.0,mid-level,FT,GB,50,L,huggingface
+research scientist,187442.0,mid-level,FT,CA,100,L,huggingface
+data engineer,30428.0,entry-level,FT,IN,100,L,huggingface
+machine learning engineer,94564.0,senior,FT,DE,50,L,huggingface
+director of data engineering,113476.0,senior,FT,GB,100,M,huggingface
+lead data engineer,103160.0,senior,FT,GB,100,S,huggingface
+data engineer,45391.0,mid-level,FT,NL,100,L,huggingface
+machine learning scientist,225000.0,entry-level,FT,US,100,L,huggingface
+data scientist,50000.0,mid-level,FT,NG,100,L,huggingface
+data science engineer,40189.0,mid-level,FT,GR,100,M,huggingface
+big data engineer,60000.0,mid-level,FT,RO,50,M,huggingface
+principal data engineer,200000.0,senior,FT,US,100,M,huggingface
+applied data scientist,110037.0,entry-level,FT,GB,0,L,huggingface
+data analyst,10354.0,entry-level,PT,ES,50,M,huggingface
+principal data scientist,151000.0,mid-level,FT,US,100,L,huggingface
+machine learning engineer,20000.0,entry-level,FT,IN,100,S,huggingface
+lead data scientist,40570.0,senior,FT,IN,50,L,huggingface
+machine learning developer,100000.0,entry-level,FT,IQ,50,S,huggingface
+applied machine learning scientist,38400.0,mid-level,FT,US,100,M,huggingface
+computer vision engineer,24000.0,senior,FT,BR,100,M,huggingface
+ml engineer,63711.0,mid-level,FT,JP,50,S,huggingface
+data engineering manager,150000.0,senior,FT,US,0,L,huggingface
+machine learning engineer,82744.0,senior,FT,BE,50,M,huggingface
+research scientist,62649.0,mid-level,FT,FR,50,M,huggingface
+cloud data engineer,160000.0,senior,FT,US,100,S,huggingface
+director of data science,168000.0,senior,FT,JP,0,S,huggingface
+data scientist,75774.0,mid-level,FT,CA,100,L,huggingface
+data scientist,13400.0,entry-level,FT,UA,100,L,huggingface
+data science engineer,127221.0,senior,FT,CA,50,L,huggingface
+data scientist,119059.0,mid-level,FT,IL,100,M,huggingface
+data analytics manager,120000.0,senior,FT,US,100,M,huggingface
+head of data,230000.0,executive,FT,RU,50,L,huggingface
+head of data science,85000.0,executive,FT,RU,0,M,huggingface
+data engineer,28369.0,mid-level,FT,MT,50,L,huggingface
+director of data science,130026.0,executive,FT,DE,50,M,huggingface
+data specialist,165000.0,senior,FT,US,100,L,huggingface
+data architect,150000.0,mid-level,FT,US,100,L,huggingface
+research scientist,60757.0,senior,FT,PT,50,L,huggingface
+data scientist,2859.0,mid-level,FT,MX,0,S,huggingface
+data scientist,40038.0,mid-level,FT,CL,100,L,huggingface
+big data engineer,22611.0,mid-level,FT,IN,0,L,huggingface
+finance data analyst,61896.0,senior,FT,GB,50,L,huggingface
+machine learning scientist,12000.0,mid-level,FL,PK,50,M,huggingface
+data engineer,4000.0,mid-level,FT,IR,100,M,huggingface
+data analytics engineer,50000.0,senior,FT,GB,100,M,huggingface
+data science consultant,69741.0,executive,FT,ES,100,S,huggingface
+machine learning engineer,74000.0,mid-level,FT,JP,50,S,huggingface
+data science manager,152000.0,senior,FT,FR,100,L,huggingface
+machine learning engineer,21844.0,entry-level,FT,CO,50,M,huggingface
+big data engineer,18000.0,mid-level,FT,MD,0,S,huggingface
+bi data analyst,9272.0,entry-level,FT,KE,100,S,huggingface
+machine learning infrastructure engineer,195000.0,senior,FT,US,100,M,huggingface
+data scientist,12901.0,mid-level,FT,BR,0,S,huggingface
+machine learning engineer,24823.0,mid-level,FT,SI,50,L,huggingface
+big data engineer,5882.0,entry-level,FT,CH,0,L,huggingface
+computer vision engineer,28609.0,entry-level,PT,DK,50,S,huggingface
+machine learning engineer,46597.0,mid-level,FT,PL,100,L,huggingface
+machine learning scientist,225000.0,senior,FT,CA,100,L,huggingface
+data analyst,71786.0,senior,FT,CA,100,M,huggingface
+director of data engineering,200000.0,senior,FT,US,100,L,huggingface
+head of data science,110000.0,mid-level,FT,US,0,S,huggingface
+data scientist,4000.0,entry-level,FT,VN,0,M,huggingface
+ai scientist,18053.0,entry-level,FT,AS,100,S,huggingface
+data engineer,12103.0,mid-level,FT,TR,0,M,huggingface
+principal data analyst,170000.0,senior,FT,US,100,M,huggingface
+big data architect,99703.0,senior,FT,CA,50,M,huggingface
+data analyst,63831.0,senior,FT,DE,50,L,huggingface
+ai scientist,55000.0,senior,FT,ES,100,L,huggingface
+data scientist,20171.0,senior,FT,TR,50,L,huggingface
+business data analyst,59102.0,entry-level,FT,LU,100,L,huggingface
+research scientist,100000.0,entry-level,FT,CN,0,L,huggingface
+staff data scientist,105000.0,senior,CT,US,100,M,huggingface
+research scientist,69999.0,mid-level,FT,CZ,50,L,huggingface
+data science manager,94665.0,senior,FT,IN,50,L,huggingface
+head of data,102839.0,senior,FT,SI,100,L,huggingface
+machine learning engineer,51064.0,mid-level,FT,IT,50,L,huggingface
+analytics engineer,175000.0,executive,FT,US,100,M,huggingface
+data architect,192400.0,senior,FT,CA,100,M,huggingface
+etl developer,54957.0,mid-level,FT,GR,0,M,huggingface
+lead data engineer,118187.0,executive,FT,CA,100,S,huggingface
+head of machine learning,79039.0,executive,FT,IN,50,L,huggingface
+machine learning engineer,37300.0,entry-level,FT,GB,100,L,huggingface
+data science engineer,60000.0,senior,FT,MX,100,L,huggingface
+data engineer,49461.0,mid-level,FT,ES,100,M,huggingface
+data analyst,43966.0,mid-level,FT,GR,100,M,huggingface
+ml engineer,21983.0,entry-level,FT,PT,100,L,huggingface
+machine learning developer,78791.0,mid-level,FT,CA,100,M,huggingface
+director of data science,196979.0,executive,FT,CA,50,L,huggingface
+nlp engineer,37236.0,mid-level,FT,US,50,L,huggingface
+lead machine learning engineer,87932.0,senior,FT,DE,0,M,huggingface
+business data analyst,18442.0,mid-level,FT,IN,100,M,huggingface
+machine learning engineer,120000.0,senior,FT,AE,100,S,huggingface
+data scientist,100000.0,entry-level,PT,DZ,50,M,huggingface
+applied machine learning scientist,31875.0,entry-level,CT,CZ,100,M,huggingface
+principal data analyst,75000.0,mid-level,FT,CA,100,S,huggingface
+data scientist,35590.0,mid-level,FT,PL,100,L,huggingface
+machine learning engineer,62651.0,senior,FT,NL,100,L,huggingface
+head of data,32974.0,mid-level,FT,EE,100,S,huggingface
+data scientist,40000.0,entry-level,FT,MY,100,L,huggingface
+machine learning engineer,87425.0,mid-level,FT,AU,100,L,huggingface
+data scientist,86703.0,entry-level,FT,AU,50,M,huggingface
+research scientist,64849.0,mid-level,FT,AT,0,L,huggingface
+applied data scientist,157000.0,mid-level,FT,US,100,L,huggingface
+computer vision software engineer,150000.0,entry-level,FT,AU,100,S,huggingface
+business data analyst,70912.0,mid-level,FT,CA,50,L,huggingface
+machine learning engineer,71444.0,senior,FT,IE,100,S,huggingface
+data analytics engineer,20000.0,entry-level,FT,PK,0,M,huggingface
+data scientist,122346.0,mid-level,FT,CH,0,L,huggingface
+computer vision engineer,10000.0,entry-level,FT,LU,100,M,huggingface
+data analytics lead,405000.0,senior,FT,US,100,L,huggingface
+lead engineer provider engineering,,unknown,,Winter Park,100,,remoteok
+regulatory product counsel,,unknown,,,100,,remoteok
+audience writer,,unknown,,,100,,remoteok
+backend engineer consumer engineering,,unknown,,Mexico City,100,,remoteok
+desarrollador backend net etl,,unknown,,Bogota,100,,remoteok
+prompt engineer,,unknown,,"Remote, Ukraine",100,,remoteok
+information security operations engineer,,unknown,,United States,100,,remoteok
+manager sales engineering,,unknown,,UK,100,,remoteok
+security access management lead,,unknown,,United States,100,,remoteok
+associate influencer marketing,,unknown,,"New York, NY; San Francisco, CA; Los Angeles, CA; United States - Remote",100,,remoteok
+senior data engineer,,unknown,,,100,,remoteok
+principal data operations amp migration lead,,unknown,,"York, United Kingdom",100,,remoteok
+senior medical science liaison,,unknown,,,100,,remoteok
+account executive,,unknown,,,100,,remoteok
+communications specialist,,unknown,,National Capital Region,100,,remoteok
+data science intern pricing analytics,,unknown,,United States,100,,remoteok
+tech lead,,unknown,,,100,,remoteok
+director of quality performance,,unknown,,San Francisco,100,,remoteok
+technical sales manager,,unknown,,"St. Louis, MO",100,,remoteok
+big data engineer,,unknown,,,100,,remoteok
+executive director safety amp pharmacovigilance,,unknown,,Remote,100,,remoteok
+product marketing manager,,unknown,,United States,100,,remoteok
+junior product support specialist,,unknown,,"Remote, LATAM/North America",100,,remoteok
+head of professional services,,unknown,,Remote,100,,remoteok
+vp practice operations,,unknown,,,100,,remoteok
+sales development representative,,unknown,,Remote,100,,remoteok
+senior manager rfp response,,unknown,,,100,,remoteok
+community specialist i,,unknown,,Mexico,100,,remoteok
+integrated marketing manager,,unknown,,,100,,remoteok
+it support technician,,unknown,,"Remote, United States",100,,remoteok
+enterprise account executive cloud sales,,unknown,,,100,,remoteok
+senior sales development representative,,unknown,,London,100,,remoteok
+vp portfolio underwriting,,unknown,,,100,,remoteok
+sales development representative,,unknown,,Austin,100,,remoteok
+database administrator cloud,,unknown,,Dominican Republic,100,,remoteok
+csm i,,unknown,,,100,,remoteok
+staff data analyst,,unknown,,,100,,remoteok
+youtube editor freelance,,unknown,,Remote,100,,remoteok
+customer experience associate,,unknown,,Remote,100,,remoteok
+senior data scientist,,unknown,,,100,,remoteok
+director community developer advocacy,,unknown,,North America,100,,remoteok
+senior software engineer i puppet,,unknown,,,100,,remoteok
+senior manager customer operations,,unknown,,,100,,remoteok
+founding paralegal,,unknown,,,100,,remoteok
+channel business manager,,unknown,,Australia,100,,remoteok
+application engineer cnc sheet metal,,unknown,,Brazil,100,,remoteok
+customer experience representative,,unknown,,,100,,remoteok
+human resources administrative coordinator,,unknown,,"Chicago, IL",100,,remoteok
+innovation architect latam latam,,unknown,,,100,,remoteok
+business development manager,,unknown,,US Remote,100,,remoteok
+vp of sales strategic accounts,,unknown,,Boston,100,,remoteok
+security engineer,,unknown,,New York City,100,,remoteok
+staff+ software engineer observability,,unknown,,"London, UK",100,,remoteok
+senior account manager,,unknown,,New York,100,,remoteok
+senior technical program manager,,unknown,,Remote - US,100,,remoteok
+design program manager ai,,unknown,,"San Francisco, CA",100,,remoteok
+sap data migration architect,,unknown,,,100,,remoteok
+senior software engineer frontend,,unknown,,Barcelona,100,,remoteok
+supplier quality specialist,,unknown,,"Bastrop, TX",100,,remoteok
+soc analyst,,unknown,,,100,,remoteok
+lead digital media buyer latin america,,unknown,,Heredia,100,,remoteok
+licensed life insurance agent position with growth,,unknown,,"Kent, Washington",100,,remoteok
+staff product manager personalization foundations,,unknown,,"New York City, NY",100,,remoteok
+permit specialist work,,unknown,,Philippines,100,,remoteok
+manager customer success operations,,unknown,,,100,,remoteok
+content manager,,unknown,,,100,,remoteok
+principal security engineer,,unknown,,,100,,remoteok
+state engagement manager,,unknown,,El Segundo,100,,remoteok
+staff product security engineer customer platform,,unknown,,,100,,remoteok
+legal operations specialist,,unknown,,USA,100,,remoteok
+security operations engineer,,unknown,,Remote - EMEA,100,,remoteok
+senior software engineer trading infrastructure,,unknown,,New York City / San Francisco / Los Angeles / Remote,100,,remoteok
+software engineer apps,,unknown,,Bengaluru,100,,remoteok
+associate manager digital media,,unknown,,"Chicago, Illinois, United States",100,,remoteok
+senior support operations manager,,unknown,,,100,,remoteok
+director emea marketing,,unknown,,London,100,,remoteok
+marketing associate,,unknown,,"Boston, MA",100,,remoteok
+senior client success manager,,unknown,,Remote - US East,100,,remoteok
+senior paid search analyst,,unknown,,"Chicago, Illinois, United States; Nashville, Tennessee, United States; Remote",100,,remoteok
+customer success manager strategic,,unknown,,Boston,100,,remoteok
+senior devsecops platform security engineer,,unknown,,,100,,remoteok
+senior product manager connected care,,unknown,,,100,,remoteok
+associate therapist fully,,unknown,,North Carolina,100,,remoteok
+senior cybersecurity engineer,,unknown,,"Washington, DC",100,,remoteok
+customer service hospitality reservations,,unknown,,Florida,100,,remoteok
+senior systems engineer,,unknown,,Worldwide,100,,remoteok
+fullstack automation engineer delivery automation team,,unknown,,,100,,remoteok
+founding marketer,,unknown,,Japan,100,,remoteok
+software development engineer i,,unknown,,India,100,,remoteok
+business development representative uk eu,,unknown,,,100,,remoteok
+senior software engineer web,,unknown,,Asia,100,,remoteok
+data analyst 3,,unknown,,Remote,100,,remoteok
+developer relations engineer,,unknown,,,100,,remoteok
+forward deployed engineer devops,,unknown,,New York,100,,remoteok
+business development representative,,unknown,,United States,100,,remoteok
+senior account manager feb 2026,,unknown,,California,100,,remoteok
+vp national accounts,,unknown,,,100,,remoteok
+senior talent acquisition manager,,unknown,,Anywhere in the United States,100,,remoteok
+senior technical program manager infrastructure,,unknown,,United States,100,,remoteok
+web program manager,,unknown,,United States of America,100,,remoteok

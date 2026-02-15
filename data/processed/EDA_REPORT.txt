@@ -1,0 +1,120 @@
+
+======================================================================
+RAPPORT EDA - JOB-CANDIDATE MATCHING SYSTEM
+Dataset fusionné: HuggingFace + RemoteOK
+======================================================================
+
+📊 DONNÉES GÉNÉRALES
+─────────────────────────────────────────────────────────────────────
+- Nombre d'offres: 279
+- Nombre de colonnes: 8
+- Localisations: 104 pays/régions
+- Sources: HuggingFace + RemoteOK
+
+💰 ANALYSE DES SALAIRES (USD)
+─────────────────────────────────────────────────────────────────────
+- Salaire minimum: $2,859
+- Salaire maximum: $450,000
+- Salaire moyen: $86,552
+- Salaire médian: $69,999
+- Écart-type: $75,669
+- Q1 (25%): $38,588
+- Q3 (75%): $111,454
+
+👤 DISTRIBUTION PAR EXPÉRIENCE
+─────────────────────────────────────────────────────────────────────
+
+UNKNOWN:
+  - Nombre: 100 (35.8%)
+  - Salaire moyen: $nan
+
+MID-LEVEL:
+  - Nombre: 75 (26.9%)
+  - Salaire moyen: $74,707
+
+SENIOR:
+  - Nombre: 52 (18.6%)
+  - Salaire moyen: $116,922
+
+ENTRY-LEVEL:
+  - Nombre: 40 (14.3%)
+  - Salaire moyen: $48,307
+
+EXECUTIVE:
+  - Nombre: 12 (4.3%)
+  - Salaire moyen: $156,456
+
+
+🌍 TOP 10 LOCALISATIONS
+─────────────────────────────────────────────────────────────────────
+US: 39 offres (14.0%) - Salaire moyen: $159,520
+CA: 14 offres (5.0%) - Salaire moyen: $120,753
+IN: 13 offres (4.7%) - Salaire moyen: $29,931
+DE: 11 offres (3.9%) - Salaire moyen: $80,953
+GB: 11 offres (3.9%) - Salaire moyen: $82,615
+ES: 7 offres (2.5%) - Salaire moyen: $50,064
+United States: 6 offres (2.2%) - Salaire moyen: $nan
+Remote: 6 offres (2.2%) - Salaire moyen: $nan
+JP: 5 offres (1.8%) - Salaire moyen: $121,480
+FR: 5 offres (1.8%) - Salaire moyen: $76,574
+
+
+📱 REMOTE RATIO
+─────────────────────────────────────────────────────────────────────
+0% Remote: 31 (11.1%)
+50% Remote: 53 (19.0%)
+100% Remote: 195 (69.9%)
+
+
+💼 COMPANY SIZE
+─────────────────────────────────────────────────────────────────────
+Large: 88 (31.5%)
+Medium: 49 (17.6%)
+Small: 42 (15.1%)
+
+
+📊 DISTRIBUTION PAR SOURCE
+─────────────────────────────────────────────────────────────────────
+huggingface: 179 offres (64.2%)
+remoteok: 100 offres (35.8%)
+
+
+🔍 OBSERVATIONS CLÉS
+─────────────────────────────────────────────────────────────────────
+1. Distribution des salaires:
+   → Forte concentration entre $38,588 et $111,454
+
+2. Tendance expérience vs salaire:
+   → Senior gagnent en moyenne $116,922
+   → Entry-level gagnent en moyenne $48,307
+
+3. Télétravail:
+   → 195 offres 100% remote
+   → 31 offres on-site
+
+4. Localisations principales:
+   → US: 39 offres
+
+5. Sources de données:
+   → HuggingFace: offres avec salaires structurées
+   → RemoteOK: offres 100% remote, sans salaires standardisées
+
+📈 RECOMMANDATIONS POUR WEEK 2
+─────────────────────────────────────────────────────────────────────
+1. Feature Engineering:
+   - Créer des catégories de salaires
+   - Encoder les niveaux d'expérience
+   - Normaliser les données
+   - Gérer les valeurs manquantes
+
+2. Vectorisation:
+   - Encoder job_title avec one-hot ou label encoding
+   - Normaliser salary_usd
+   - Gérer les NaN pour RemoteOK
+
+3. Clustering:
+   - Préparer pour K-Means
+   - Déterminer nombre optimal de clusters
+   - Analyser les clusters par source
+
+======================================================================
