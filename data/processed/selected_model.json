@@ -1,0 +1,28 @@
+{
+  "selected_model": "tfidf",
+  "model_name": "tfidf",
+  "avg_precision_at_10": 0.94,
+  "avg_inference_ms": 0.87,
+  "composite_score": 0.9417,
+  "sample_size": 5000,
+  "all_scores": [
+    {
+      "model": "tfidf",
+      "precision": 0.94,
+      "inference_ms": 0.87,
+      "score": 0.9417
+    },
+    {
+      "model": "word2vec",
+      "precision": 0.86,
+      "inference_ms": 0.7,
+      "score": 0.8894
+    },
+    {
+      "model": "sbert",
+      "precision": 0.82,
+      "inference_ms": 10.81,
+      "score": 0.7344
+    }
+  ]
+}

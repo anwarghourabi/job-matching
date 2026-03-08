@@ -1,9 +1,13 @@
-# Environnement virtuel
+# ============================================================
+# ENVIRONNEMENT VIRTUEL
+# ============================================================
 venv/
 env/
 ENV/
 
-# Fichiers Python
+# ============================================================
+# PYTHON
+# ============================================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -12,18 +16,38 @@ __pycache__/
 build/
 *.egg-info/
 
+# ============================================================
 # IDE
+# ============================================================
 .vscode/
 .idea/
 *.swp
 
-# Données (optionnel - commenter si vous voulez les inclure)
-# data/raw/
-# data/processed/
+# ============================================================
+# FICHIERS LOURDS - VECTEURS ML (regénérables)
+# ============================================================
+data/processed/vectors/
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.pkl
+data/processed/jobs_vectorized.csv
 
-# Fichiers temporaires
+# ============================================================
+# RÉSULTATS INTERMÉDIAIRES (regénérables)
+# ============================================================
+data/processed/matching_results/
+data/processed/evaluation/
+mlruns/
+
+# ============================================================
+# FICHIERS TEMPORAIRES
+# ============================================================
 *.log
 .pytest_cache/
-
-# Mac
 .DS_Store
+
+# ============================================================
+# SECRETS
+# ============================================================
+.env
+*.env

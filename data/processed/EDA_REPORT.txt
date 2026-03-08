@@ -6,94 +6,96 @@ Dataset fusionné: HuggingFace + RemoteOK
 
 📊 DONNÉES GÉNÉRALES
 ─────────────────────────────────────────────────────────────────────
-- Nombre d'offres: 279
-- Nombre de colonnes: 8
-- Localisations: 104 pays/régions
+- Nombre d'offres: 112,796
+- Nombre de colonnes: 9
+- Localisations: 8621 pays/régions
 - Sources: HuggingFace + RemoteOK
 
 💰 ANALYSE DES SALAIRES (USD)
 ─────────────────────────────────────────────────────────────────────
-- Salaire minimum: $2,859
-- Salaire maximum: $450,000
-- Salaire moyen: $86,552
-- Salaire médian: $69,999
-- Écart-type: $75,669
-- Q1 (25%): $38,588
-- Q3 (75%): $111,454
+- Salaire minimum: $0
+- Salaire maximum: $500,000
+- Salaire moyen: $21,522
+- Salaire médian: $0
+- Écart-type: $56,157
+- Q1 (25%): $0
+- Q3 (75%): $15
 
 👤 DISTRIBUTION PAR EXPÉRIENCE
 ─────────────────────────────────────────────────────────────────────
 
+ENTRY:
+  - Nombre: 44026 (39.0%)
+  - Salaire moyen: $11,169
+
+MID:
+  - Nombre: 37575 (33.3%)
+  - Salaire moyen: $28,041
+
 UNKNOWN:
-  - Nombre: 100 (35.8%)
-  - Salaire moyen: $nan
-
-MID-LEVEL:
-  - Nombre: 75 (26.9%)
-  - Salaire moyen: $74,707
-
-SENIOR:
-  - Nombre: 52 (18.6%)
-  - Salaire moyen: $116,922
-
-ENTRY-LEVEL:
-  - Nombre: 40 (14.3%)
-  - Salaire moyen: $48,307
+  - Nombre: 26311 (23.3%)
+  - Salaire moyen: $21,699
 
 EXECUTIVE:
-  - Nombre: 12 (4.3%)
-  - Salaire moyen: $156,456
+  - Nombre: 4613 (4.1%)
+  - Salaire moyen: $61,911
+
+SENIOR:
+  - Nombre: 271 (0.2%)
+  - Salaire moyen: $94,846
 
 
 🌍 TOP 10 LOCALISATIONS
 ─────────────────────────────────────────────────────────────────────
-US: 39 offres (14.0%) - Salaire moyen: $159,520
-CA: 14 offres (5.0%) - Salaire moyen: $120,753
-IN: 13 offres (4.7%) - Salaire moyen: $29,931
-DE: 11 offres (3.9%) - Salaire moyen: $80,953
-GB: 11 offres (3.9%) - Salaire moyen: $82,615
-ES: 7 offres (2.5%) - Salaire moyen: $50,064
-United States: 6 offres (2.2%) - Salaire moyen: $nan
-Remote: 6 offres (2.2%) - Salaire moyen: $nan
-JP: 5 offres (1.8%) - Salaire moyen: $121,480
-FR: 5 offres (1.8%) - Salaire moyen: $76,574
+United States: 6425 offres (5.7%) - Salaire moyen: $30,816
+New York, NY: 2482 offres (2.2%) - Salaire moyen: $64,004
+Chicago, IL: 1689 offres (1.5%) - Salaire moyen: $23,482
+Houston, TX: 1510 offres (1.3%) - Salaire moyen: $15,179
+Dallas, TX: 1235 offres (1.1%) - Salaire moyen: $19,396
+Atlanta, GA: 1222 offres (1.1%) - Salaire moyen: $23,824
+Boston, MA: 1071 offres (0.9%) - Salaire moyen: $30,073
+Austin, TX: 1034 offres (0.9%) - Salaire moyen: $21,627
+Phoenix, AZ: 926 offres (0.8%) - Salaire moyen: $19,431
+Charlotte, NC: 906 offres (0.8%) - Salaire moyen: $19,229
 
 
 📱 REMOTE RATIO
 ─────────────────────────────────────────────────────────────────────
-0% Remote: 31 (11.1%)
-50% Remote: 53 (19.0%)
-100% Remote: 195 (69.9%)
+0% Remote: 111911 (99.2%)
+50% Remote: 456 (0.4%)
+100% Remote: 429 (0.4%)
 
 
 💼 COMPANY SIZE
 ─────────────────────────────────────────────────────────────────────
-Large: 88 (31.5%)
-Medium: 49 (17.6%)
-Small: 42 (15.1%)
+Medium: 111973 (99.3%)
+Large: 441 (0.4%)
+Small: 382 (0.3%)
 
 
 📊 DISTRIBUTION PAR SOURCE
 ─────────────────────────────────────────────────────────────────────
-huggingface: 179 offres (64.2%)
-remoteok: 100 offres (35.8%)
+hf_linkedin: 111441 offres (98.8%)
+synthetic: 1083 offres (1.0%)
+hf_ds_salaries: 179 offres (0.2%)
+remoteok_api: 93 offres (0.1%)
 
 
 🔍 OBSERVATIONS CLÉS
 ─────────────────────────────────────────────────────────────────────
 1. Distribution des salaires:
-   → Forte concentration entre $38,588 et $111,454
+   → Forte concentration entre $0 et $15
 
 2. Tendance expérience vs salaire:
-   → Senior gagnent en moyenne $116,922
-   → Entry-level gagnent en moyenne $48,307
+   → Senior gagnent en moyenne $94,846
+   → Entry-level gagnent en moyenne $nan
 
 3. Télétravail:
-   → 195 offres 100% remote
-   → 31 offres on-site
+   → 429 offres 100% remote
+   → 111911 offres on-site
 
 4. Localisations principales:
-   → US: 39 offres
+   → United States: 6425 offres
 
 5. Sources de données:
    → HuggingFace: offres avec salaires structurées

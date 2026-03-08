@@ -1,0 +1,608 @@
+﻿job_title,salary_usd,experience_level,employment_type,location,remote_ratio,company_size,source
+Data Scientist,79833,mi,FT,DE,0,L,hf_ds_salaries
+Machine Learning Scientist,260000,se,FT,JP,0,S,hf_ds_salaries
+Big Data Engineer,109024,se,FT,GB,50,M,hf_ds_salaries
+Product Data Analyst,20000,mi,FT,HN,0,S,hf_ds_salaries
+Machine Learning Engineer,150000,se,FT,US,50,L,hf_ds_salaries
+Data Analyst,72000,en,FT,US,100,L,hf_ds_salaries
+Lead Data Scientist,190000,se,FT,US,100,S,hf_ds_salaries
+Data Scientist,35735,mi,FT,HU,50,L,hf_ds_salaries
+Business Data Analyst,135000,mi,FT,US,100,L,hf_ds_salaries
+Lead Data Engineer,125000,se,FT,NZ,50,S,hf_ds_salaries
+Data Scientist,51321,en,FT,FR,0,S,hf_ds_salaries
+Data Scientist,40481,mi,FT,IN,0,L,hf_ds_salaries
+Data Scientist,39916,en,FT,FR,0,M,hf_ds_salaries
+Lead Data Analyst,87000,mi,FT,US,100,L,hf_ds_salaries
+Data Analyst,85000,mi,FT,US,100,L,hf_ds_salaries
+Data Analyst,8000,mi,FT,PK,50,L,hf_ds_salaries
+Data Engineer,41689,en,FT,JP,100,S,hf_ds_salaries
+Big Data Engineer,114047,se,FT,GB,100,S,hf_ds_salaries
+Data Science Consultant,5707,en,FT,IN,50,M,hf_ds_salaries
+Lead Data Engineer,56000,mi,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,43331,mi,FT,CN,0,M,hf_ds_salaries
+Product Data Analyst,6072,mi,FT,IN,100,L,hf_ds_salaries
+Data Engineer,47899,se,FT,GR,50,L,hf_ds_salaries
+BI Data Analyst,98000,mi,FT,US,0,M,hf_ds_salaries
+Lead Data Scientist,115000,mi,FT,AE,0,L,hf_ds_salaries
+Director of Data Science,325000,ex,FT,US,100,L,hf_ds_salaries
+Research Scientist,42000,en,FT,NL,50,L,hf_ds_salaries
+Data Engineer,33511,se,FT,MX,0,S,hf_ds_salaries
+Business Data Analyst,100000,en,CT,US,100,L,hf_ds_salaries
+Machine Learning Manager,117104,se,FT,CA,50,L,hf_ds_salaries
+Data Engineering Manager,59303,mi,FT,DE,100,S,hf_ds_salaries
+Big Data Engineer,70000,en,FT,US,100,L,hf_ds_salaries
+Data Scientist,68428,se,FT,US,100,L,hf_ds_salaries
+Research Scientist,450000,mi,FT,US,0,M,hf_ds_salaries
+Data Analyst,46759,mi,FT,FR,50,L,hf_ds_salaries
+Data Engineer,74130,mi,FT,AT,50,L,hf_ds_salaries
+Data Science Consultant,103000,mi,FT,US,100,L,hf_ds_salaries
+Machine Learning Engineer,250000,en,FT,US,50,L,hf_ds_salaries
+Data Analyst,10000,en,FT,NG,100,S,hf_ds_salaries
+Machine Learning Engineer,138000,en,FT,US,100,S,hf_ds_salaries
+Data Scientist,45760,mi,FT,US,100,S,hf_ds_salaries
+Data Engineering Manager,79833,ex,FT,ES,50,L,hf_ds_salaries
+Machine Learning Infrastructure Engineer,50180,mi,FT,PT,0,M,hf_ds_salaries
+Data Engineer,106000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineer,112872,mi,FT,GB,50,L,hf_ds_salaries
+ML Engineer,15966,en,PT,DE,100,S,hf_ds_salaries
+Data Scientist,76958,mi,FT,GB,100,S,hf_ds_salaries
+Data Engineer,188000,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,105000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineer,70139,mi,FT,FR,50,L,hf_ds_salaries
+Data Analyst,6072,en,FT,IN,0,S,hf_ds_salaries
+Data Analyst,91000,en,FT,US,100,L,hf_ds_salaries
+AI Scientist,45896,en,FT,DK,50,S,hf_ds_salaries
+Data Engineer,54742,en,FT,DE,100,L,hf_ds_salaries
+Computer Vision Engineer,60000,se,FL,US,100,S,hf_ds_salaries
+Principal Data Scientist,148261,se,FT,DE,100,M,hf_ds_salaries
+Data Scientist,38776,mi,FT,ES,100,M,hf_ds_salaries
+Data Scientist,118000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,120000,se,FT,US,50,L,hf_ds_salaries
+Data Scientist,138350,mi,FT,US,100,M,hf_ds_salaries
+Data Engineer,110000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineer,130800,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,21669,en,PT,IT,50,S,hf_ds_salaries
+Data Scientist,412000,se,FT,US,100,L,hf_ds_salaries
+Machine Learning Engineer,45618,se,FT,HR,100,S,hf_ds_salaries
+Data Scientist,62726,en,FT,DE,50,S,hf_ds_salaries
+Data Scientist,49268,en,FT,DE,0,S,hf_ds_salaries
+Data Science Manager,190200,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,105000,en,FT,US,100,S,hf_ds_salaries
+Data Scientist,91237,se,FT,AT,0,S,hf_ds_salaries
+Data Scientist,62726,mi,FT,LU,50,S,hf_ds_salaries
+Data Scientist,42197,mi,FT,FR,50,S,hf_ds_salaries
+Research Scientist,82528,en,FT,GB,50,L,hf_ds_salaries
+BI Data Analyst,150000,ex,FT,US,100,L,hf_ds_salaries
+Head of Data,235000,ex,FT,US,100,L,hf_ds_salaries
+Data Scientist,53192,se,FT,FR,50,L,hf_ds_salaries
+BI Data Analyst,100000,mi,FT,US,100,M,hf_ds_salaries
+3D Computer Vision Researcher,5409,mi,PT,IN,50,M,hf_ds_salaries
+ML Engineer,270000,mi,CT,US,100,L,hf_ds_salaries
+Data Analyst,80000,en,FT,US,100,M,hf_ds_salaries
+Data Analytics Engineer,79197,se,FT,DE,100,L,hf_ds_salaries
+Data Engineer,140000,mi,FT,US,100,L,hf_ds_salaries
+Applied Data Scientist,54238,mi,FT,CA,50,L,hf_ds_salaries
+Machine Learning Engineer,47282,mi,FT,ES,100,S,hf_ds_salaries
+Director of Data Science,153667,ex,FT,PL,100,L,hf_ds_salaries
+Data Engineer,28476,mi,FT,PL,100,L,hf_ds_salaries
+Data Analyst,59102,en,FT,FR,50,M,hf_ds_salaries
+Data Analytics Engineer,110000,mi,FT,US,100,L,hf_ds_salaries
+Lead Data Analyst,170000,se,FT,US,100,L,hf_ds_salaries
+Data Analyst,80000,se,FT,US,100,S,hf_ds_salaries
+Marketing Data Analyst,88654,se,FT,DK,100,L,hf_ds_salaries
+Data Science Consultant,76833,en,FT,DE,100,S,hf_ds_salaries
+Lead Data Analyst,19609,mi,FT,IN,100,L,hf_ds_salaries
+Lead Data Engineer,276000,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,29751,en,FT,IN,50,L,hf_ds_salaries
+Cloud Data Engineer,89294,mi,FT,SG,50,L,hf_ds_salaries
+AI Scientist,12000,en,PT,US,100,S,hf_ds_salaries
+Financial Data Analyst,450000,mi,FT,US,100,L,hf_ds_salaries
+Computer Vision Software Engineer,70000,en,FT,US,100,M,hf_ds_salaries
+Computer Vision Software Engineer,95746,mi,FT,US,100,S,hf_ds_salaries
+Data Analyst,75000,mi,FT,US,0,L,hf_ds_salaries
+Data Engineer,150000,se,FT,US,100,L,hf_ds_salaries
+BI Data Analyst,36259,mi,FT,US,50,L,hf_ds_salaries
+Data Analyst,62000,mi,FT,US,0,L,hf_ds_salaries
+Data Scientist,73000,mi,FT,US,0,L,hf_ds_salaries
+Data Analyst,51519,mi,FT,GB,50,L,hf_ds_salaries
+Research Scientist,187442,mi,FT,CA,100,L,hf_ds_salaries
+Data Engineer,115000,se,FT,US,100,S,hf_ds_salaries
+Data Engineer,150000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,30428,en,FT,IN,100,L,hf_ds_salaries
+Machine Learning Engineer,94564,se,FT,DE,50,L,hf_ds_salaries
+Director of Data Engineering,113476,se,FT,GB,100,M,hf_ds_salaries
+Lead Data Engineer,103160,se,FT,GB,100,S,hf_ds_salaries
+AI Scientist,12000,en,PT,US,100,M,hf_ds_salaries
+Data Engineer,45391,mi,FT,NL,100,L,hf_ds_salaries
+Machine Learning Scientist,225000,en,FT,US,100,L,hf_ds_salaries
+Data Scientist,50000,mi,FT,NG,100,L,hf_ds_salaries
+Data Science Engineer,40189,mi,FT,GR,100,M,hf_ds_salaries
+Data Analyst,90000,en,FT,US,100,S,hf_ds_salaries
+Data Engineer,200000,mi,FT,US,100,L,hf_ds_salaries
+Big Data Engineer,60000,mi,FT,RO,50,M,hf_ds_salaries
+Principal Data Engineer,200000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,50000,en,FT,US,100,M,hf_ds_salaries
+Applied Data Scientist,110037,en,FT,GB,0,L,hf_ds_salaries
+Data Analyst,10354,en,PT,ES,50,M,hf_ds_salaries
+Principal Data Scientist,151000,mi,FT,US,100,L,hf_ds_salaries
+Machine Learning Scientist,120000,se,FT,US,50,S,hf_ds_salaries
+Data Scientist,9466,mi,FT,IN,0,S,hf_ds_salaries
+Machine Learning Engineer,20000,en,FT,IN,100,S,hf_ds_salaries
+Lead Data Scientist,40570,se,FT,IN,50,L,hf_ds_salaries
+Machine Learning Developer,100000,en,FT,IQ,50,S,hf_ds_salaries
+Data Scientist,49646,en,FT,FR,50,M,hf_ds_salaries
+Applied Machine Learning Scientist,38400,mi,FT,US,100,M,hf_ds_salaries
+Computer Vision Engineer,24000,se,FT,BR,100,M,hf_ds_salaries
+Data Scientist,100000,en,FT,US,0,S,hf_ds_salaries
+Data Analyst,90000,mi,FT,US,100,M,hf_ds_salaries
+ML Engineer,63711,mi,FT,JP,50,S,hf_ds_salaries
+ML Engineer,77364,mi,FT,JP,50,S,hf_ds_salaries
+Principal Data Scientist,220000,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,80000,en,FT,US,100,M,hf_ds_salaries
+Data Analyst,135000,mi,FT,US,100,L,hf_ds_salaries
+Data Science Manager,240000,se,FT,US,0,L,hf_ds_salaries
+Data Engineering Manager,150000,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,82500,mi,FT,US,100,S,hf_ds_salaries
+Data Engineer,100000,mi,FT,US,100,L,hf_ds_salaries
+Machine Learning Engineer,82744,se,FT,BE,50,M,hf_ds_salaries
+Research Scientist,62649,mi,FT,FR,50,M,hf_ds_salaries
+Data Engineer,90000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineering Manager,153000,se,FT,US,100,L,hf_ds_salaries
+Cloud Data Engineer,160000,se,FT,US,100,S,hf_ds_salaries
+Director of Data Science,168000,se,FT,JP,0,S,hf_ds_salaries
+Data Scientist,150000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,75774,mi,FT,CA,100,L,hf_ds_salaries
+Data Scientist,13400,en,FT,UA,100,L,hf_ds_salaries
+Data Science Manager,144000,se,FT,US,100,L,hf_ds_salaries
+Data Science Engineer,127221,se,FT,CA,50,L,hf_ds_salaries
+Data Scientist,119059,mi,FT,IL,100,M,hf_ds_salaries
+Applied Machine Learning Scientist,423000,mi,FT,US,50,L,hf_ds_salaries
+Data Analytics Manager,120000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,125000,en,FT,US,100,S,hf_ds_salaries
+Head of Data,230000,ex,FT,RU,50,L,hf_ds_salaries
+Head of Data Science,85000,ex,FT,RU,0,M,hf_ds_salaries
+Data Engineer,28369,mi,FT,MT,50,L,hf_ds_salaries
+Data Science Consultant,63831,en,FT,DE,50,L,hf_ds_salaries
+Director of Data Science,130026,ex,FT,DE,50,M,hf_ds_salaries
+Data Specialist,165000,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,80000,en,FT,US,100,L,hf_ds_salaries
+Director of Data Science,250000,ex,FT,US,0,L,hf_ds_salaries
+BI Data Analyst,55000,en,FT,US,50,S,hf_ds_salaries
+Data Architect,150000,mi,FT,US,100,L,hf_ds_salaries
+Data Architect,170000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineer,82528,mi,FT,GB,100,L,hf_ds_salaries
+Data Analyst,60000,en,FT,US,100,S,hf_ds_salaries
+Principal Data Scientist,235000,se,FT,US,100,L,hf_ds_salaries
+Research Scientist,60757,se,FT,PT,50,L,hf_ds_salaries
+Data Engineering Manager,174000,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,2859,mi,FT,MX,0,S,hf_ds_salaries
+Data Scientist,40038,mi,FT,CL,100,L,hf_ds_salaries
+Machine Learning Engineer,81000,en,FT,US,50,S,hf_ds_salaries
+Data Scientist,5679,mi,FT,US,100,S,hf_ds_salaries
+Big Data Engineer,22611,mi,FT,IN,0,L,hf_ds_salaries
+Data Scientist,90734,mi,FT,DE,50,L,hf_ds_salaries
+Data Engineer,26005,mi,FT,US,0,L,hf_ds_salaries
+Finance Data Analyst,61896,se,FT,GB,50,L,hf_ds_salaries
+Machine Learning Scientist,12000,mi,FL,PK,50,M,hf_ds_salaries
+Data Engineer,4000,mi,FT,IR,100,M,hf_ds_salaries
+Data Analytics Engineer,50000,se,FT,GB,100,M,hf_ds_salaries
+Data Science Consultant,69741,ex,FT,ES,100,S,hf_ds_salaries
+Data Engineer,76833,se,FT,GB,50,S,hf_ds_salaries
+Machine Learning Engineer,74000,mi,FT,JP,50,S,hf_ds_salaries
+Data Science Manager,152000,se,FT,FR,100,L,hf_ds_salaries
+Machine Learning Engineer,21844,en,FT,CO,50,M,hf_ds_salaries
+Big Data Engineer,18000,mi,FT,MD,0,S,hf_ds_salaries
+Data Science Manager,174000,se,FT,US,100,L,hf_ds_salaries
+Research Scientist,96113,se,FT,CA,50,L,hf_ds_salaries
+Data Scientist,147000,mi,FT,US,50,L,hf_ds_salaries
+BI Data Analyst,9272,en,FT,KE,100,S,hf_ds_salaries
+Machine Learning Engineer,24342,se,FT,IN,100,L,hf_ds_salaries
+Data Science Manager,54094,se,FT,US,50,L,hf_ds_salaries
+Data Science Consultant,90000,en,FT,US,100,S,hf_ds_salaries
+Data Scientist,61467,mi,FT,AT,50,M,hf_ds_salaries
+Machine Learning Infrastructure Engineer,195000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,37825,mi,FT,ES,100,L,hf_ds_salaries
+Research Scientist,50000,se,FT,US,100,S,hf_ds_salaries
+Data Scientist,160000,mi,FT,US,100,L,hf_ds_salaries
+Data Scientist,12901,mi,FT,BR,0,S,hf_ds_salaries
+Machine Learning Engineer,200000,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,165000,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,20000,mi,FL,US,0,L,hf_ds_salaries
+Data Analytics Manager,120000,se,FT,US,0,L,hf_ds_salaries
+Machine Learning Engineer,24823,mi,FT,SI,50,L,hf_ds_salaries
+Research Scientist,56738,mi,FT,FR,50,S,hf_ds_salaries
+Data Engineer,66022,mi,FT,GB,50,S,hf_ds_salaries
+Big Data Engineer,5882,en,FT,CH,0,L,hf_ds_salaries
+Machine Learning Engineer,24823,en,FT,DE,50,M,hf_ds_salaries
+Principal Data Engineer,185000,se,FT,US,100,L,hf_ds_salaries
+Computer Vision Engineer,28609,en,PT,DK,50,S,hf_ds_salaries
+Data Scientist,90734,mi,FT,DE,50,L,hf_ds_salaries
+Machine Learning Engineer,88654,mi,FT,BE,100,M,hf_ds_salaries
+Data Analytics Manager,140000,se,FT,US,100,L,hf_ds_salaries
+Machine Learning Engineer,46597,mi,FT,PL,100,L,hf_ds_salaries
+Data Scientist,116914,mi,FT,GB,50,L,hf_ds_salaries
+Data Scientist,33808,mi,FT,IN,0,M,hf_ds_salaries
+Data Scientist,56256,mi,FT,GB,50,L,hf_ds_salaries
+Machine Learning Scientist,225000,se,FT,CA,100,L,hf_ds_salaries
+Principal Data Scientist,416000,ex,CT,US,100,S,hf_ds_salaries
+Data Scientist,87738,se,FT,CA,100,S,hf_ds_salaries
+Data Scientist,88654,mi,FT,DE,50,L,hf_ds_salaries
+Data Scientist,135000,se,FT,US,0,L,hf_ds_salaries
+Data Analyst,71786,se,FT,CA,100,M,hf_ds_salaries
+Big Data Engineer,16228,en,FT,IN,100,L,hf_ds_salaries
+ML Engineer,256000,se,FT,US,100,S,hf_ds_salaries
+Director of Data Engineering,200000,se,FT,US,100,L,hf_ds_salaries
+Data Analyst,200000,se,FT,US,100,L,hf_ds_salaries
+Data Architect,180000,mi,FT,US,100,L,hf_ds_salaries
+Head of Data Science,110000,mi,FT,US,0,S,hf_ds_salaries
+Research Scientist,63810,mi,FT,CA,100,M,hf_ds_salaries
+Data Scientist,46809,mi,FT,ES,100,M,hf_ds_salaries
+Data Scientist,4000,en,FT,VN,0,M,hf_ds_salaries
+Data Engineer,21637,en,FT,IN,50,M,hf_ds_salaries
+Data Scientist,103691,se,FT,CA,100,L,hf_ds_salaries
+Data Analyst,80000,mi,FT,US,100,L,hf_ds_salaries
+Data Engineer,110000,mi,FT,US,100,L,hf_ds_salaries
+Data Scientist,165000,se,FT,US,100,L,hf_ds_salaries
+AI Scientist,18053,en,FT,AS,100,S,hf_ds_salaries
+Data Engineer,72212,mi,FT,GB,50,L,hf_ds_salaries
+Data Scientist,36643,en,FT,FR,50,L,hf_ds_salaries
+Data Engineer,12103,mi,FT,TR,0,M,hf_ds_salaries
+Data Engineer,96282,se,FT,GB,50,L,hf_ds_salaries
+Principal Data Analyst,170000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,115000,mi,FT,US,50,L,hf_ds_salaries
+Data Scientist,90000,en,FT,US,100,S,hf_ds_salaries
+Principal Data Engineer,600000,ex,FT,US,100,L,hf_ds_salaries
+Data Scientist,28399,en,FT,IN,100,M,hf_ds_salaries
+Data Analyst,93000,mi,FT,US,100,L,hf_ds_salaries
+Big Data Architect,99703,se,FT,CA,50,M,hf_ds_salaries
+Data Engineer,200000,mi,FT,US,100,L,hf_ds_salaries
+Principal Data Scientist,173762,se,FT,DE,100,M,hf_ds_salaries
+Machine Learning Engineer,185000,se,FT,US,50,L,hf_ds_salaries
+Director of Data Science,141846,ex,FT,DE,0,L,hf_ds_salaries
+Data Scientist,130000,mi,FT,US,50,L,hf_ds_salaries
+Data Analyst,63831,se,FT,DE,50,L,hf_ds_salaries
+Data Scientist,16904,mi,FT,IN,100,S,hf_ds_salaries
+Machine Learning Engineer,66265,se,FT,IN,0,L,hf_ds_salaries
+Data Scientist,25532,mi,FT,DE,100,S,hf_ds_salaries
+Lead Data Engineer,160000,se,FT,US,50,S,hf_ds_salaries
+Data Engineer,93150,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,111775,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,28016,mi,FT,TR,100,M,hf_ds_salaries
+Data Engineer,65013,en,FT,DE,50,M,hf_ds_salaries
+Data Engineer,72500,en,FT,US,100,L,hf_ds_salaries
+Computer Vision Engineer,18907,se,FT,BR,0,M,hf_ds_salaries
+Data Science Consultant,76833,en,FT,DE,0,L,hf_ds_salaries
+Machine Learning Engineer,85000,en,FT,DE,100,S,hf_ds_salaries
+Data Scientist,77684,se,FT,FR,50,M,hf_ds_salaries
+Data Scientist,100000,en,FT,US,100,M,hf_ds_salaries
+Data Scientist,58000,en,FT,US,50,L,hf_ds_salaries
+AI Scientist,55000,se,FT,ES,100,L,hf_ds_salaries
+Data Scientist,20171,se,FT,TR,50,L,hf_ds_salaries
+Business Data Analyst,59102,en,FT,LU,100,L,hf_ds_salaries
+Data Engineer,112000,mi,FT,US,100,L,hf_ds_salaries
+Research Scientist,100000,en,FT,CN,0,L,hf_ds_salaries
+Data Engineer,69741,mi,PT,NL,100,L,hf_ds_salaries
+Staff Data Scientist,105000,se,CT,US,100,M,hf_ds_salaries
+Research Scientist,69999,mi,FT,CZ,50,L,hf_ds_salaries
+Data Science Manager,94665,se,FT,IN,50,L,hf_ds_salaries
+Head of Data,102839,se,FT,SI,100,L,hf_ds_salaries
+Data Scientist,109000,mi,FT,US,50,L,hf_ds_salaries
+Machine Learning Engineer,51064,mi,FT,IT,50,L,hf_ds_salaries
+Data Engineer,135000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,155000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,120600,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,130000,mi,FT,US,0,M,hf_ds_salaries
+Data Scientist,90000,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,170000,mi,FT,US,100,M,hf_ds_salaries
+Data Engineer,150000,mi,FT,US,100,M,hf_ds_salaries
+Data Analyst,102100,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,84900,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,136620,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,99360,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,117789,se,FT,GB,0,M,hf_ds_salaries
+Data Scientist,104702,se,FT,GB,0,M,hf_ds_salaries
+Data Scientist,146000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,123000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,52351,en,FT,GB,100,M,hf_ds_salaries
+Data Analyst,99000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,116000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,106260,mi,FT,US,0,M,hf_ds_salaries
+Data Analyst,126500,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,242000,ex,FT,US,100,M,hf_ds_salaries
+Data Engineer,200000,ex,FT,US,100,M,hf_ds_salaries
+Data Scientist,65438,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,39263,mi,FT,GB,0,M,hf_ds_salaries
+Data Engineer,78526,mi,FT,GB,0,M,hf_ds_salaries
+Data Engineer,52351,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,165220,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,45807,en,FT,GB,100,M,hf_ds_salaries
+Data Scientist,120160,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,90320,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,181940,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,132320,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,220110,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,160080,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,180000,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,120000,se,FT,US,0,L,hf_ds_salaries
+Data Analyst,124190,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,130000,ex,FT,US,100,M,hf_ds_salaries
+Data Analyst,110000,ex,FT,US,100,M,hf_ds_salaries
+Data Analyst,170000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,115500,mi,FT,US,100,M,hf_ds_salaries
+Data Analyst,112900,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,90320,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,112900,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,90320,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,165400,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,132320,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,167000,mi,FT,US,100,M,hf_ds_salaries
+Data Engineer,243900,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,136600,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,109280,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,128875,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,93700,se,FT,US,100,M,hf_ds_salaries
+Head of Data Science,224000,ex,FT,US,100,M,hf_ds_salaries
+Head of Data Science,167875,ex,FT,US,100,M,hf_ds_salaries
+Analytics Engineer,175000,ex,FT,US,100,M,hf_ds_salaries
+Data Engineer,156600,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,108800,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,95550,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,113000,se,FT,US,0,L,hf_ds_salaries
+Data Analyst,135000,se,FT,US,100,M,hf_ds_salaries
+Data Science Manager,161342,se,FT,US,100,M,hf_ds_salaries
+Data Science Manager,137141,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,167000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,123000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,78526,se,FT,GB,0,M,hf_ds_salaries
+Data Engineer,65438,se,FT,GB,0,M,hf_ds_salaries
+Data Scientist,150000,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,211500,se,FT,US,100,M,hf_ds_salaries
+Data Architect,192400,se,FT,CA,100,M,hf_ds_salaries
+Data Architect,90700,se,FT,CA,100,M,hf_ds_salaries
+Data Analyst,130000,se,FT,CA,100,M,hf_ds_salaries
+Data Analyst,61300,se,FT,CA,100,M,hf_ds_salaries
+Data Analyst,130000,se,FT,CA,100,M,hf_ds_salaries
+Data Analyst,61300,se,FT,CA,100,M,hf_ds_salaries
+Data Engineer,160000,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,138600,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,136000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,58000,mi,FT,US,0,S,hf_ds_salaries
+Analytics Engineer,135000,ex,FT,US,100,M,hf_ds_salaries
+Data Scientist,170000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,123000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,189650,se,FT,US,0,M,hf_ds_salaries
+Machine Learning Engineer,164996,se,FT,US,0,M,hf_ds_salaries
+ETL Developer,54957,mi,FT,GR,0,M,hf_ds_salaries
+ETL Developer,54957,mi,FT,GR,0,M,hf_ds_salaries
+Lead Data Engineer,118187,ex,FT,CA,100,S,hf_ds_salaries
+Data Analyst,132000,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,165400,se,FT,US,100,M,hf_ds_salaries
+Data Architect,208775,se,FT,US,100,M,hf_ds_salaries
+Data Architect,147800,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,136994,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,101570,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,128875,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,93700,se,FT,US,100,M,hf_ds_salaries
+Head of Machine Learning,79039,ex,FT,IN,50,L,hf_ds_salaries
+Data Engineer,132320,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,37300,en,FT,GB,100,L,hf_ds_salaries
+Data Analyst,164000,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,155000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,124333,mi,FT,GB,0,M,hf_ds_salaries
+Machine Learning Engineer,98158,mi,FT,GB,0,M,hf_ds_salaries
+AI Scientist,120000,mi,FT,US,0,M,hf_ds_salaries
+Data Analyst,112900,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,90320,se,FT,US,100,M,hf_ds_salaries
+Data Analytics Manager,145000,se,FT,US,100,M,hf_ds_salaries
+Data Analytics Manager,105400,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,87932,mi,FT,DE,100,M,hf_ds_salaries
+Data Engineer,117789,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,215300,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,158200,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,209100,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,154600,se,FT,US,100,L,hf_ds_salaries
+Data Analyst,115934,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,81666,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,175000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,98158,mi,FT,GB,0,M,hf_ds_salaries
+Data Analyst,58000,mi,FT,US,0,S,hf_ds_salaries
+Data Engineer,183600,se,FT,US,100,L,hf_ds_salaries
+Data Analyst,52351,mi,FT,GB,100,M,hf_ds_salaries
+Data Scientist,180000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,71982,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,45807,mi,FT,GB,0,M,hf_ds_salaries
+Data Engineer,65949,mi,FT,GR,100,M,hf_ds_salaries
+Data Engineer,49461,mi,FT,GR,100,M,hf_ds_salaries
+Data Engineer,78526,mi,FT,GB,100,M,hf_ds_salaries
+Data Engineer,58894,mi,FT,GB,100,M,hf_ds_salaries
+Data Scientist,260000,se,FT,US,100,M,hf_ds_salaries
+Data Science Engineer,60000,se,FT,MX,100,L,hf_ds_salaries
+Data Engineer,63900,mi,FT,US,0,M,hf_ds_salaries
+Machine Learning Scientist,160000,mi,FT,US,100,L,hf_ds_salaries
+Machine Learning Scientist,112300,mi,FT,US,100,L,hf_ds_salaries
+Data Science Manager,241000,mi,FT,US,100,M,hf_ds_salaries
+Data Science Manager,159000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,180000,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,80000,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,82900,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,100800,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,49461,mi,FT,ES,100,M,hf_ds_salaries
+Data Scientist,140400,se,FT,US,0,L,hf_ds_salaries
+Data Analyst,39263,mi,FT,GB,100,M,hf_ds_salaries
+Data Analyst,43966,mi,FT,ES,100,M,hf_ds_salaries
+Data Analyst,32974,mi,FT,ES,100,M,hf_ds_salaries
+Data Engineer,87932,mi,FT,ES,100,M,hf_ds_salaries
+Data Engineer,76940,mi,FT,ES,100,M,hf_ds_salaries
+Data Engineer,104702,mi,FT,GB,100,M,hf_ds_salaries
+Data Engineer,91614,mi,FT,GB,100,M,hf_ds_salaries
+Data Engineer,65949,mi,FT,ES,100,M,hf_ds_salaries
+Data Engineer,87932,mi,FT,GR,100,M,hf_ds_salaries
+Machine Learning Engineer,189650,se,FT,US,0,M,hf_ds_salaries
+Machine Learning Engineer,164996,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,43966,mi,FT,GR,100,M,hf_ds_salaries
+Data Analyst,32974,mi,FT,GR,100,M,hf_ds_salaries
+Data Engineer,98158,mi,FT,GB,100,M,hf_ds_salaries
+Data Engineer,78526,mi,FT,GB,100,M,hf_ds_salaries
+Data Scientist,215300,se,FT,US,0,L,hf_ds_salaries
+Data Engineer,76940,mi,FT,GR,100,M,hf_ds_salaries
+Data Engineer,209100,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,154600,se,FT,US,100,L,hf_ds_salaries
+Data Engineer,180000,se,FT,US,100,M,hf_ds_salaries
+ML Engineer,21983,en,FT,PT,100,L,hf_ds_salaries
+Data Engineer,80000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Developer,78791,mi,FT,CA,100,M,hf_ds_salaries
+Director of Data Science,196979,ex,FT,CA,50,L,hf_ds_salaries
+Machine Learning Engineer,120000,mi,FT,US,100,S,hf_ds_salaries
+Computer Vision Engineer,125000,en,FT,US,0,M,hf_ds_salaries
+NLP Engineer,37236,mi,FT,US,50,L,hf_ds_salaries
+Data Engineer,105000,se,FT,US,100,M,hf_ds_salaries
+Lead Machine Learning Engineer,87932,se,FT,DE,0,M,hf_ds_salaries
+Business Data Analyst,18442,mi,FT,IN,100,M,hf_ds_salaries
+Data Scientist,31615,mi,FT,IN,100,L,hf_ds_salaries
+Machine Learning Infrastructure Engineer,58255,mi,FT,PT,50,L,hf_ds_salaries
+Financial Data Analyst,100000,en,FT,US,50,L,hf_ds_salaries
+Data Engineer,54957,mi,PT,DE,50,L,hf_ds_salaries
+Data Scientist,18442,en,FT,IN,100,M,hf_ds_salaries
+Principal Data Scientist,162674,se,FT,DE,100,M,hf_ds_salaries
+Data Engineer,120000,en,FT,US,100,M,hf_ds_salaries
+Research Scientist,144000,se,FT,US,50,L,hf_ds_salaries
+Data Scientist,104890,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,100000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,135000,mi,FT,US,100,M,hf_ds_salaries
+Data Analyst,50000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,220000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,183228,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,91614,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,185100,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,220000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,200000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,120000,mi,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,120000,se,FT,AE,100,S,hf_ds_salaries
+Machine Learning Engineer,65000,se,FT,AE,100,S,hf_ds_salaries
+Data Engineer,324000,ex,FT,US,100,M,hf_ds_salaries
+Data Engineer,216000,ex,FT,US,100,M,hf_ds_salaries
+Data Engineer,210000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,120000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,230000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,100000,en,PT,DZ,50,M,hf_ds_salaries
+Data Scientist,100000,mi,FL,US,100,M,hf_ds_salaries
+Applied Machine Learning Scientist,31875,en,CT,CZ,100,M,hf_ds_salaries
+Head of Data,200000,se,FT,US,100,M,hf_ds_salaries
+Principal Data Analyst,75000,mi,FT,CA,100,S,hf_ds_salaries
+Data Scientist,35590,mi,FT,PL,100,L,hf_ds_salaries
+Machine Learning Developer,78791,se,FT,CA,100,M,hf_ds_salaries
+Data Scientist,100000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Scientist,153000,mi,FT,US,50,M,hf_ds_salaries
+Data Engineer,58035,en,FT,DE,100,M,hf_ds_salaries
+Data Scientist,165000,se,FT,US,100,M,hf_ds_salaries
+Research Scientist,93427,se,FT,FR,50,L,hf_ds_salaries
+Data Scientist,52396,en,FT,CA,100,L,hf_ds_salaries
+Machine Learning Engineer,62651,se,FT,NL,100,L,hf_ds_salaries
+Head of Data,32974,mi,FT,EE,100,S,hf_ds_salaries
+Data Scientist,40000,en,FT,MY,100,L,hf_ds_salaries
+Machine Learning Engineer,87425,mi,FT,AU,100,L,hf_ds_salaries
+Data Engineer,115000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,86703,en,FT,AU,50,M,hf_ds_salaries
+Applied Machine Learning Scientist,75000,mi,FT,US,100,L,hf_ds_salaries
+Research Scientist,64849,mi,FT,AT,0,L,hf_ds_salaries
+Research Scientist,120000,en,FT,US,100,L,hf_ds_salaries
+Applied Data Scientist,157000,mi,FT,US,100,L,hf_ds_salaries
+Computer Vision Software Engineer,150000,en,FT,AU,100,S,hf_ds_salaries
+Business Data Analyst,70912,mi,FT,CA,50,L,hf_ds_salaries
+Data Engineer,65000,en,FT,US,100,S,hf_ds_salaries
+Machine Learning Engineer,71444,se,FT,IE,100,S,hf_ds_salaries
+Data Analytics Engineer,20000,en,FT,PK,0,M,hf_ds_salaries
+Data Scientist,48000,mi,FT,US,100,S,hf_ds_salaries
+Data Science Manager,152500,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,68147,mi,FT,FR,100,M,hf_ds_salaries
+Data Scientist,122346,mi,FT,CH,0,L,hf_ds_salaries
+Applied Data Scientist,380000,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,69336,mi,FT,CA,100,M,hf_ds_salaries
+Computer Vision Engineer,10000,en,FT,LU,100,M,hf_ds_salaries
+Data Analyst,20000,mi,FT,GR,100,S,hf_ds_salaries
+Data Analytics Lead,405000,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,135000,mi,FT,US,100,L,hf_ds_salaries
+Applied Data Scientist,177000,se,FT,US,100,L,hf_ds_salaries
+Data Scientist,78000,mi,FT,US,100,M,hf_ds_salaries
+Data Analyst,135000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,100000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,90320,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,85000,mi,FT,CA,0,M,hf_ds_salaries
+Data Analyst,75000,mi,FT,CA,0,M,hf_ds_salaries
+Machine Learning Engineer,214000,se,FT,US,100,M,hf_ds_salaries
+Machine Learning Engineer,192600,se,FT,US,100,M,hf_ds_salaries
+Data Architect,266400,se,FT,US,100,M,hf_ds_salaries
+Data Architect,213120,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,112900,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,155000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,141300,mi,FT,US,0,M,hf_ds_salaries
+Data Scientist,102100,mi,FT,US,0,M,hf_ds_salaries
+Data Analyst,115934,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,81666,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,206699,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,99100,mi,FT,US,0,M,hf_ds_salaries
+Data Engineer,130000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,115000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,110500,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,130000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,99050,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,160000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,205300,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,140400,se,FT,US,0,L,hf_ds_salaries
+Data Scientist,176000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,144000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,200100,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,160000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,145000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,70500,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,205300,se,FT,US,0,M,hf_ds_salaries
+Data Scientist,140400,se,FT,US,0,M,hf_ds_salaries
+Analytics Engineer,205300,se,FT,US,0,M,hf_ds_salaries
+Analytics Engineer,184700,se,FT,US,0,M,hf_ds_salaries
+Data Engineer,175100,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,140250,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,116150,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,54000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,170000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,65438,mi,FT,GB,0,M,hf_ds_salaries
+Data Analyst,80000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,210000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,100000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,69000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,210000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,210000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,150075,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,100000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,25000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,126500,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,106260,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,220110,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,160080,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,105000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,110925,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,45807,mi,FT,GB,0,M,hf_ds_salaries
+Data Scientist,140000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,99000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,60000,se,FT,US,100,M,hf_ds_salaries
+Data Architect,192564,se,FT,US,100,M,hf_ds_salaries
+Data Architect,144854,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,230000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,150000,se,FT,US,100,M,hf_ds_salaries
+Data Analytics Manager,150260,se,FT,US,100,M,hf_ds_salaries
+Data Analytics Manager,109280,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,210000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,170000,se,FT,US,100,M,hf_ds_salaries
+Data Scientist,160000,mi,FT,US,100,M,hf_ds_salaries
+Data Scientist,130000,mi,FT,US,100,M,hf_ds_salaries
+Data Analyst,67000,en,FT,CA,0,M,hf_ds_salaries
+Data Analyst,52000,en,FT,CA,0,M,hf_ds_salaries
+Data Engineer,154000,se,FT,US,100,M,hf_ds_salaries
+Data Engineer,126000,se,FT,US,100,M,hf_ds_salaries
+Data Analyst,129000,se,FT,US,0,M,hf_ds_salaries
+Data Analyst,150000,se,FT,US,100,M,hf_ds_salaries
+AI Scientist,200000,mi,FT,US,100,L,hf_ds_salaries

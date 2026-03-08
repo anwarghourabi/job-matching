@@ -1,0 +1,2001 @@
+﻿job_title,salary_usd,experience_level,employment_type,location,remote_ratio,company_size,source
+Junior SAP Consultant,44265.56,entry,FT,"London, UK",50,L,synthetic
+Data Science Graduate,70232.36,entry,FT,"Seattle, WA",100,L,synthetic
+Finance Manager,0.0,senior,FT,"Toronto, Canada",50,S,synthetic
+Junior Python Developer,0.0,entry,FT,"Toronto, Canada",50,M,synthetic
+Senior Audit Manager,0.0,senior,FT,"Chicago, IL",0,S,synthetic
+Director of Finance,152550.27,senior,FT,"Chicago, IL",50,L,synthetic
+Junior PHP Developer,54810.3,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Junior Marketing Analyst,37937.29,entry,FT,"Dubai, UAE",100,M,synthetic
+Data Visualization Analyst,0.0,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Senior Audit Manager,0.0,senior,FT,"Paris, France",0,S,synthetic
+Junior Data Analyst,53350.33,entry,FT,"Montreal, Canada",100,L,synthetic
+Director of Finance,129339.59,senior,FT,"Austin, TX",50,L,synthetic
+Accounting Intern,34470.3,entry,FT,"London, UK",0,S,synthetic
+Senior Machine Learning Engineer,116179.55,senior,FT,"Amsterdam, Netherlands",50,M,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Data Science Intern,57992.42,entry,FT,"Lyon, France",100,S,synthetic
+Analytics Engineer,81785.92,mid,FT,"San Francisco, CA",0,L,synthetic
+Data Visualization Analyst,47765.11,entry,FT,"Dubai, UAE",100,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+ERP Analyst Junior,39540.94,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Analytics Engineer,0.0,mid,FT,"Seattle, WA",100,L,synthetic
+Community Manager Junior,0.0,entry,FT,Remote - Europe,50,S,synthetic
+ERP Support Analyst,45863.3,entry,FT,"Dubai, UAE",50,S,synthetic
+Junior Controller,49564.58,entry,FT,Remote - Europe,0,M,synthetic
+ERP Support Analyst,32847.59,entry,FT,"Madrid, Spain",50,L,synthetic
+Power BI Analyst,58093.87,entry,FT,"Madrid, Spain",50,L,synthetic
+Junior Financial Analyst,54624.06,entry,FT,"New York, NY",50,M,synthetic
+Junior PHP Developer,45591.17,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Data Engineer,0.0,mid,FT,"London, UK",100,L,synthetic
+BI Analyst Intern,0.0,entry,FT,"Dubai, UAE",100,L,synthetic
+Analytics Engineer,77938.85,mid,FT,Remote - Worldwide,0,S,synthetic
+Web Developer Intern,51379.03,entry,FT,"Brussels, Belgium",50,S,synthetic
+Senior Data Scientist,151941.98,senior,FT,"Seattle, WA",100,S,synthetic
+Junior PHP Developer,37004.69,entry,FT,"Montreal, Canada",0,L,synthetic
+Accounting Intern,40405.56,entry,FT,Remote - US,50,M,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,Remote - Europe,0,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,Remote - Worldwide,100,M,synthetic
+Director of Finance,81433.22,senior,FT,Remote - Worldwide,0,M,synthetic
+Audit Assistant,31017.47,entry,FT,"Montreal, Canada",0,S,synthetic
+AI Research Intern,46991.15,entry,FT,"Austin, TX",50,M,synthetic
+Power BI Developer Junior,51673.73,entry,FT,Remote - Europe,100,L,synthetic
+ERP Analyst Junior,43570.19,entry,FT,"Chicago, IL",0,M,synthetic
+Machine Learning Analyst,77345.4,entry,FT,Remote,100,L,synthetic
+Lead ML Engineer,170221.45,senior,FT,"London, UK",100,M,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Toronto, Canada",0,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Austin, TX",50,L,synthetic
+Senior Machine Learning Engineer,138957.36,senior,FT,Remote,0,S,synthetic
+Junior Web Developer,30651.04,entry,FT,"New York, NY",0,L,synthetic
+BI Analyst Intern,60757.8,entry,FT,"Berlin, Germany",50,S,synthetic
+Junior SEO Analyst,30851.02,entry,FT,"Dubai, UAE",100,M,synthetic
+HR Coordinator Entry Level,38607.71,entry,FT,"Brussels, Belgium",50,L,synthetic
+Data Science Graduate,0.0,entry,FT,"Chicago, IL",0,L,synthetic
+HR Assistant,0.0,entry,FT,"Madrid, Spain",50,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Paris, France",0,S,synthetic
+Frontend Developer Junior,33338.34,entry,FT,"Paris, France",50,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Toronto, Canada",100,M,synthetic
+Senior Audit Manager,131768.54,senior,FT,"Paris, France",0,L,synthetic
+Digital Marketing Intern,40052.25,entry,FT,"Toronto, Canada",100,S,synthetic
+Accounting Intern,32543.05,entry,FT,"Boston, MA",50,S,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,Remote,0,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Seattle, WA",0,S,synthetic
+Data Engineer,0.0,mid,FT,Remote - Worldwide,100,M,synthetic
+Social Media Manager Junior,32362.04,entry,FT,"New York, NY",50,S,synthetic
+Junior Accountant,0.0,entry,FT,"Lyon, France",50,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"Lyon, France",50,M,synthetic
+Odoo Developer Junior,0.0,entry,FT,Remote - Europe,0,S,synthetic
+Junior Django Developer,0.0,entry,FT,Remote - Worldwide,0,S,synthetic
+Junior HR Generalist,44146.54,entry,FT,"Tunis, Tunisia",50,L,synthetic
+Reporting Analyst Junior,48951.02,entry,FT,"Berlin, Germany",100,M,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Tunis, Tunisia",0,L,synthetic
+HR Assistant,0.0,entry,FT,"Austin, TX",0,L,synthetic
+AI Research Intern,0.0,entry,FT,Remote,100,M,synthetic
+Senior Audit Manager,106776.47,senior,FT,"Chicago, IL",0,L,synthetic
+Accounting Intern,0.0,entry,FT,"Montreal, Canada",50,S,synthetic
+Senior Data Engineer,122893.12,mid,FT,"Boston, MA",50,S,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,Remote - Europe,100,L,synthetic
+Content Marketing Intern,35304.56,entry,FT,"San Francisco, CA",50,S,synthetic
+Data Pipeline Engineer,119213.72,mid,FT,Remote - Europe,0,L,synthetic
+Junior Data Scientist,0.0,entry,FT,Remote,100,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Seattle, WA",50,M,synthetic
+Data Analyst Graduate,59322.48,entry,FT,"Toronto, Canada",100,M,synthetic
+Junior PHP Developer,35961.71,entry,FT,"San Francisco, CA",50,S,synthetic
+Recruitment Intern,30239.9,entry,FT,"Austin, TX",50,L,synthetic
+Recruitment Intern,49333.99,entry,FT,"Berlin, Germany",50,L,synthetic
+Junior SEO Analyst,46156.51,entry,FT,"London, UK",0,M,synthetic
+HR Coordinator Entry Level,45853.26,entry,FT,"Montreal, Canada",0,L,synthetic
+Digital Marketing Intern,38858.37,entry,FT,"New York, NY",50,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"Boston, MA",50,L,synthetic
+Data Science Intern,76705.01,entry,FT,"Dubai, UAE",50,S,synthetic
+Content Marketing Intern,0.0,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Lyon, France",0,M,synthetic
+Content Marketing Intern,51321.87,entry,FT,"Seattle, WA",0,L,synthetic
+Junior ML Engineer,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Data Science Intern,63174.65,entry,FT,"Dubai, UAE",50,S,synthetic
+Odoo Developer Junior,54367.66,entry,FT,"Paris, France",0,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,Remote,0,S,synthetic
+Senior Data Engineer,0.0,mid,FT,"Seattle, WA",50,M,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Montreal, Canada",0,M,synthetic
+Junior HR Generalist,38578.58,entry,FT,"Austin, TX",50,M,synthetic
+Junior SAP Consultant,57564.44,entry,FT,"London, UK",50,L,synthetic
+Web Developer Intern,45946.82,entry,FT,"Chicago, IL",50,S,synthetic
+Junior PHP Developer,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Senior Computer Vision Engineer,184375.63,senior,FT,Remote - US,50,S,synthetic
+Head of Finance,142630.53,senior,FT,"London, UK",50,S,synthetic
+Junior NLP Engineer,0.0,entry,FT,"Lyon, France",0,S,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"London, UK",50,S,synthetic
+Data Engineer,0.0,mid,FT,"Tunis, Tunisia",50,L,synthetic
+AI Research Intern,65007.98,entry,FT,"Lyon, France",50,S,synthetic
+Data Engineer,104960.63,mid,FT,"Amsterdam, Netherlands",0,S,synthetic
+Principal Data Scientist,96588.46,senior,FT,"New York, NY",50,S,synthetic
+Analytics Engineer,0.0,mid,FT,"Amsterdam, Netherlands",100,M,synthetic
+Recruitment Intern,48079.59,entry,FT,"Montreal, Canada",0,M,synthetic
+Audit Assistant,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Digital Marketing Intern,47499.65,entry,FT,"Chicago, IL",100,M,synthetic
+Data Pipeline Engineer,123230.32,mid,FT,"Seattle, WA",50,S,synthetic
+AI Research Intern,48927.31,entry,FT,"Seattle, WA",0,L,synthetic
+Junior Controller,50242.91,entry,FT,"Toronto, Canada",50,L,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Toronto, Canada",100,L,synthetic
+Machine Learning Analyst,61088.22,entry,FT,"Boston, MA",50,L,synthetic
+Digital Marketing Intern,0.0,entry,FT,Remote - Worldwide,50,M,synthetic
+Junior SAP Consultant,39182.43,entry,FT,"Boston, MA",50,S,synthetic
+Accounting Intern,0.0,entry,FT,"Lyon, France",50,S,synthetic
+Audit Assistant,51854.98,entry,FT,"Montreal, Canada",0,M,synthetic
+Lead ML Engineer,0.0,senior,FT,"Amsterdam, Netherlands",100,S,synthetic
+Junior Data Scientist,64055.59,entry,FT,"Austin, TX",50,L,synthetic
+Talent Acquisition Intern,32633.49,entry,FT,"Chicago, IL",0,L,synthetic
+Senior Computer Vision Engineer,99444.03,senior,FT,"Austin, TX",50,L,synthetic
+Junior Full Stack Developer,0.0,entry,FT,Remote,100,L,synthetic
+Finance Graduate Trainee,51509.02,entry,FT,"Lyon, France",0,M,synthetic
+Junior ML Engineer,74316.17,entry,FT,"Lyon, France",0,S,synthetic
+ERP Analyst Junior,39609.77,entry,FT,"Austin, TX",50,L,synthetic
+Odoo Developer Junior,46797.96,entry,FT,"Toronto, Canada",50,S,synthetic
+Data Pipeline Engineer,89893.78,mid,FT,"Seattle, WA",0,M,synthetic
+Lead ML Engineer,119564.09,senior,FT,"Amsterdam, Netherlands",100,S,synthetic
+Junior PHP Developer,56829.49,entry,FT,"Dubai, UAE",50,M,synthetic
+Head of Finance,111751.6,senior,FT,Remote - Worldwide,50,L,synthetic
+Odoo Implementation Consultant,43053.97,entry,FT,Remote - Europe,50,L,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior SEO Analyst,0.0,entry,FT,Remote - Worldwide,100,L,synthetic
+Junior HR Generalist,34795.61,entry,FT,Remote - Worldwide,0,L,synthetic
+Senior Audit Manager,142790.86,senior,FT,"Dubai, UAE",0,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Chicago, IL",100,S,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Amsterdam, Netherlands",100,S,synthetic
+Junior Web Developer,0.0,entry,FT,"Seattle, WA",100,L,synthetic
+Junior HR Generalist,42358.09,entry,FT,"Lyon, France",0,S,synthetic
+Senior Data Scientist,118924.46,senior,FT,"Toronto, Canada",50,L,synthetic
+ETL Developer,0.0,mid,FT,"Brussels, Belgium",50,S,synthetic
+Senior Controller,146784.32,senior,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior Data Scientist,60877.6,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Data Visualization Analyst,56930.79,entry,FT,"Dubai, UAE",50,M,synthetic
+Digital Marketing Intern,28897.8,entry,FT,"Dubai, UAE",100,S,synthetic
+Junior Django Developer,0.0,entry,FT,"Brussels, Belgium",100,M,synthetic
+Senior Data Engineer,0.0,mid,FT,"Montreal, Canada",50,M,synthetic
+Junior Accountant,41423.64,entry,FT,"Dubai, UAE",0,L,synthetic
+Junior Data Scientist,76973.99,entry,FT,"Brussels, Belgium",50,S,synthetic
+BI Analyst Intern,52221.93,entry,FT,"Dubai, UAE",0,M,synthetic
+Lead ML Engineer,95384.57,senior,FT,"New York, NY",50,M,synthetic
+Community Manager Junior,0.0,entry,FT,"New York, NY",50,S,synthetic
+Senior Data Scientist,196428.49,senior,FT,Remote - Europe,50,S,synthetic
+Community Manager Junior,0.0,entry,FT,"Madrid, Spain",100,L,synthetic
+Data Pipeline Engineer,80972.17,mid,FT,"London, UK",50,M,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Montreal, Canada",100,L,synthetic
+Data Analyst Intern,0.0,entry,FT,"London, UK",100,S,synthetic
+Audit Assistant,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+ERP Support Analyst,49080.47,entry,FT,Remote - US,50,S,synthetic
+Junior HR Generalist,43893.01,entry,FT,Remote - Worldwide,0,S,synthetic
+Digital Marketing Intern,46585.23,entry,FT,"Madrid, Spain",50,L,synthetic
+Head of Finance,146141.49,senior,FT,"San Francisco, CA",0,M,synthetic
+Junior Computer Vision Engineer,63907.54,entry,FT,"San Francisco, CA",0,S,synthetic
+Community Manager Junior,45929.9,entry,FT,"Toronto, Canada",50,M,synthetic
+Audit Assistant,43535.87,entry,FT,"Austin, TX",0,S,synthetic
+Cloud Data Engineer,106774.84,mid,FT,"Amsterdam, Netherlands",100,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Toronto, Canada",50,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Boston, MA",50,L,synthetic
+Staff Machine Learning Engineer,118771.78,senior,FT,"Casablanca, Morocco",100,L,synthetic
+Director of Finance,0.0,senior,FT,"London, UK",0,S,synthetic
+Cloud Data Engineer,96795.69,mid,FT,Remote - Worldwide,0,L,synthetic
+Senior Financial Analyst,103167.25,senior,FT,"Berlin, Germany",0,L,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Dubai, UAE",0,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"Boston, MA",50,S,synthetic
+Director of Finance,0.0,senior,FT,"Seattle, WA",50,M,synthetic
+Senior Data Engineer,0.0,mid,FT,Remote - Europe,50,M,synthetic
+Junior SAP Consultant,57734.62,entry,FT,"Montreal, Canada",50,M,synthetic
+Junior Financial Analyst,0.0,entry,FT,"Paris, France",50,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Seattle, WA",100,L,synthetic
+ETL Developer,70338.71,mid,FT,"Brussels, Belgium",100,M,synthetic
+ERP Analyst Junior,54324.98,entry,FT,"Montreal, Canada",50,L,synthetic
+Junior SEO Analyst,36479.44,entry,FT,"New York, NY",50,M,synthetic
+Junior Controller,0.0,entry,FT,"Montreal, Canada",0,M,synthetic
+Director of Finance,0.0,senior,FT,"Dubai, UAE",0,S,synthetic
+Data Pipeline Engineer,103854.8,mid,FT,"San Francisco, CA",0,S,synthetic
+Junior NLP Engineer,71988.42,entry,FT,"Brussels, Belgium",0,S,synthetic
+Director of Finance,95439.27,senior,FT,"Berlin, Germany",0,S,synthetic
+AI Engineer Entry Level,55814.46,entry,FT,"Brussels, Belgium",50,M,synthetic
+Junior BI Analyst,0.0,entry,FT,"London, UK",100,S,synthetic
+ML Platform Engineer Senior,139035.64,senior,FT,Remote,100,M,synthetic
+Junior Controller,35976.56,entry,FT,"Madrid, Spain",0,S,synthetic
+Junior Python Developer,44184.77,entry,FT,"Tunis, Tunisia",100,L,synthetic
+Data Pipeline Engineer,0.0,mid,FT,"Tunis, Tunisia",100,M,synthetic
+HR Coordinator Entry Level,40697.46,entry,FT,"Austin, TX",50,M,synthetic
+ERP Support Analyst,55393.65,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Senior Machine Learning Engineer,96053.15,senior,FT,"Berlin, Germany",50,L,synthetic
+Power BI Developer Junior,48707.84,entry,FT,"Montreal, Canada",0,L,synthetic
+Cloud Data Engineer,102414.24,mid,FT,"Boston, MA",0,M,synthetic
+Senior Data Scientist,135933.59,senior,FT,"Casablanca, Morocco",100,S,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Toronto, Canada",0,L,synthetic
+HR Coordinator Entry Level,28246.63,entry,FT,"Brussels, Belgium",0,M,synthetic
+Senior Financial Analyst,116251.77,senior,FT,"Austin, TX",50,S,synthetic
+Accounting Intern,0.0,entry,FT,"Boston, MA",50,L,synthetic
+Power BI Analyst,61275.59,entry,FT,"Montreal, Canada",0,M,synthetic
+Content Marketing Intern,0.0,entry,FT,Remote,100,S,synthetic
+BI Developer Entry Level,0.0,entry,FT,"Toronto, Canada",100,S,synthetic
+Data Science Graduate,57068.09,entry,FT,"Paris, France",50,L,synthetic
+Power BI Analyst,58349.35,entry,FT,"Paris, France",100,S,synthetic
+ETL Developer,112607.42,mid,FT,Remote,100,L,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Chicago, IL",0,M,synthetic
+Audit Assistant,0.0,entry,FT,Remote,50,M,synthetic
+AI Engineer Entry Level,54765.22,entry,FT,"Dubai, UAE",0,M,synthetic
+Senior NLP Engineer,143965.51,senior,FT,"Dubai, UAE",100,S,synthetic
+Finance Manager,0.0,senior,FT,"Montreal, Canada",0,S,synthetic
+Junior Web Developer,47890.82,entry,FT,Remote - Europe,100,S,synthetic
+Junior BI Analyst,64398.27,entry,FT,"New York, NY",100,L,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,"Dubai, UAE",100,L,synthetic
+Junior Controller,41052.64,entry,FT,Remote,50,L,synthetic
+Odoo Developer Junior,35687.68,entry,FT,"Brussels, Belgium",50,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Brussels, Belgium",0,L,synthetic
+Staff Machine Learning Engineer,152336.55,senior,FT,"Austin, TX",0,M,synthetic
+Business Intelligence Analyst,0.0,entry,FT,"Boston, MA",50,M,synthetic
+Junior Marketing Analyst,47638.13,entry,FT,"Paris, France",0,L,synthetic
+Junior NLP Engineer,0.0,entry,FT,"New York, NY",50,M,synthetic
+Odoo Implementation Consultant,50816.39,entry,FT,"Dubai, UAE",0,L,synthetic
+AI Research Intern,48471.25,entry,FT,"Montreal, Canada",100,L,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Austin, TX",50,L,synthetic
+Recruitment Intern,34668.22,entry,FT,"Toronto, Canada",0,L,synthetic
+Content Marketing Intern,38909.96,entry,FT,"Boston, MA",50,L,synthetic
+AI Research Intern,55492.67,entry,FT,"Casablanca, Morocco",50,S,synthetic
+Audit Assistant,49955.58,entry,FT,"Toronto, Canada",0,M,synthetic
+Junior Web Developer,59802.36,entry,FT,Remote - Europe,0,M,synthetic
+Head of Finance,120381.11,senior,FT,Remote - Europe,0,M,synthetic
+Senior Computer Vision Engineer,99946.3,senior,FT,"Montreal, Canada",50,L,synthetic
+Senior Data Engineer,112731.95,mid,FT,"Chicago, IL",0,L,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Boston, MA",50,M,synthetic
+Senior Data Scientist,175088.02,senior,FT,"London, UK",50,M,synthetic
+Junior Full Stack Developer,48486.63,entry,FT,"Austin, TX",0,M,synthetic
+Senior Audit Manager,0.0,senior,FT,"New York, NY",0,M,synthetic
+Analytics Intern,44047.48,entry,FT,"New York, NY",0,L,synthetic
+Junior Django Developer,42419.67,entry,FT,Remote,100,S,synthetic
+Odoo Developer Junior,48401.63,entry,FT,"Seattle, WA",50,L,synthetic
+Junior Django Developer,57480.2,entry,FT,"Dubai, UAE",0,M,synthetic
+Head of Finance,0.0,senior,FT,"Toronto, Canada",0,S,synthetic
+Accounting Intern,0.0,entry,FT,Remote,0,L,synthetic
+Machine Learning Analyst,65087.26,entry,FT,"Seattle, WA",50,L,synthetic
+Finance Graduate Trainee,48404.47,entry,FT,"San Francisco, CA",0,S,synthetic
+ML Platform Engineer Senior,143860.62,senior,FT,Remote - US,0,S,synthetic
+HR Assistant,36132.09,entry,FT,"Madrid, Spain",50,M,synthetic
+Finance Graduate Trainee,0.0,entry,FT,Remote - Worldwide,0,L,synthetic
+Senior Data Scientist,182314.45,senior,FT,Remote,50,S,synthetic
+Analytics Engineer,0.0,mid,FT,"Madrid, Spain",50,M,synthetic
+ERP Analyst Junior,43797.84,entry,FT,"New York, NY",50,S,synthetic
+Head of Finance,149350.34,senior,FT,"Dubai, UAE",0,S,synthetic
+Analytics Intern,37099.21,entry,FT,Remote - Worldwide,0,L,synthetic
+ERP Support Analyst,0.0,entry,FT,"London, UK",50,M,synthetic
+Data Analyst Graduate,0.0,entry,FT,"Montreal, Canada",0,S,synthetic
+HR Assistant,45271.8,entry,FT,"Boston, MA",50,M,synthetic
+Finance Graduate Trainee,35904.9,entry,FT,"Brussels, Belgium",0,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Berlin, Germany",50,L,synthetic
+Junior Data Scientist,0.0,entry,FT,"Amsterdam, Netherlands",100,M,synthetic
+Data Analyst Intern,39619.13,entry,FT,"Montreal, Canada",0,L,synthetic
+Data Science Intern,71009.9,entry,FT,"Montreal, Canada",50,L,synthetic
+Audit Assistant,33596.82,entry,FT,"Brussels, Belgium",50,M,synthetic
+Senior Controller,0.0,senior,FT,"Paris, France",50,M,synthetic
+Junior SAP Consultant,38778.18,entry,FT,"Boston, MA",50,S,synthetic
+Staff Machine Learning Engineer,159059.41,senior,FT,"Amsterdam, Netherlands",100,M,synthetic
+Community Manager Junior,31127.39,entry,FT,Remote - Worldwide,100,M,synthetic
+ERP Support Analyst,40402.99,entry,FT,"Toronto, Canada",0,L,synthetic
+Odoo Implementation Consultant,35011.3,entry,FT,"Chicago, IL",0,M,synthetic
+Analytics Engineer,101353.72,mid,FT,"Paris, France",100,M,synthetic
+Senior Data Scientist,154573.97,senior,FT,"Chicago, IL",0,L,synthetic
+Junior HR Generalist,34346.01,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Machine Learning Analyst,47298.88,entry,FT,"London, UK",50,M,synthetic
+ERP Support Analyst,52692.25,entry,FT,"Toronto, Canada",0,M,synthetic
+Talent Acquisition Intern,29683.74,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Cloud Data Engineer,97539.88,mid,FT,"Toronto, Canada",50,S,synthetic
+Director of Finance,0.0,senior,FT,"Boston, MA",50,L,synthetic
+Senior Controller,127283.14,senior,FT,"Dubai, UAE",0,L,synthetic
+Junior Data Analyst,41107.92,entry,FT,Remote - Europe,0,L,synthetic
+Junior NLP Engineer,51315.98,entry,FT,"Toronto, Canada",100,M,synthetic
+Community Manager Junior,0.0,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Business Intelligence Intern,55385.54,entry,FT,"Seattle, WA",100,L,synthetic
+Data Visualization Analyst,51567.54,entry,FT,"Brussels, Belgium",50,S,synthetic
+Finance Manager,0.0,senior,FT,"Lyon, France",50,S,synthetic
+HR Assistant,0.0,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Social Media Manager Junior,0.0,entry,FT,Remote - Europe,100,M,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Berlin, Germany",0,M,synthetic
+Machine Learning Engineer Intern,49491.71,entry,FT,"Montreal, Canada",100,L,synthetic
+Junior Data Analyst,56915.16,entry,FT,"Austin, TX",50,L,synthetic
+Social Media Manager Junior,38834.1,entry,FT,"London, UK",50,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Lyon, France",50,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,Remote - US,0,M,synthetic
+Lead ML Engineer,104008.32,senior,FT,"Austin, TX",100,L,synthetic
+Power BI Analyst,52297.64,entry,FT,"Tunis, Tunisia",0,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"London, UK",50,S,synthetic
+HR Coordinator Entry Level,37211.3,entry,FT,Remote,50,S,synthetic
+Cloud Data Engineer,103453.76,mid,FT,"Madrid, Spain",50,S,synthetic
+Junior SAP Consultant,57311.03,entry,FT,Remote - US,50,L,synthetic
+Accounting Intern,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+Senior Financial Analyst,80527.01,senior,FT,"Montreal, Canada",0,M,synthetic
+Junior Python Developer,52274.04,entry,FT,"Chicago, IL",50,L,synthetic
+Data Reporting Analyst,57657.96,entry,FT,"Toronto, Canada",0,L,synthetic
+Finance Graduate Trainee,0.0,entry,FT,Remote - Worldwide,0,S,synthetic
+Junior SEO Analyst,47438.86,entry,FT,"Madrid, Spain",50,L,synthetic
+Senior Controller,134619.08,senior,FT,"Chicago, IL",50,M,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Casablanca, Morocco",100,L,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Casablanca, Morocco",0,L,synthetic
+Senior NLP Engineer,117298.37,senior,FT,"New York, NY",50,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"Madrid, Spain",50,M,synthetic
+HR Coordinator Entry Level,39135.26,entry,FT,"Lyon, France",0,M,synthetic
+Junior SAP Consultant,41038.46,entry,FT,"Madrid, Spain",0,M,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"London, UK",50,L,synthetic
+Data Analyst Graduate,0.0,entry,FT,"Brussels, Belgium",50,M,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Data Reporting Analyst,39457.86,entry,FT,Remote,100,L,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,"Montreal, Canada",0,S,synthetic
+Frontend Developer Junior,40162.17,entry,FT,"London, UK",50,M,synthetic
+Lead AI Engineer,151154.91,senior,FT,"Paris, France",50,L,synthetic
+ERP Support Analyst,45721.67,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Senior Data Engineer,129296.8,mid,FT,"Amsterdam, Netherlands",0,M,synthetic
+Digital Marketing Intern,40599.31,entry,FT,"London, UK",0,L,synthetic
+Cloud Data Engineer,92599.57,mid,FT,Remote,100,M,synthetic
+Staff Machine Learning Engineer,99426.35,senior,FT,Remote - Worldwide,100,L,synthetic
+Senior Data Scientist,174791.34,senior,FT,Remote,50,L,synthetic
+Recruitment Intern,41737.27,entry,FT,"Toronto, Canada",50,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"Paris, France",100,S,synthetic
+AI Research Intern,49892.33,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Junior Marketing Analyst,42971.82,entry,FT,"Berlin, Germany",50,L,synthetic
+Junior NLP Engineer,77411.39,entry,FT,"Brussels, Belgium",100,S,synthetic
+Power BI Developer Junior,55709.41,entry,FT,"Austin, TX",100,M,synthetic
+Audit Assistant,50634.48,entry,FT,"Dubai, UAE",50,M,synthetic
+Junior Marketing Analyst,30944.42,entry,FT,"Berlin, Germany",50,S,synthetic
+Recruitment Intern,34994.94,entry,FT,"Casablanca, Morocco",50,M,synthetic
+Junior NLP Engineer,70438.5,entry,FT,"Montreal, Canada",50,M,synthetic
+Odoo Implementation Consultant,56764.31,entry,FT,"Lyon, France",0,L,synthetic
+Junior PHP Developer,59880.41,entry,FT,"Paris, France",50,S,synthetic
+Senior NLP Engineer,169993.65,senior,FT,Remote - Worldwide,50,S,synthetic
+Junior Marketing Analyst,28123.71,entry,FT,"Chicago, IL",50,L,synthetic
+Junior NLP Engineer,66401.73,entry,FT,"Madrid, Spain",50,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Brussels, Belgium",50,S,synthetic
+HR Coordinator Entry Level,42176.74,entry,FT,"Paris, France",0,M,synthetic
+Web Developer Intern,54883.72,entry,FT,"Dubai, UAE",0,M,synthetic
+Power BI Developer Junior,0.0,entry,FT,"Boston, MA",100,M,synthetic
+Senior Computer Vision Engineer,182388.1,senior,FT,Remote - Worldwide,50,M,synthetic
+Recruitment Intern,32298.96,entry,FT,"New York, NY",0,S,synthetic
+Junior Marketing Analyst,47025.11,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Brussels, Belgium",50,M,synthetic
+Lead AI Engineer,0.0,senior,FT,"Dubai, UAE",0,M,synthetic
+Junior Marketing Analyst,32941.39,entry,FT,Remote - Worldwide,100,S,synthetic
+Content Marketing Intern,32169.21,entry,FT,Remote - US,50,M,synthetic
+Head of Finance,107330.38,senior,FT,"New York, NY",50,M,synthetic
+Audit Assistant,46666.93,entry,FT,Remote - US,0,M,synthetic
+Senior Computer Vision Engineer,119467.78,senior,FT,"Tunis, Tunisia",0,L,synthetic
+Junior NLP Engineer,76580.88,entry,FT,"Toronto, Canada",0,M,synthetic
+Data Pipeline Engineer,125845.51,mid,FT,"Paris, France",0,L,synthetic
+Data Analyst Graduate,59914.18,entry,FT,"Tunis, Tunisia",100,M,synthetic
+Cloud Data Engineer,111179.09,mid,FT,"Chicago, IL",100,L,synthetic
+Principal Data Scientist,167520.92,senior,FT,Remote,50,S,synthetic
+Digital Marketing Intern,32787.3,entry,FT,"Berlin, Germany",50,M,synthetic
+Junior Computer Vision Engineer,64726.63,entry,FT,Remote - Europe,50,S,synthetic
+Audit Assistant,42667.13,entry,FT,"Dubai, UAE",50,M,synthetic
+AI Research Intern,57663.98,entry,FT,Remote - US,100,M,synthetic
+Junior HR Generalist,38027.26,entry,FT,"Austin, TX",0,L,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Toronto, Canada",0,L,synthetic
+Business Intelligence Intern,62772.91,entry,FT,"Toronto, Canada",100,S,synthetic
+Digital Marketing Intern,44025.04,entry,FT,"Tunis, Tunisia",100,M,synthetic
+Talent Acquisition Intern,41558.31,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Recruitment Intern,39801.17,entry,FT,"Paris, France",50,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"Montreal, Canada",100,M,synthetic
+Junior SEO Analyst,37929.88,entry,FT,"Berlin, Germany",50,M,synthetic
+Junior SAP Consultant,35819.45,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior HR Generalist,44552.43,entry,FT,Remote - Europe,0,L,synthetic
+HR Coordinator Entry Level,44220.4,entry,FT,"Montreal, Canada",50,M,synthetic
+Junior Python Developer,41912.72,entry,FT,"Seattle, WA",50,L,synthetic
+Staff Machine Learning Engineer,148931.19,senior,FT,"Paris, France",100,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Recruitment Intern,32492.5,entry,FT,Remote,50,M,synthetic
+Data Engineer,79667.75,mid,FT,"Lyon, France",0,L,synthetic
+Senior NLP Engineer,194989.83,senior,FT,Remote - Worldwide,0,S,synthetic
+HR Coordinator Entry Level,37945.76,entry,FT,"Madrid, Spain",0,S,synthetic
+Data Pipeline Engineer,80331.98,mid,FT,Remote,100,M,synthetic
+Junior HR Generalist,34464.99,entry,FT,"Dubai, UAE",0,S,synthetic
+Digital Marketing Intern,37961.89,entry,FT,"Dubai, UAE",0,M,synthetic
+Digital Marketing Intern,37966.83,entry,FT,"Berlin, Germany",100,S,synthetic
+Senior NLP Engineer,150019.2,senior,FT,Remote,0,L,synthetic
+Data Engineer,0.0,mid,FT,"Seattle, WA",100,L,synthetic
+Principal Data Scientist,106509.31,senior,FT,"Dubai, UAE",50,S,synthetic
+Web Developer Intern,0.0,entry,FT,"Brussels, Belgium",100,M,synthetic
+Director of Finance,125482.85,senior,FT,"New York, NY",50,L,synthetic
+Digital Marketing Intern,43476.63,entry,FT,"Montreal, Canada",50,L,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,Remote - US,100,M,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,Remote - US,50,S,synthetic
+Junior Django Developer,0.0,entry,FT,"Paris, France",100,M,synthetic
+Data Science Intern,0.0,entry,FT,"Austin, TX",50,M,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Dubai, UAE",50,L,synthetic
+Data Engineer,127371.42,mid,FT,"Montreal, Canada",50,S,synthetic
+Senior Data Scientist,157961.88,senior,FT,"Tunis, Tunisia",50,L,synthetic
+Junior Accountant,0.0,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Junior SAP Consultant,57826.07,entry,FT,"Brussels, Belgium",0,S,synthetic
+Data Science Graduate,48131.13,entry,FT,Remote - US,0,L,synthetic
+Junior Accountant,32829.11,entry,FT,Remote,0,M,synthetic
+Finance Manager,0.0,senior,FT,"Chicago, IL",50,S,synthetic
+Senior Computer Vision Engineer,144239.02,senior,FT,"Toronto, Canada",0,M,synthetic
+Cloud Data Engineer,121087.53,mid,FT,"Madrid, Spain",50,S,synthetic
+Junior Marketing Analyst,46263.06,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Web Developer Intern,31636.4,entry,FT,"Toronto, Canada",50,L,synthetic
+Data Analyst Intern,61139.69,entry,FT,"Seattle, WA",50,S,synthetic
+HR Assistant,46497.15,entry,FT,"Paris, France",0,L,synthetic
+Data Science Intern,60379.76,entry,FT,"New York, NY",100,L,synthetic
+Power BI Analyst,63041.19,entry,FT,Remote,100,S,synthetic
+Reporting Analyst Junior,52536.8,entry,FT,Remote - Worldwide,100,L,synthetic
+Digital Marketing Intern,0.0,entry,FT,"San Francisco, CA",0,M,synthetic
+ETL Developer,0.0,mid,FT,"Paris, France",100,L,synthetic
+Junior Computer Vision Engineer,62439.29,entry,FT,"Chicago, IL",0,L,synthetic
+Senior Audit Manager,0.0,senior,FT,"Boston, MA",50,S,synthetic
+Senior Computer Vision Engineer,108149.69,senior,FT,"Paris, France",50,M,synthetic
+Finance Manager,134454.43,senior,FT,Remote - Worldwide,50,M,synthetic
+ERP Analyst Junior,0.0,entry,FT,Remote,0,S,synthetic
+Senior Audit Manager,128343.16,senior,FT,"Amsterdam, Netherlands",50,S,synthetic
+Audit Assistant,41633.82,entry,FT,"Lyon, France",0,S,synthetic
+Junior Accountant,39472.78,entry,FT,Remote - Worldwide,50,M,synthetic
+Senior Financial Analyst,136063.23,senior,FT,"Toronto, Canada",0,M,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"New York, NY",100,L,synthetic
+HR Assistant,0.0,entry,FT,Remote - US,50,L,synthetic
+Director of Finance,0.0,senior,FT,"Austin, TX",0,S,synthetic
+Principal Data Scientist,93675.41,senior,FT,"Montreal, Canada",0,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Paris, France",50,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,"London, UK",0,L,synthetic
+Finance Graduate Trainee,43653.64,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior Python Developer,49165.53,entry,FT,"Paris, France",100,S,synthetic
+Data Science Intern,70603.11,entry,FT,"Austin, TX",0,M,synthetic
+Talent Acquisition Intern,31648.12,entry,FT,"Tunis, Tunisia",0,M,synthetic
+Senior Machine Learning Engineer,133637.34,senior,FT,Remote - Europe,100,M,synthetic
+Business Intelligence Analyst,56970.79,entry,FT,"Montreal, Canada",0,S,synthetic
+Talent Acquisition Intern,38945.95,entry,FT,"Toronto, Canada",50,M,synthetic
+Senior Data Engineer,89889.64,mid,FT,"Lyon, France",50,S,synthetic
+Recruitment Intern,32038.0,entry,FT,Remote - Europe,50,L,synthetic
+Senior Data Scientist,105581.79,senior,FT,"Amsterdam, Netherlands",100,S,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Madrid, Spain",50,M,synthetic
+Talent Acquisition Intern,40570.15,entry,FT,"Austin, TX",50,M,synthetic
+Senior Data Engineer,117929.31,mid,FT,"New York, NY",100,M,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Tunis, Tunisia",0,S,synthetic
+Power BI Analyst,0.0,entry,FT,Remote,100,L,synthetic
+Senior Audit Manager,94379.47,senior,FT,"Berlin, Germany",50,S,synthetic
+Power BI Analyst,0.0,entry,FT,"Paris, France",0,L,synthetic
+Senior Controller,118867.36,senior,FT,Remote - US,0,S,synthetic
+ERP Analyst Junior,49385.11,entry,FT,Remote,0,S,synthetic
+Digital Marketing Intern,49803.57,entry,FT,"Madrid, Spain",50,S,synthetic
+Junior Computer Vision Engineer,72821.4,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Community Manager Junior,50994.34,entry,FT,"Montreal, Canada",0,M,synthetic
+Recruitment Intern,48499.16,entry,FT,"London, UK",50,L,synthetic
+Lead ML Engineer,114258.25,senior,FT,Remote,0,S,synthetic
+Machine Learning Engineer Intern,56496.68,entry,FT,"Casablanca, Morocco",50,S,synthetic
+AI Engineer Entry Level,0.0,entry,FT,Remote,0,M,synthetic
+Analytics Engineer,89700.76,mid,FT,"Madrid, Spain",50,L,synthetic
+Junior Financial Analyst,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Lead AI Engineer,0.0,senior,FT,"London, UK",0,M,synthetic
+Machine Learning Analyst,53313.56,entry,FT,"Toronto, Canada",50,M,synthetic
+Junior SQL Analyst,39739.27,entry,FT,"Montreal, Canada",50,M,synthetic
+Frontend Developer Junior,52954.8,entry,FT,"Lyon, France",100,S,synthetic
+Junior NLP Engineer,0.0,entry,FT,"Berlin, Germany",50,M,synthetic
+Junior Python Developer,44298.07,entry,FT,"Seattle, WA",0,L,synthetic
+Principal Data Scientist,108645.19,senior,FT,"Tunis, Tunisia",0,M,synthetic
+Lead AI Engineer,0.0,senior,FT,"New York, NY",0,L,synthetic
+Junior Python Developer,41426.5,entry,FT,"New York, NY",100,S,synthetic
+Director of Finance,0.0,senior,FT,Remote - Europe,50,S,synthetic
+Content Marketing Intern,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Senior NLP Engineer,114039.61,senior,FT,"Lyon, France",100,M,synthetic
+Cloud Data Engineer,122164.94,mid,FT,"Tunis, Tunisia",50,S,synthetic
+Principal Data Scientist,117030.3,senior,FT,"New York, NY",50,L,synthetic
+Junior ML Engineer,61158.8,entry,FT,Remote - Worldwide,100,M,synthetic
+Junior HR Generalist,31899.21,entry,FT,"Brussels, Belgium",0,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Paris, France",50,M,synthetic
+HR Coordinator Entry Level,28243.04,entry,FT,"Montreal, Canada",0,M,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,Remote - US,0,L,synthetic
+Senior NLP Engineer,114340.15,senior,FT,"Toronto, Canada",0,S,synthetic
+Finance Manager,108625.68,senior,FT,"San Francisco, CA",50,S,synthetic
+Senior Controller,111229.7,senior,FT,"Amsterdam, Netherlands",0,M,synthetic
+ETL Developer,0.0,mid,FT,"Brussels, Belgium",100,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Chicago, IL",100,S,synthetic
+Web Developer Intern,39524.89,entry,FT,Remote - US,100,L,synthetic
+Junior ML Engineer,47865.46,entry,FT,Remote - Worldwide,100,M,synthetic
+HR Assistant,0.0,entry,FT,Remote - Europe,0,M,synthetic
+Lead AI Engineer,0.0,senior,FT,"San Francisco, CA",50,M,synthetic
+ERP Support Analyst,33338.45,entry,FT,"Berlin, Germany",0,L,synthetic
+Lead ML Engineer,188369.53,senior,FT,"Brussels, Belgium",50,L,synthetic
+Cloud Data Engineer,80748.71,mid,FT,"Tunis, Tunisia",0,L,synthetic
+Analytics Engineer,0.0,mid,FT,Remote,0,M,synthetic
+Senior Audit Manager,0.0,senior,FT,Remote,50,M,synthetic
+ML Platform Engineer Senior,126626.07,senior,FT,"Dubai, UAE",0,S,synthetic
+Community Manager Junior,48740.0,entry,FT,"New York, NY",50,L,synthetic
+Analytics Engineer,80419.02,mid,FT,"Tunis, Tunisia",0,S,synthetic
+Junior SEO Analyst,32693.45,entry,FT,"Montreal, Canada",100,M,synthetic
+Lead ML Engineer,191864.61,senior,FT,"Austin, TX",50,M,synthetic
+Web Developer Intern,53286.44,entry,FT,"Montreal, Canada",0,L,synthetic
+Director of Finance,0.0,senior,FT,"London, UK",50,S,synthetic
+Junior SEO Analyst,45854.18,entry,FT,"Lyon, France",0,S,synthetic
+ERP Support Analyst,41616.72,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Boston, MA",50,S,synthetic
+BI Analyst Intern,53591.31,entry,FT,"London, UK",100,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Chicago, IL",50,L,synthetic
+Junior Financial Analyst,34075.73,entry,FT,"Toronto, Canada",0,S,synthetic
+Data Reporting Analyst,60680.39,entry,FT,"New York, NY",100,M,synthetic
+Data Science Intern,61018.79,entry,FT,"London, UK",100,M,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,"Boston, MA",50,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Boston, MA",0,S,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+Content Marketing Intern,45442.35,entry,FT,"Berlin, Germany",100,S,synthetic
+Junior Full Stack Developer,30246.12,entry,FT,"Amsterdam, Netherlands",100,S,synthetic
+Junior Computer Vision Engineer,55831.38,entry,FT,"Montreal, Canada",0,M,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Boston, MA",50,L,synthetic
+Audit Assistant,44888.6,entry,FT,"Chicago, IL",0,S,synthetic
+Community Manager Junior,51827.9,entry,FT,"Chicago, IL",0,S,synthetic
+Machine Learning Analyst,0.0,entry,FT,"San Francisco, CA",100,L,synthetic
+Junior SEO Analyst,39550.93,entry,FT,"Seattle, WA",50,M,synthetic
+Data Engineer,72631.1,mid,FT,"Tunis, Tunisia",100,L,synthetic
+Analytics Engineer,0.0,mid,FT,Remote - US,0,L,synthetic
+Cloud Data Engineer,0.0,mid,FT,Remote,100,S,synthetic
+Senior Data Scientist,182287.06,senior,FT,"Chicago, IL",0,M,synthetic
+AI Research Intern,46703.03,entry,FT,"New York, NY",0,M,synthetic
+Junior Django Developer,54264.26,entry,FT,"Austin, TX",100,M,synthetic
+Senior Controller,109571.02,senior,FT,Remote - Europe,0,L,synthetic
+Junior Accountant,42293.04,entry,FT,"San Francisco, CA",0,S,synthetic
+ERP Analyst Junior,56924.25,entry,FT,Remote - US,0,S,synthetic
+Data Analyst Intern,0.0,entry,FT,"Chicago, IL",50,S,synthetic
+Cloud Data Engineer,117286.69,mid,FT,"Boston, MA",50,L,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Odoo Developer Junior,0.0,entry,FT,"San Francisco, CA",50,M,synthetic
+Recruitment Intern,0.0,entry,FT,Remote,50,L,synthetic
+Junior Python Developer,45727.43,entry,FT,"Casablanca, Morocco",100,S,synthetic
+Lead ML Engineer,112755.41,senior,FT,"Austin, TX",50,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Paris, France",0,L,synthetic
+Power BI Developer Junior,53586.41,entry,FT,Remote - Worldwide,0,L,synthetic
+Finance Manager,0.0,senior,FT,"Seattle, WA",0,L,synthetic
+Junior Accountant,0.0,entry,FT,Remote,50,M,synthetic
+Audit Assistant,42485.42,entry,FT,"Berlin, Germany",0,S,synthetic
+Senior Audit Manager,0.0,senior,FT,"Paris, France",50,S,synthetic
+Web Developer Intern,0.0,entry,FT,"London, UK",50,M,synthetic
+Analytics Engineer,94457.97,mid,FT,Remote,0,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Paris, France",0,M,synthetic
+Odoo Implementation Consultant,57113.02,entry,FT,"Montreal, Canada",0,M,synthetic
+ERP Support Analyst,49143.54,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Senior NLP Engineer,109779.75,senior,FT,"Tunis, Tunisia",50,M,synthetic
+Junior BI Analyst,41412.42,entry,FT,"Brussels, Belgium",50,M,synthetic
+Junior NLP Engineer,73591.19,entry,FT,"Tunis, Tunisia",50,L,synthetic
+Junior Controller,0.0,entry,FT,"San Francisco, CA",0,M,synthetic
+Junior Data Analyst,51383.97,entry,FT,"Toronto, Canada",100,L,synthetic
+Senior Audit Manager,143104.22,senior,FT,Remote - Worldwide,0,S,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Chicago, IL",50,M,synthetic
+ERP Support Analyst,0.0,entry,FT,"London, UK",50,L,synthetic
+Power BI Developer Junior,59957.73,entry,FT,"Boston, MA",50,M,synthetic
+Junior SEO Analyst,50298.36,entry,FT,"Lyon, France",50,M,synthetic
+Senior NLP Engineer,185579.85,senior,FT,"Dubai, UAE",50,L,synthetic
+ERP Support Analyst,37778.58,entry,FT,"Boston, MA",50,M,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Tunis, Tunisia",100,L,synthetic
+Cloud Data Engineer,108014.02,mid,FT,"Berlin, Germany",100,M,synthetic
+Cloud Data Engineer,100916.18,mid,FT,"Tunis, Tunisia",50,S,synthetic
+Junior Accountant,0.0,entry,FT,Remote - Worldwide,0,M,synthetic
+Odoo Implementation Consultant,46480.46,entry,FT,"Seattle, WA",0,L,synthetic
+Web Developer Intern,0.0,entry,FT,Remote,0,M,synthetic
+Junior Accountant,41906.66,entry,FT,"Montreal, Canada",0,L,synthetic
+Business Intelligence Analyst,0.0,entry,FT,"Madrid, Spain",50,S,synthetic
+Head of Finance,0.0,senior,FT,"London, UK",0,S,synthetic
+Finance Manager,132763.15,senior,FT,"London, UK",0,M,synthetic
+Senior Controller,83818.63,senior,FT,Remote - US,50,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Senior Data Scientist,196021.2,senior,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior Accountant,31070.36,entry,FT,"Lyon, France",0,S,synthetic
+Principal Data Scientist,90119.49,senior,FT,Remote - US,0,M,synthetic
+Finance Manager,128169.28,senior,FT,"Tunis, Tunisia",0,L,synthetic
+ERP Analyst Junior,47098.84,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Junior SAP Consultant,40138.42,entry,FT,"Casablanca, Morocco",50,L,synthetic
+HR Assistant,33247.89,entry,FT,"Madrid, Spain",0,S,synthetic
+Odoo Developer Junior,40350.14,entry,FT,"Seattle, WA",0,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Brussels, Belgium",0,M,synthetic
+AI Research Intern,69913.32,entry,FT,"Austin, TX",50,L,synthetic
+Junior PHP Developer,48869.36,entry,FT,"Berlin, Germany",100,S,synthetic
+Lead ML Engineer,0.0,senior,FT,"New York, NY",50,L,synthetic
+Senior Financial Analyst,137510.44,senior,FT,"Casablanca, Morocco",0,S,synthetic
+Community Manager Junior,0.0,entry,FT,"Paris, France",50,S,synthetic
+Junior ML Engineer,76453.77,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Machine Learning Engineer Intern,59802.79,entry,FT,"Seattle, WA",100,L,synthetic
+Odoo Implementation Consultant,54251.83,entry,FT,"Paris, France",0,L,synthetic
+Analytics Engineer,129007.2,mid,FT,"Madrid, Spain",50,S,synthetic
+Odoo Developer Junior,48002.41,entry,FT,"Toronto, Canada",50,S,synthetic
+Director of Finance,108637.26,senior,FT,"Seattle, WA",0,S,synthetic
+Digital Marketing Intern,0.0,entry,FT,Remote - Europe,0,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"London, UK",0,M,synthetic
+Talent Acquisition Intern,30113.05,entry,FT,Remote - Worldwide,0,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Dubai, UAE",50,L,synthetic
+Frontend Developer Junior,56959.3,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,Remote - US,50,L,synthetic
+Junior Django Developer,46456.36,entry,FT,"Montreal, Canada",100,S,synthetic
+Principal Data Scientist,0.0,senior,FT,"Chicago, IL",100,M,synthetic
+Senior Data Scientist,130946.37,senior,FT,"Amsterdam, Netherlands",0,L,synthetic
+Head of Finance,101922.92,senior,FT,Remote - US,0,S,synthetic
+Senior Controller,0.0,senior,FT,"Brussels, Belgium",0,L,synthetic
+Senior Financial Analyst,154945.65,senior,FT,"Amsterdam, Netherlands",50,M,synthetic
+Accounting Intern,50785.4,entry,FT,"Madrid, Spain",50,L,synthetic
+Talent Acquisition Intern,39278.23,entry,FT,Remote,0,S,synthetic
+AI Engineer Entry Level,64973.23,entry,FT,"Paris, France",100,S,synthetic
+Social Media Manager Junior,40874.26,entry,FT,"Seattle, WA",50,M,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"Berlin, Germany",0,L,synthetic
+Junior Django Developer,0.0,entry,FT,Remote - US,50,M,synthetic
+Talent Acquisition Intern,45819.66,entry,FT,"Austin, TX",50,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Austin, TX",100,S,synthetic
+Talent Acquisition Intern,45566.32,entry,FT,"Brussels, Belgium",50,L,synthetic
+Junior Controller,53904.59,entry,FT,"Berlin, Germany",50,M,synthetic
+Finance Manager,104653.71,senior,FT,"Dubai, UAE",50,L,synthetic
+Junior Python Developer,46244.22,entry,FT,Remote - Europe,0,S,synthetic
+Junior Web Developer,47280.55,entry,FT,"Toronto, Canada",50,S,synthetic
+Junior SEO Analyst,0.0,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Head of Finance,0.0,senior,FT,"Chicago, IL",50,M,synthetic
+Cloud Data Engineer,129566.55,mid,FT,"London, UK",0,M,synthetic
+Data Engineer,89567.61,mid,FT,"Boston, MA",100,M,synthetic
+ERP Support Analyst,57269.82,entry,FT,"Brussels, Belgium",0,S,synthetic
+Talent Acquisition Intern,32564.2,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Recruitment Intern,31019.36,entry,FT,"Berlin, Germany",0,L,synthetic
+Junior Controller,38606.62,entry,FT,"Toronto, Canada",50,S,synthetic
+Senior Machine Learning Engineer,185375.23,senior,FT,"Toronto, Canada",0,S,synthetic
+Senior Controller,0.0,senior,FT,"Tunis, Tunisia",0,M,synthetic
+Data Science Intern,75962.04,entry,FT,"London, UK",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"New York, NY",0,M,synthetic
+Data Science Graduate,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Junior Financial Analyst,38392.37,entry,FT,Remote - Worldwide,0,S,synthetic
+Junior NLP Engineer,52544.91,entry,FT,Remote - Europe,50,L,synthetic
+Senior Computer Vision Engineer,196109.82,senior,FT,"Toronto, Canada",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+ERP Support Analyst,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Machine Learning Engineer Intern,78988.27,entry,FT,"Madrid, Spain",100,S,synthetic
+Senior Audit Manager,157383.72,senior,FT,"New York, NY",0,S,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Paris, France",50,L,synthetic
+Junior BI Analyst,57272.5,entry,FT,"San Francisco, CA",0,S,synthetic
+Data Pipeline Engineer,93829.15,mid,FT,Remote - Worldwide,100,S,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Austin, TX",0,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Montreal, Canada",0,L,synthetic
+Odoo Developer Junior,0.0,entry,FT,"New York, NY",50,S,synthetic
+Data Science Graduate,49811.35,entry,FT,"Dubai, UAE",0,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"Boston, MA",100,L,synthetic
+Junior Accountant,0.0,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Finance Graduate Trainee,30537.06,entry,FT,"Toronto, Canada",0,S,synthetic
+Community Manager Junior,29051.47,entry,FT,"Madrid, Spain",100,S,synthetic
+Head of Finance,0.0,senior,FT,"London, UK",50,M,synthetic
+Junior Accountant,31668.12,entry,FT,"San Francisco, CA",0,L,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Austin, TX",50,M,synthetic
+HR Coordinator Entry Level,42839.49,entry,FT,Remote - Europe,50,L,synthetic
+Data Reporting Analyst,54067.55,entry,FT,"Berlin, Germany",50,M,synthetic
+Senior Controller,96528.48,senior,FT,"Boston, MA",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+Staff Machine Learning Engineer,149142.09,senior,FT,"Boston, MA",0,S,synthetic
+Senior Machine Learning Engineer,132243.51,senior,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior Data Analyst,63210.91,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior Full Stack Developer,49482.33,entry,FT,"Paris, France",50,S,synthetic
+Junior Controller,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior Computer Vision Engineer,61478.98,entry,FT,"Toronto, Canada",100,L,synthetic
+Junior Financial Analyst,44321.5,entry,FT,Remote - US,0,L,synthetic
+Digital Marketing Intern,37722.4,entry,FT,"Dubai, UAE",50,M,synthetic
+Data Visualization Analyst,55268.82,entry,FT,"Chicago, IL",50,L,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Boston, MA",100,M,synthetic
+AI Research Intern,0.0,entry,FT,"Berlin, Germany",50,S,synthetic
+Junior BI Analyst,45318.67,entry,FT,"Boston, MA",0,M,synthetic
+Data Pipeline Engineer,76529.96,mid,FT,"Seattle, WA",50,L,synthetic
+Recruitment Intern,49746.65,entry,FT,"Seattle, WA",0,S,synthetic
+Web Developer Intern,49889.45,entry,FT,"London, UK",50,L,synthetic
+Junior Python Developer,0.0,entry,FT,"Lyon, France",0,S,synthetic
+Principal Data Scientist,196559.77,senior,FT,"Chicago, IL",0,M,synthetic
+Staff Machine Learning Engineer,179488.29,senior,FT,Remote - Europe,0,S,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"New York, NY",0,M,synthetic
+Machine Learning Engineer Intern,64042.87,entry,FT,"Seattle, WA",0,L,synthetic
+Junior Web Developer,55880.17,entry,FT,"Chicago, IL",100,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Head of Finance,98699.24,senior,FT,"Dubai, UAE",0,S,synthetic
+Junior Controller,47756.18,entry,FT,"Toronto, Canada",0,S,synthetic
+Data Engineer,110531.56,mid,FT,"Montreal, Canada",0,L,synthetic
+Social Media Manager Junior,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Junior Marketing Analyst,37303.22,entry,FT,"Lyon, France",100,S,synthetic
+Junior SEO Analyst,42856.25,entry,FT,"Berlin, Germany",0,M,synthetic
+HR Assistant,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Recruitment Intern,0.0,entry,FT,"San Francisco, CA",0,S,synthetic
+HR Coordinator Entry Level,37418.33,entry,FT,"Montreal, Canada",50,L,synthetic
+Content Marketing Intern,0.0,entry,FT,"London, UK",0,S,synthetic
+Machine Learning Analyst,55940.39,entry,FT,"Madrid, Spain",50,L,synthetic
+Staff Machine Learning Engineer,101362.22,senior,FT,"Casablanca, Morocco",100,S,synthetic
+Cloud Data Engineer,92874.19,mid,FT,"New York, NY",50,L,synthetic
+Junior Controller,0.0,entry,FT,"Dubai, UAE",0,S,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Brussels, Belgium",0,M,synthetic
+Content Marketing Intern,0.0,entry,FT,"Madrid, Spain",0,L,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Lyon, France",100,L,synthetic
+Head of Finance,112744.75,senior,FT,"Amsterdam, Netherlands",0,M,synthetic
+Cloud Data Engineer,87708.43,mid,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior SQL Analyst,0.0,entry,FT,Remote - Europe,50,S,synthetic
+ERP Support Analyst,39888.88,entry,FT,Remote - US,50,S,synthetic
+ERP Support Analyst,46035.57,entry,FT,"Paris, France",0,S,synthetic
+Senior Computer Vision Engineer,145727.39,senior,FT,"Dubai, UAE",100,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,Remote - Europe,0,M,synthetic
+Business Intelligence Analyst,37197.82,entry,FT,Remote - Europe,100,S,synthetic
+Junior HR Generalist,0.0,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Data Pipeline Engineer,92900.15,mid,FT,"Tunis, Tunisia",0,M,synthetic
+Analytics Engineer,111294.5,mid,FT,Remote - Worldwide,50,L,synthetic
+Machine Learning Engineer Intern,52525.81,entry,FT,Remote - US,100,M,synthetic
+Business Intelligence Intern,62866.62,entry,FT,"Austin, TX",0,L,synthetic
+Frontend Developer Junior,36155.61,entry,FT,"Tunis, Tunisia",100,S,synthetic
+Head of Finance,0.0,senior,FT,"San Francisco, CA",50,L,synthetic
+Web Developer Intern,33821.82,entry,FT,"Austin, TX",50,S,synthetic
+BI Analyst Intern,0.0,entry,FT,Remote - US,0,M,synthetic
+ETL Developer,116451.67,mid,FT,"San Francisco, CA",50,M,synthetic
+Senior NLP Engineer,176760.3,senior,FT,"Boston, MA",0,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Paris, France",0,S,synthetic
+BI Developer Entry Level,46982.02,entry,FT,Remote,50,S,synthetic
+Senior Data Scientist,190075.07,senior,FT,Remote - Worldwide,50,S,synthetic
+Head of Finance,122331.29,senior,FT,"Amsterdam, Netherlands",50,L,synthetic
+Junior Computer Vision Engineer,53467.83,entry,FT,"Paris, France",100,S,synthetic
+Recruitment Intern,0.0,entry,FT,"Boston, MA",0,L,synthetic
+Staff Machine Learning Engineer,167312.97,senior,FT,"Dubai, UAE",0,S,synthetic
+HR Assistant,31242.08,entry,FT,"San Francisco, CA",50,S,synthetic
+Senior Audit Manager,106768.6,senior,FT,"Berlin, Germany",0,S,synthetic
+Data Engineer,0.0,mid,FT,Remote - Worldwide,100,M,synthetic
+Data Analyst Intern,54496.34,entry,FT,"Austin, TX",50,M,synthetic
+Frontend Developer Junior,53210.31,entry,FT,"Montreal, Canada",50,M,synthetic
+Senior Data Engineer,80043.69,mid,FT,"Tunis, Tunisia",0,L,synthetic
+Junior Python Developer,0.0,entry,FT,"Montreal, Canada",100,L,synthetic
+Junior NLP Engineer,0.0,entry,FT,"Berlin, Germany",100,M,synthetic
+Junior PHP Developer,0.0,entry,FT,"Brussels, Belgium",100,M,synthetic
+Junior NLP Engineer,50532.82,entry,FT,"Montreal, Canada",0,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Montreal, Canada",0,L,synthetic
+Junior Financial Analyst,31675.15,entry,FT,"Brussels, Belgium",50,L,synthetic
+Cloud Data Engineer,89342.88,mid,FT,"Tunis, Tunisia",100,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Finance Graduate Trainee,32408.34,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Junior Data Scientist,0.0,entry,FT,"Amsterdam, Netherlands",100,M,synthetic
+Analytics Engineer,126580.3,mid,FT,"New York, NY",50,L,synthetic
+Junior BI Analyst,0.0,entry,FT,"New York, NY",100,M,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior ML Engineer,69366.0,entry,FT,"Casablanca, Morocco",50,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Austin, TX",50,L,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"New York, NY",100,S,synthetic
+Junior BI Analyst,0.0,entry,FT,"Seattle, WA",50,L,synthetic
+Analytics Engineer,75591.4,mid,FT,"Casablanca, Morocco",100,L,synthetic
+Director of Finance,90887.38,senior,FT,Remote - US,0,M,synthetic
+Head of Finance,0.0,senior,FT,"Lyon, France",50,S,synthetic
+HR Assistant,0.0,entry,FT,"Lyon, France",50,L,synthetic
+Senior Financial Analyst,82990.21,senior,FT,"Brussels, Belgium",0,L,synthetic
+Content Marketing Intern,38763.57,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Lead AI Engineer,0.0,senior,FT,"Casablanca, Morocco",100,M,synthetic
+Community Manager Junior,38465.49,entry,FT,"Montreal, Canada",100,M,synthetic
+Business Intelligence Intern,0.0,entry,FT,"Berlin, Germany",50,M,synthetic
+Junior Controller,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Brussels, Belgium",0,M,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Austin, TX",100,S,synthetic
+Senior Audit Manager,93363.7,senior,FT,"Casablanca, Morocco",0,S,synthetic
+Community Manager Junior,29472.39,entry,FT,"New York, NY",50,M,synthetic
+Lead ML Engineer,180475.76,senior,FT,"Seattle, WA",100,M,synthetic
+Junior Data Scientist,72401.64,entry,FT,"Dubai, UAE",50,L,synthetic
+Senior Controller,0.0,senior,FT,Remote - Europe,0,L,synthetic
+Junior SAP Consultant,48380.71,entry,FT,"Austin, TX",50,L,synthetic
+Finance Graduate Trainee,49247.01,entry,FT,"Toronto, Canada",50,M,synthetic
+Junior SAP Consultant,38466.3,entry,FT,"Toronto, Canada",0,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Paris, France",50,M,synthetic
+Data Pipeline Engineer,96746.52,mid,FT,"Seattle, WA",50,M,synthetic
+Director of Finance,157861.74,senior,FT,"London, UK",0,L,synthetic
+Machine Learning Analyst,59154.8,entry,FT,"Chicago, IL",100,L,synthetic
+Director of Finance,0.0,senior,FT,"Seattle, WA",0,L,synthetic
+Junior Controller,50294.45,entry,FT,"Dubai, UAE",50,S,synthetic
+HR Assistant,0.0,entry,FT,"Austin, TX",50,S,synthetic
+Data Science Intern,0.0,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Seattle, WA",0,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Lyon, France",50,M,synthetic
+Finance Manager,0.0,senior,FT,"Montreal, Canada",50,L,synthetic
+AI Engineer Entry Level,54995.19,entry,FT,"Montreal, Canada",0,M,synthetic
+ML Platform Engineer Senior,166151.65,senior,FT,"New York, NY",0,L,synthetic
+Cloud Data Engineer,0.0,mid,FT,Remote - Worldwide,100,L,synthetic
+AI Research Intern,56573.94,entry,FT,"San Francisco, CA",0,L,synthetic
+ML Platform Engineer Senior,149896.96,senior,FT,"Boston, MA",100,M,synthetic
+Frontend Developer Junior,31121.85,entry,FT,"Brussels, Belgium",0,S,synthetic
+Power BI Analyst,55454.01,entry,FT,"New York, NY",100,S,synthetic
+Senior Audit Manager,0.0,senior,FT,"Austin, TX",0,S,synthetic
+Analytics Engineer,82043.61,mid,FT,"Brussels, Belgium",0,S,synthetic
+Junior Django Developer,0.0,entry,FT,"Dubai, UAE",0,M,synthetic
+Junior Accountant,51321.86,entry,FT,"Berlin, Germany",0,M,synthetic
+Junior Django Developer,44804.0,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Junior HR Generalist,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Odoo Implementation Consultant,42943.88,entry,FT,"Paris, France",0,S,synthetic
+Junior Python Developer,58818.17,entry,FT,"London, UK",100,L,synthetic
+Junior Accountant,31598.94,entry,FT,Remote - Europe,0,S,synthetic
+Data Science Graduate,78476.76,entry,FT,"Boston, MA",100,M,synthetic
+Frontend Developer Junior,53901.98,entry,FT,"Berlin, Germany",0,L,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,"Paris, France",0,L,synthetic
+Director of Finance,0.0,senior,FT,"New York, NY",50,S,synthetic
+Accounting Intern,0.0,entry,FT,"Berlin, Germany",0,S,synthetic
+Junior ML Engineer,50590.09,entry,FT,Remote - Worldwide,0,L,synthetic
+Analytics Engineer,0.0,mid,FT,"Dubai, UAE",0,M,synthetic
+Accounting Intern,0.0,entry,FT,"Toronto, Canada",0,M,synthetic
+Data Visualization Analyst,39070.98,entry,FT,"Paris, France",0,M,synthetic
+Analytics Intern,58787.99,entry,FT,Remote - US,100,S,synthetic
+Junior SAP Consultant,36314.59,entry,FT,Remote - Europe,50,M,synthetic
+Web Developer Intern,54141.23,entry,FT,"Seattle, WA",50,M,synthetic
+Junior ML Engineer,0.0,entry,FT,"Austin, TX",100,L,synthetic
+Community Manager Junior,31569.43,entry,FT,"Madrid, Spain",100,S,synthetic
+Analytics Engineer,0.0,mid,FT,"Boston, MA",0,M,synthetic
+Junior Web Developer,0.0,entry,FT,"Boston, MA",100,M,synthetic
+Digital Marketing Intern,0.0,entry,FT,Remote,50,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Business Intelligence Intern,43920.59,entry,FT,"Boston, MA",50,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Head of Finance,0.0,senior,FT,"London, UK",0,S,synthetic
+Junior Marketing Analyst,31695.97,entry,FT,"Austin, TX",100,L,synthetic
+Recruitment Intern,42883.56,entry,FT,"Montreal, Canada",0,L,synthetic
+Finance Graduate Trainee,46912.97,entry,FT,"Boston, MA",0,S,synthetic
+Head of Finance,117326.94,senior,FT,"San Francisco, CA",0,M,synthetic
+Odoo Developer Junior,57208.08,entry,FT,Remote - Worldwide,0,L,synthetic
+Senior Data Engineer,95710.47,mid,FT,"Tunis, Tunisia",0,L,synthetic
+Content Marketing Intern,45073.15,entry,FT,"London, UK",50,M,synthetic
+Junior Full Stack Developer,32757.15,entry,FT,"New York, NY",50,M,synthetic
+Junior Django Developer,37292.68,entry,FT,Remote,0,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Berlin, Germany",50,L,synthetic
+Digital Marketing Intern,51009.74,entry,FT,"Paris, France",50,L,synthetic
+Junior HR Generalist,46733.06,entry,FT,"Lyon, France",50,L,synthetic
+AI Engineer Entry Level,66310.8,entry,FT,"Amsterdam, Netherlands",100,M,synthetic
+Web Developer Intern,50590.16,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Senior Audit Manager,113873.78,senior,FT,"San Francisco, CA",50,M,synthetic
+Data Science Graduate,69338.62,entry,FT,"Brussels, Belgium",100,L,synthetic
+Senior Data Engineer,0.0,mid,FT,"San Francisco, CA",50,L,synthetic
+Data Engineer,0.0,mid,FT,"Paris, France",50,L,synthetic
+Junior Web Developer,41792.0,entry,FT,Remote,100,M,synthetic
+Web Developer Intern,0.0,entry,FT,Remote - Worldwide,100,L,synthetic
+BI Developer Entry Level,44198.69,entry,FT,"Seattle, WA",100,S,synthetic
+Finance Graduate Trainee,40602.3,entry,FT,"Brussels, Belgium",0,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,Remote - US,100,S,synthetic
+Finance Graduate Trainee,44817.67,entry,FT,"London, UK",0,M,synthetic
+Web Developer Intern,49379.72,entry,FT,"New York, NY",0,M,synthetic
+Web Developer Intern,37789.8,entry,FT,"Toronto, Canada",100,L,synthetic
+ERP Analyst Junior,41986.17,entry,FT,"Berlin, Germany",0,M,synthetic
+Web Developer Intern,44559.06,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Junior PHP Developer,0.0,entry,FT,"New York, NY",0,M,synthetic
+Data Engineer,89310.63,mid,FT,Remote - Worldwide,100,M,synthetic
+Data Science Graduate,52754.24,entry,FT,Remote,0,L,synthetic
+Social Media Manager Junior,49879.44,entry,FT,Remote - US,100,M,synthetic
+Senior Audit Manager,0.0,senior,FT,"Toronto, Canada",0,M,synthetic
+Power BI Developer Junior,35034.53,entry,FT,"Boston, MA",100,L,synthetic
+Audit Assistant,42266.99,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Junior Full Stack Developer,33071.26,entry,FT,"Paris, France",100,L,synthetic
+Junior Django Developer,53938.94,entry,FT,"Austin, TX",0,L,synthetic
+ETL Developer,84418.12,mid,FT,"Madrid, Spain",0,S,synthetic
+ML Platform Engineer Senior,176218.18,senior,FT,"Boston, MA",50,S,synthetic
+Talent Acquisition Intern,41527.5,entry,FT,"London, UK",50,S,synthetic
+Junior Marketing Analyst,48232.74,entry,FT,Remote - US,100,L,synthetic
+ML Platform Engineer Senior,137036.66,senior,FT,"Amsterdam, Netherlands",0,M,synthetic
+Data Analyst Graduate,59126.98,entry,FT,"Austin, TX",100,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Seattle, WA",50,M,synthetic
+Junior Full Stack Developer,52009.73,entry,FT,"Paris, France",100,S,synthetic
+Principal Data Scientist,0.0,senior,FT,"New York, NY",100,M,synthetic
+Junior BI Analyst,0.0,entry,FT,"Austin, TX",0,M,synthetic
+Finance Graduate Trainee,49810.77,entry,FT,"Chicago, IL",50,L,synthetic
+Talent Acquisition Intern,28854.19,entry,FT,"Austin, TX",0,S,synthetic
+Junior BI Analyst,43646.53,entry,FT,"Chicago, IL",50,M,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,Remote - US,0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Seattle, WA",50,L,synthetic
+Lead AI Engineer,146190.74,senior,FT,"Brussels, Belgium",50,M,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Paris, France",50,L,synthetic
+ETL Developer,0.0,mid,FT,"Toronto, Canada",100,S,synthetic
+Junior HR Generalist,0.0,entry,FT,"Madrid, Spain",50,S,synthetic
+Junior SAP Consultant,0.0,entry,FT,Remote - Worldwide,50,S,synthetic
+Senior Audit Manager,0.0,senior,FT,"Lyon, France",0,L,synthetic
+Lead AI Engineer,129723.74,senior,FT,"Austin, TX",50,S,synthetic
+Lead AI Engineer,0.0,senior,FT,Remote - Europe,0,M,synthetic
+Junior SQL Analyst,0.0,entry,FT,"New York, NY",100,S,synthetic
+Junior NLP Engineer,76736.86,entry,FT,"Boston, MA",50,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Austin, TX",50,S,synthetic
+HR Assistant,0.0,entry,FT,"Paris, France",0,S,synthetic
+Community Manager Junior,36723.33,entry,FT,"Berlin, Germany",100,M,synthetic
+Senior Financial Analyst,83620.7,senior,FT,"Brussels, Belgium",0,M,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Boston, MA",100,L,synthetic
+Junior Controller,54589.48,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Junior Web Developer,0.0,entry,FT,"Berlin, Germany",100,S,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Junior Python Developer,33093.08,entry,FT,"Chicago, IL",50,L,synthetic
+Senior Audit Manager,0.0,senior,FT,"Seattle, WA",0,L,synthetic
+Data Pipeline Engineer,0.0,mid,FT,"Dubai, UAE",50,S,synthetic
+Junior BI Analyst,0.0,entry,FT,Remote - US,0,S,synthetic
+Recruitment Intern,0.0,entry,FT,"Madrid, Spain",50,S,synthetic
+HR Coordinator Entry Level,38213.88,entry,FT,Remote - US,50,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Montreal, Canada",100,L,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"Dubai, UAE",0,L,synthetic
+Data Pipeline Engineer,114203.93,mid,FT,"San Francisco, CA",50,L,synthetic
+HR Coordinator Entry Level,35220.26,entry,FT,"Chicago, IL",0,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,Remote - Worldwide,100,M,synthetic
+Talent Acquisition Intern,34488.17,entry,FT,"Berlin, Germany",0,M,synthetic
+Data Engineer,0.0,mid,FT,"San Francisco, CA",50,M,synthetic
+AI Research Intern,0.0,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Junior Django Developer,42793.95,entry,FT,"Toronto, Canada",0,M,synthetic
+Senior Audit Manager,0.0,senior,FT,"Toronto, Canada",0,M,synthetic
+Odoo Developer Junior,40864.55,entry,FT,"San Francisco, CA",0,L,synthetic
+Data Analyst Intern,61584.11,entry,FT,Remote - Europe,0,L,synthetic
+BI Analyst Intern,61234.58,entry,FT,"Brussels, Belgium",50,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Paris, France",50,S,synthetic
+Odoo Implementation Consultant,35286.35,entry,FT,"Casablanca, Morocco",50,S,synthetic
+Business Intelligence Intern,0.0,entry,FT,"Brussels, Belgium",0,M,synthetic
+Finance Graduate Trainee,0.0,entry,FT,Remote,0,S,synthetic
+Junior Controller,43592.81,entry,FT,"Berlin, Germany",50,M,synthetic
+Accounting Intern,41443.5,entry,FT,"Brussels, Belgium",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Toronto, Canada",0,M,synthetic
+Finance Manager,155525.56,senior,FT,"Dubai, UAE",0,M,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"San Francisco, CA",50,M,synthetic
+Junior Data Analyst,64407.34,entry,FT,"San Francisco, CA",50,S,synthetic
+Senior Data Engineer,112164.57,mid,FT,"Berlin, Germany",0,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Chicago, IL",0,L,synthetic
+Head of Finance,137416.55,senior,FT,Remote - Europe,50,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"Toronto, Canada",0,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Social Media Manager Junior,49215.67,entry,FT,"Chicago, IL",0,M,synthetic
+Senior Controller,0.0,senior,FT,"San Francisco, CA",0,S,synthetic
+Data Pipeline Engineer,79286.71,mid,FT,"Chicago, IL",50,L,synthetic
+Junior Full Stack Developer,0.0,entry,FT,"Toronto, Canada",50,S,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Brussels, Belgium",0,M,synthetic
+Lead ML Engineer,166738.92,senior,FT,Remote,50,L,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Casablanca, Morocco",100,S,synthetic
+Junior Full Stack Developer,47129.45,entry,FT,Remote - US,100,M,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Berlin, Germany",0,L,synthetic
+Talent Acquisition Intern,36726.84,entry,FT,"Chicago, IL",50,S,synthetic
+HR Coordinator Entry Level,48513.71,entry,FT,"Paris, France",50,S,synthetic
+Finance Manager,0.0,senior,FT,"Brussels, Belgium",50,M,synthetic
+Odoo Developer Junior,46701.53,entry,FT,Remote - Europe,0,L,synthetic
+Reporting Analyst Junior,42574.35,entry,FT,"Chicago, IL",0,M,synthetic
+Staff Machine Learning Engineer,179352.67,senior,FT,"Lyon, France",50,L,synthetic
+Junior Data Scientist,54344.8,entry,FT,"Boston, MA",0,M,synthetic
+Director of Finance,0.0,senior,FT,"Toronto, Canada",0,S,synthetic
+Machine Learning Analyst,0.0,entry,FT,"Austin, TX",50,M,synthetic
+Audit Assistant,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior Marketing Analyst,50238.0,entry,FT,"Brussels, Belgium",100,S,synthetic
+Junior HR Generalist,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Junior PHP Developer,0.0,entry,FT,Remote,100,S,synthetic
+Audit Assistant,36683.95,entry,FT,"New York, NY",0,L,synthetic
+Finance Graduate Trainee,34404.35,entry,FT,"Casablanca, Morocco",0,M,synthetic
+ERP Support Analyst,44165.58,entry,FT,"Lyon, France",50,L,synthetic
+Junior SAP Consultant,48309.41,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Odoo Implementation Consultant,46214.7,entry,FT,"Brussels, Belgium",0,L,synthetic
+Web Developer Intern,36356.26,entry,FT,"Chicago, IL",0,L,synthetic
+ERP Analyst Junior,53496.38,entry,FT,"Toronto, Canada",0,S,synthetic
+Accounting Intern,37203.66,entry,FT,"New York, NY",0,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Seattle, WA",50,M,synthetic
+Finance Manager,141868.75,senior,FT,"Paris, France",50,M,synthetic
+AI Research Intern,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Junior SEO Analyst,34478.07,entry,FT,"Seattle, WA",100,S,synthetic
+Senior Controller,126364.22,senior,FT,"New York, NY",50,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Power BI Developer Junior,0.0,entry,FT,"San Francisco, CA",0,M,synthetic
+Data Analyst Graduate,40134.16,entry,FT,Remote - US,0,L,synthetic
+ERP Support Analyst,0.0,entry,FT,"New York, NY",50,M,synthetic
+Business Intelligence Analyst,46436.93,entry,FT,"Dubai, UAE",100,L,synthetic
+Data Pipeline Engineer,113839.54,mid,FT,"Paris, France",0,S,synthetic
+Junior Financial Analyst,46176.86,entry,FT,"Lyon, France",50,M,synthetic
+Junior Computer Vision Engineer,58559.58,entry,FT,"Seattle, WA",50,M,synthetic
+Senior Financial Analyst,119438.36,senior,FT,"New York, NY",50,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Junior PHP Developer,0.0,entry,FT,"Casablanca, Morocco",50,M,synthetic
+Cloud Data Engineer,73518.78,mid,FT,"Berlin, Germany",0,S,synthetic
+Machine Learning Analyst,0.0,entry,FT,"Chicago, IL",100,L,synthetic
+Frontend Developer Junior,45498.3,entry,FT,"London, UK",50,L,synthetic
+Junior Full Stack Developer,47960.4,entry,FT,"Montreal, Canada",50,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"Boston, MA",0,M,synthetic
+Junior SQL Analyst,63473.77,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Junior PHP Developer,0.0,entry,FT,"London, UK",100,M,synthetic
+ERP Support Analyst,0.0,entry,FT,"Austin, TX",50,L,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Montreal, Canada",50,S,synthetic
+Junior ML Engineer,53771.19,entry,FT,"Tunis, Tunisia",50,L,synthetic
+HR Assistant,44531.67,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Toronto, Canada",0,M,synthetic
+Audit Assistant,43928.3,entry,FT,"Dubai, UAE",0,S,synthetic
+Senior Machine Learning Engineer,98248.59,senior,FT,Remote,50,S,synthetic
+Data Analyst Intern,58722.22,entry,FT,"Casablanca, Morocco",50,S,synthetic
+Content Marketing Intern,43218.57,entry,FT,Remote - Worldwide,100,L,synthetic
+Senior Machine Learning Engineer,144957.1,senior,FT,"Montreal, Canada",100,L,synthetic
+Machine Learning Engineer Intern,71060.61,entry,FT,"London, UK",0,M,synthetic
+Analytics Engineer,0.0,mid,FT,Remote - US,0,L,synthetic
+Senior Data Engineer,0.0,mid,FT,"London, UK",100,M,synthetic
+Content Marketing Intern,33122.1,entry,FT,"Seattle, WA",50,S,synthetic
+Junior Controller,52181.54,entry,FT,"London, UK",0,L,synthetic
+Principal Data Scientist,142681.3,senior,FT,"Berlin, Germany",100,S,synthetic
+AI Research Intern,73164.09,entry,FT,Remote - US,50,L,synthetic
+Junior SEO Analyst,49295.56,entry,FT,"Brussels, Belgium",0,M,synthetic
+Data Science Graduate,55727.35,entry,FT,"London, UK",50,L,synthetic
+Finance Manager,0.0,senior,FT,"Lyon, France",0,S,synthetic
+Odoo Implementation Consultant,38745.15,entry,FT,"Brussels, Belgium",50,L,synthetic
+BI Developer Entry Level,39846.47,entry,FT,"Madrid, Spain",0,L,synthetic
+ERP Analyst Junior,36536.92,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Analytics Engineer,74372.85,mid,FT,"Dubai, UAE",100,L,synthetic
+Audit Assistant,37914.94,entry,FT,"Madrid, Spain",0,L,synthetic
+Data Analyst Graduate,41023.84,entry,FT,"Chicago, IL",100,L,synthetic
+Lead ML Engineer,100067.25,senior,FT,"Boston, MA",50,M,synthetic
+Senior Computer Vision Engineer,99928.31,senior,FT,"Austin, TX",0,S,synthetic
+Junior Python Developer,49022.17,entry,FT,"London, UK",0,S,synthetic
+Web Developer Intern,56472.12,entry,FT,Remote - Worldwide,50,M,synthetic
+Principal Data Scientist,0.0,senior,FT,"Amsterdam, Netherlands",100,M,synthetic
+Analytics Engineer,74737.3,mid,FT,Remote,0,L,synthetic
+Community Manager Junior,0.0,entry,FT,"Chicago, IL",100,L,synthetic
+Junior Accountant,33475.35,entry,FT,"Seattle, WA",0,M,synthetic
+Digital Marketing Intern,45382.08,entry,FT,"Berlin, Germany",50,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Brussels, Belgium",0,L,synthetic
+Data Visualization Analyst,56039.75,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Director of Finance,141491.74,senior,FT,"Seattle, WA",0,S,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Chicago, IL",50,S,synthetic
+Lead AI Engineer,161276.69,senior,FT,"Berlin, Germany",0,L,synthetic
+Machine Learning Engineer Intern,65322.63,entry,FT,Remote - US,0,S,synthetic
+Analytics Intern,0.0,entry,FT,"Chicago, IL",50,M,synthetic
+Junior ML Engineer,70536.44,entry,FT,"Chicago, IL",50,M,synthetic
+Director of Finance,0.0,senior,FT,"Seattle, WA",50,L,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,Remote,100,L,synthetic
+Data Science Intern,57253.99,entry,FT,"Dubai, UAE",0,L,synthetic
+Junior SQL Analyst,0.0,entry,FT,Remote - US,0,L,synthetic
+Senior Data Scientist,166280.69,senior,FT,"Casablanca, Morocco",50,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Boston, MA",100,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Tunis, Tunisia",100,S,synthetic
+Junior Financial Analyst,48854.04,entry,FT,"Dubai, UAE",0,L,synthetic
+HR Coordinator Entry Level,28708.6,entry,FT,"Chicago, IL",0,S,synthetic
+Odoo Implementation Consultant,43285.64,entry,FT,"New York, NY",0,L,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"London, UK",50,S,synthetic
+Community Manager Junior,34423.76,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+ERP Support Analyst,32549.06,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Cloud Data Engineer,107061.88,mid,FT,"Toronto, Canada",0,M,synthetic
+Finance Manager,120371.16,senior,FT,"London, UK",50,M,synthetic
+AI Research Intern,0.0,entry,FT,Remote - Europe,0,M,synthetic
+Senior Data Engineer,0.0,mid,FT,"Madrid, Spain",100,M,synthetic
+Recruitment Intern,28091.97,entry,FT,"Madrid, Spain",0,L,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Amsterdam, Netherlands",0,L,synthetic
+Lead ML Engineer,0.0,senior,FT,"Berlin, Germany",50,S,synthetic
+Junior SAP Consultant,52115.73,entry,FT,"Seattle, WA",50,M,synthetic
+Senior Data Engineer,112278.04,mid,FT,"Montreal, Canada",0,M,synthetic
+Accounting Intern,0.0,entry,FT,"Paris, France",0,L,synthetic
+Accounting Intern,37831.75,entry,FT,Remote - Worldwide,50,S,synthetic
+Junior Data Scientist,65227.15,entry,FT,Remote - Europe,50,S,synthetic
+Finance Graduate Trainee,53521.9,entry,FT,Remote - Worldwide,50,S,synthetic
+Senior Audit Manager,104980.19,senior,FT,"Madrid, Spain",0,M,synthetic
+Director of Finance,140461.15,senior,FT,"Montreal, Canada",0,S,synthetic
+Power BI Developer Junior,55008.0,entry,FT,"Seattle, WA",0,M,synthetic
+BI Developer Entry Level,43953.34,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Power BI Analyst,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Staff Machine Learning Engineer,152868.96,senior,FT,"Chicago, IL",50,S,synthetic
+Web Developer Intern,0.0,entry,FT,"Tunis, Tunisia",50,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Toronto, Canada",50,S,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"Brussels, Belgium",100,L,synthetic
+Junior SEO Analyst,30697.81,entry,FT,Remote - Worldwide,100,S,synthetic
+Community Manager Junior,0.0,entry,FT,"Montreal, Canada",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Lyon, France",50,S,synthetic
+ERP Support Analyst,52156.67,entry,FT,"New York, NY",0,S,synthetic
+Junior HR Generalist,0.0,entry,FT,"Toronto, Canada",0,M,synthetic
+Finance Graduate Trainee,33590.98,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+AI Research Intern,0.0,entry,FT,Remote - US,0,M,synthetic
+Junior SEO Analyst,33676.12,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Odoo Developer Junior,0.0,entry,FT,Remote - Europe,50,L,synthetic
+Junior Accountant,42816.58,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Junior Financial Analyst,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Head of Finance,0.0,senior,FT,"Casablanca, Morocco",0,L,synthetic
+Director of Finance,0.0,senior,FT,Remote - US,50,L,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Seattle, WA",0,M,synthetic
+Cloud Data Engineer,78948.67,mid,FT,"Berlin, Germany",100,S,synthetic
+Data Science Intern,51980.96,entry,FT,Remote - US,50,M,synthetic
+Business Intelligence Analyst,59195.33,entry,FT,"Toronto, Canada",0,L,synthetic
+Data Analyst Graduate,0.0,entry,FT,"New York, NY",0,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+Senior Machine Learning Engineer,116250.11,senior,FT,"Toronto, Canada",100,S,synthetic
+Odoo Implementation Consultant,57139.58,entry,FT,"New York, NY",50,S,synthetic
+BI Developer Entry Level,61378.11,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Data Pipeline Engineer,120438.32,mid,FT,"Tunis, Tunisia",50,L,synthetic
+Junior NLP Engineer,78347.63,entry,FT,"Tunis, Tunisia",100,S,synthetic
+Analytics Engineer,0.0,mid,FT,"Casablanca, Morocco",100,L,synthetic
+Senior Data Engineer,127631.22,mid,FT,"Dubai, UAE",100,M,synthetic
+Business Intelligence Intern,0.0,entry,FT,"Montreal, Canada",100,M,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Dubai, UAE",100,L,synthetic
+Junior Accountant,53404.55,entry,FT,"San Francisco, CA",0,L,synthetic
+Junior NLP Engineer,59113.89,entry,FT,"San Francisco, CA",100,S,synthetic
+Business Intelligence Analyst,36714.96,entry,FT,"Casablanca, Morocco",0,L,synthetic
+Digital Marketing Intern,50877.5,entry,FT,"San Francisco, CA",50,M,synthetic
+BI Analyst Intern,0.0,entry,FT,"San Francisco, CA",50,M,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Paris, France",50,S,synthetic
+Junior Controller,32018.07,entry,FT,"Brussels, Belgium",0,S,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,"Tunis, Tunisia",100,S,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,"Paris, France",0,S,synthetic
+Junior Marketing Analyst,40654.3,entry,FT,"Boston, MA",50,S,synthetic
+Accounting Intern,46926.58,entry,FT,"London, UK",50,S,synthetic
+Analytics Engineer,0.0,mid,FT,"Seattle, WA",50,S,synthetic
+Junior HR Generalist,33480.46,entry,FT,Remote - US,50,L,synthetic
+HR Coordinator Entry Level,41364.27,entry,FT,Remote,50,S,synthetic
+Content Marketing Intern,37231.05,entry,FT,"Casablanca, Morocco",100,L,synthetic
+Lead AI Engineer,112351.72,senior,FT,"Austin, TX",0,S,synthetic
+Data Science Graduate,59027.45,entry,FT,"Brussels, Belgium",0,S,synthetic
+Data Pipeline Engineer,90560.19,mid,FT,"Amsterdam, Netherlands",0,L,synthetic
+Junior HR Generalist,42319.94,entry,FT,Remote - US,50,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Tunis, Tunisia",0,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"Berlin, Germany",0,M,synthetic
+Cloud Data Engineer,0.0,mid,FT,"London, UK",100,L,synthetic
+Senior Audit Manager,95783.66,senior,FT,"Seattle, WA",50,M,synthetic
+Junior Accountant,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Head of Finance,131694.39,senior,FT,"Berlin, Germany",0,M,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Finance Manager,0.0,senior,FT,"Dubai, UAE",0,M,synthetic
+Reporting Analyst Junior,51767.76,entry,FT,"Montreal, Canada",100,M,synthetic
+Analytics Engineer,97405.07,mid,FT,"Berlin, Germany",50,M,synthetic
+Data Science Graduate,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Accounting Intern,46225.96,entry,FT,"Chicago, IL",0,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"Montreal, Canada",100,M,synthetic
+Accounting Intern,0.0,entry,FT,"New York, NY",0,M,synthetic
+Junior Controller,35135.03,entry,FT,"Berlin, Germany",0,S,synthetic
+Web Developer Intern,35633.68,entry,FT,"San Francisco, CA",100,S,synthetic
+Junior HR Generalist,0.0,entry,FT,Remote - Worldwide,0,L,synthetic
+Data Analyst Intern,0.0,entry,FT,"Paris, France",100,S,synthetic
+Reporting Analyst Junior,51217.64,entry,FT,"Berlin, Germany",0,S,synthetic
+Data Analyst Intern,51655.29,entry,FT,"New York, NY",100,S,synthetic
+Junior NLP Engineer,74179.26,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Lead AI Engineer,147173.51,senior,FT,"Lyon, France",0,L,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Brussels, Belgium",50,L,synthetic
+Content Marketing Intern,34422.62,entry,FT,"Seattle, WA",0,L,synthetic
+Recruitment Intern,34580.24,entry,FT,"Brussels, Belgium",50,L,synthetic
+Reporting Analyst Junior,42619.32,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior BI Analyst,0.0,entry,FT,"Boston, MA",50,L,synthetic
+Junior Python Developer,32702.49,entry,FT,"Montreal, Canada",100,M,synthetic
+Analytics Engineer,0.0,mid,FT,"Casablanca, Morocco",100,M,synthetic
+Junior Data Analyst,64415.32,entry,FT,Remote,100,S,synthetic
+BI Developer Entry Level,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+ERP Support Analyst,53789.83,entry,FT,"London, UK",0,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Boston, MA",0,L,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"Casablanca, Morocco",0,M,synthetic
+Community Manager Junior,0.0,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Web Developer Intern,0.0,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Machine Learning Engineer Intern,57228.13,entry,FT,"Tunis, Tunisia",0,L,synthetic
+Lead AI Engineer,0.0,senior,FT,"Dubai, UAE",0,M,synthetic
+Talent Acquisition Intern,28034.73,entry,FT,"Paris, France",0,S,synthetic
+Junior Django Developer,39735.4,entry,FT,"Berlin, Germany",0,S,synthetic
+Head of Finance,129997.11,senior,FT,"Madrid, Spain",0,M,synthetic
+Data Analyst Graduate,0.0,entry,FT,"London, UK",0,M,synthetic
+Odoo Developer Junior,52574.93,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Senior Data Engineer,81659.57,mid,FT,"New York, NY",100,S,synthetic
+Senior Audit Manager,110475.01,senior,FT,"Paris, France",0,M,synthetic
+Data Analyst Graduate,0.0,entry,FT,"Dubai, UAE",0,M,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,"Boston, MA",100,L,synthetic
+Power BI Developer Junior,0.0,entry,FT,"Berlin, Germany",50,M,synthetic
+Junior Marketing Analyst,40522.33,entry,FT,Remote - US,50,S,synthetic
+Senior Controller,0.0,senior,FT,"London, UK",0,S,synthetic
+Junior PHP Developer,34710.16,entry,FT,"Chicago, IL",50,M,synthetic
+Junior Marketing Analyst,39094.69,entry,FT,"London, UK",0,S,synthetic
+Junior Marketing Analyst,37196.45,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Community Manager Junior,0.0,entry,FT,"Austin, TX",0,M,synthetic
+Analytics Engineer,89813.49,mid,FT,Remote - Worldwide,0,S,synthetic
+Junior Full Stack Developer,54120.09,entry,FT,"San Francisco, CA",0,L,synthetic
+Junior NLP Engineer,77710.4,entry,FT,"London, UK",100,S,synthetic
+Data Science Intern,0.0,entry,FT,"Lyon, France",100,M,synthetic
+Talent Acquisition Intern,44967.95,entry,FT,"Madrid, Spain",50,L,synthetic
+AI Engineer Entry Level,62019.48,entry,FT,"Madrid, Spain",50,S,synthetic
+Finance Graduate Trainee,30743.09,entry,FT,"New York, NY",50,L,synthetic
+Junior SQL Analyst,35379.56,entry,FT,"London, UK",100,M,synthetic
+Community Manager Junior,45021.27,entry,FT,"Paris, France",50,S,synthetic
+Data Engineer,110703.59,mid,FT,Remote,50,S,synthetic
+Data Science Intern,0.0,entry,FT,"Berlin, Germany",0,S,synthetic
+Recruitment Intern,0.0,entry,FT,Remote - Europe,50,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Paris, France",50,M,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"Dubai, UAE",50,S,synthetic
+Power BI Developer Junior,0.0,entry,FT,Remote,100,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Boston, MA",0,S,synthetic
+Content Marketing Intern,0.0,entry,FT,"Dubai, UAE",0,M,synthetic
+Senior Computer Vision Engineer,104903.85,senior,FT,Remote - Europe,0,S,synthetic
+Senior Data Engineer,90964.18,mid,FT,"Casablanca, Morocco",100,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Boston, MA",0,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Brussels, Belgium",0,S,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Paris, France",100,S,synthetic
+Senior Controller,85594.82,senior,FT,"Brussels, Belgium",50,S,synthetic
+Accounting Intern,0.0,entry,FT,"Toronto, Canada",50,L,synthetic
+Accounting Intern,30034.09,entry,FT,Remote - US,0,L,synthetic
+Senior Controller,139869.94,senior,FT,Remote,50,S,synthetic
+Analytics Intern,0.0,entry,FT,Remote - Europe,100,L,synthetic
+Director of Finance,140588.34,senior,FT,"Chicago, IL",50,M,synthetic
+Data Pipeline Engineer,70741.61,mid,FT,"London, UK",50,L,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Seattle, WA",0,S,synthetic
+Junior Accountant,0.0,entry,FT,Remote - Europe,0,L,synthetic
+Analytics Engineer,76514.21,mid,FT,"New York, NY",50,S,synthetic
+Odoo Developer Junior,0.0,entry,FT,Remote - Worldwide,50,S,synthetic
+Senior Audit Manager,129109.42,senior,FT,"London, UK",0,M,synthetic
+Junior HR Generalist,32888.96,entry,FT,"Berlin, Germany",50,S,synthetic
+HR Assistant,41634.86,entry,FT,"New York, NY",50,S,synthetic
+Lead ML Engineer,135815.87,senior,FT,"Lyon, France",100,L,synthetic
+Digital Marketing Intern,51266.98,entry,FT,"Amsterdam, Netherlands",100,S,synthetic
+Head of Finance,0.0,senior,FT,"Montreal, Canada",50,M,synthetic
+Head of Finance,122100.45,senior,FT,"Montreal, Canada",0,L,synthetic
+Data Reporting Analyst,62207.87,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+Senior Data Engineer,127866.02,mid,FT,"Chicago, IL",50,M,synthetic
+Director of Finance,0.0,senior,FT,"Paris, France",0,S,synthetic
+Junior Django Developer,48369.3,entry,FT,Remote - US,50,M,synthetic
+Business Intelligence Intern,0.0,entry,FT,Remote - US,50,M,synthetic
+Junior Django Developer,32141.54,entry,FT,"Lyon, France",50,M,synthetic
+Director of Finance,0.0,senior,FT,"San Francisco, CA",50,S,synthetic
+Junior NLP Engineer,50342.36,entry,FT,Remote - Worldwide,50,M,synthetic
+Junior Data Analyst,37135.39,entry,FT,"Austin, TX",100,S,synthetic
+Junior Accountant,38357.37,entry,FT,"Austin, TX",0,M,synthetic
+Junior NLP Engineer,0.0,entry,FT,"Tunis, Tunisia",50,L,synthetic
+HR Assistant,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Junior Financial Analyst,0.0,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Odoo Developer Junior,43830.72,entry,FT,Remote - Europe,0,M,synthetic
+HR Assistant,29146.35,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior SEO Analyst,0.0,entry,FT,"Seattle, WA",0,M,synthetic
+Senior Financial Analyst,88485.59,senior,FT,"Seattle, WA",50,M,synthetic
+Data Analyst Intern,58192.05,entry,FT,"London, UK",0,S,synthetic
+Staff Machine Learning Engineer,126249.59,senior,FT,Remote - Europe,50,M,synthetic
+ETL Developer,0.0,mid,FT,"Paris, France",100,L,synthetic
+Machine Learning Engineer Intern,58456.89,entry,FT,"London, UK",100,L,synthetic
+Frontend Developer Junior,50234.78,entry,FT,"Berlin, Germany",100,L,synthetic
+Machine Learning Analyst,0.0,entry,FT,"Austin, TX",50,S,synthetic
+Junior Full Stack Developer,37291.45,entry,FT,"London, UK",0,L,synthetic
+Junior PHP Developer,0.0,entry,FT,"Montreal, Canada",100,L,synthetic
+Junior SEO Analyst,38915.39,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Senior Controller,109028.41,senior,FT,"Austin, TX",50,L,synthetic
+Senior Data Scientist,196349.22,senior,FT,Remote - US,100,M,synthetic
+Director of Finance,0.0,senior,FT,"Chicago, IL",0,L,synthetic
+Community Manager Junior,39613.86,entry,FT,"Berlin, Germany",50,L,synthetic
+Junior Accountant,31082.04,entry,FT,"Dubai, UAE",0,M,synthetic
+Junior PHP Developer,57944.39,entry,FT,"Montreal, Canada",100,S,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Lyon, France",0,M,synthetic
+Data Engineer,99231.42,mid,FT,"Berlin, Germany",0,M,synthetic
+Odoo Implementation Consultant,56077.16,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Frontend Developer Junior,54582.56,entry,FT,"Tunis, Tunisia",0,L,synthetic
+ETL Developer,119327.34,mid,FT,"Austin, TX",50,S,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Casablanca, Morocco",50,S,synthetic
+Director of Finance,85240.02,senior,FT,Remote,0,M,synthetic
+Senior Data Engineer,114905.61,mid,FT,"Toronto, Canada",100,M,synthetic
+Senior Financial Analyst,84149.02,senior,FT,Remote - US,50,M,synthetic
+Head of Finance,102356.66,senior,FT,"Amsterdam, Netherlands",50,M,synthetic
+Finance Graduate Trainee,32211.21,entry,FT,"London, UK",50,M,synthetic
+Junior Accountant,36880.43,entry,FT,"San Francisco, CA",0,M,synthetic
+Data Science Graduate,51142.32,entry,FT,Remote,100,L,synthetic
+ETL Developer,122448.43,mid,FT,"Lyon, France",0,M,synthetic
+Junior HR Generalist,36839.78,entry,FT,"Paris, France",50,S,synthetic
+AI Engineer Entry Level,58289.3,entry,FT,"Berlin, Germany",100,M,synthetic
+Junior Django Developer,40013.77,entry,FT,Remote - Europe,50,L,synthetic
+Senior Data Engineer,90306.27,mid,FT,"Madrid, Spain",100,L,synthetic
+Data Engineer,88281.47,mid,FT,"Casablanca, Morocco",100,L,synthetic
+Finance Graduate Trainee,48149.98,entry,FT,"Boston, MA",0,S,synthetic
+Junior Web Developer,48479.8,entry,FT,"Chicago, IL",50,S,synthetic
+Recruitment Intern,29259.31,entry,FT,Remote - Worldwide,50,M,synthetic
+Talent Acquisition Intern,40870.81,entry,FT,"Chicago, IL",0,M,synthetic
+HR Coordinator Entry Level,35547.7,entry,FT,"Chicago, IL",50,M,synthetic
+Recruitment Intern,35231.18,entry,FT,"New York, NY",50,M,synthetic
+Community Manager Junior,0.0,entry,FT,"Toronto, Canada",100,S,synthetic
+Director of Finance,149715.48,senior,FT,"London, UK",0,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,Remote,50,M,synthetic
+Content Marketing Intern,0.0,entry,FT,Remote - US,100,L,synthetic
+Head of Finance,150140.9,senior,FT,"Toronto, Canada",0,S,synthetic
+Junior PHP Developer,42917.64,entry,FT,"Seattle, WA",50,L,synthetic
+Data Analyst Graduate,38738.76,entry,FT,Remote - Europe,50,M,synthetic
+Accounting Intern,43220.97,entry,FT,"Berlin, Germany",50,L,synthetic
+Web Developer Intern,36315.97,entry,FT,"Seattle, WA",0,L,synthetic
+Senior Financial Analyst,113041.55,senior,FT,"Tunis, Tunisia",0,M,synthetic
+Data Pipeline Engineer,98694.7,mid,FT,"San Francisco, CA",50,M,synthetic
+Recruitment Intern,34629.66,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+BI Developer Entry Level,0.0,entry,FT,Remote - Worldwide,100,L,synthetic
+Junior Data Analyst,0.0,entry,FT,"Seattle, WA",0,L,synthetic
+Audit Assistant,47899.09,entry,FT,Remote - Worldwide,0,M,synthetic
+Web Developer Intern,0.0,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Digital Marketing Intern,38903.12,entry,FT,"Toronto, Canada",100,L,synthetic
+Junior Full Stack Developer,50387.58,entry,FT,"Toronto, Canada",0,L,synthetic
+Senior Audit Manager,121781.57,senior,FT,Remote,50,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,"Seattle, WA",50,L,synthetic
+Community Manager Junior,47085.75,entry,FT,"Chicago, IL",0,S,synthetic
+Junior Computer Vision Engineer,63348.13,entry,FT,"Lyon, France",100,L,synthetic
+Junior NLP Engineer,68546.87,entry,FT,Remote,0,M,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Frontend Developer Junior,39011.8,entry,FT,Remote,0,L,synthetic
+Junior Full Stack Developer,38137.44,entry,FT,"San Francisco, CA",100,M,synthetic
+Odoo Developer Junior,51115.68,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Montreal, Canada",100,L,synthetic
+HR Assistant,37629.92,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Junior HR Generalist,36874.11,entry,FT,"Toronto, Canada",50,L,synthetic
+HR Assistant,45749.56,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Analytics Engineer,87892.14,mid,FT,"Brussels, Belgium",0,M,synthetic
+Business Intelligence Intern,38787.39,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Accounting Intern,41813.53,entry,FT,"Austin, TX",50,L,synthetic
+Junior SQL Analyst,60915.1,entry,FT,"Seattle, WA",50,S,synthetic
+Cloud Data Engineer,105812.82,mid,FT,"Lyon, France",0,L,synthetic
+Business Intelligence Analyst,0.0,entry,FT,"Toronto, Canada",0,L,synthetic
+Junior SAP Consultant,48032.37,entry,FT,"Chicago, IL",50,L,synthetic
+Senior Financial Analyst,141192.31,senior,FT,"Chicago, IL",0,M,synthetic
+Junior Python Developer,51039.42,entry,FT,Remote - Worldwide,50,M,synthetic
+Head of Finance,0.0,senior,FT,"Amsterdam, Netherlands",50,L,synthetic
+ERP Support Analyst,33991.9,entry,FT,"Paris, France",0,S,synthetic
+Accounting Intern,52262.22,entry,FT,"Dubai, UAE",50,S,synthetic
+Accounting Intern,52802.62,entry,FT,"San Francisco, CA",0,M,synthetic
+Junior SEO Analyst,28938.89,entry,FT,"Lyon, France",100,L,synthetic
+ERP Support Analyst,38839.92,entry,FT,"Brussels, Belgium",0,M,synthetic
+ML Platform Engineer Senior,144418.64,senior,FT,"Madrid, Spain",50,M,synthetic
+AI Engineer Entry Level,64245.0,entry,FT,"Boston, MA",100,L,synthetic
+Junior Accountant,0.0,entry,FT,"Dubai, UAE",50,S,synthetic
+Junior BI Analyst,50981.19,entry,FT,"Dubai, UAE",0,S,synthetic
+Senior Controller,0.0,senior,FT,Remote - US,0,L,synthetic
+Senior Financial Analyst,145730.7,senior,FT,"New York, NY",0,L,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Tunis, Tunisia",50,L,synthetic
+Web Developer Intern,57214.87,entry,FT,"San Francisco, CA",50,S,synthetic
+Reporting Analyst Junior,46316.3,entry,FT,"Chicago, IL",100,M,synthetic
+Talent Acquisition Intern,0.0,entry,FT,Remote - Europe,50,L,synthetic
+Junior Financial Analyst,38819.09,entry,FT,Remote,0,M,synthetic
+Head of Finance,127775.68,senior,FT,"Boston, MA",50,S,synthetic
+Social Media Manager Junior,33945.94,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior Python Developer,45803.97,entry,FT,"Boston, MA",100,M,synthetic
+Senior NLP Engineer,125601.9,senior,FT,"San Francisco, CA",100,L,synthetic
+Junior PHP Developer,48036.5,entry,FT,"Montreal, Canada",50,S,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Brussels, Belgium",0,M,synthetic
+Junior Accountant,48474.18,entry,FT,Remote - Europe,0,L,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Berlin, Germany",100,M,synthetic
+Cloud Data Engineer,75433.24,mid,FT,"Amsterdam, Netherlands",50,M,synthetic
+ETL Developer,109214.06,mid,FT,Remote - Europe,0,S,synthetic
+Data Science Graduate,75916.98,entry,FT,"Chicago, IL",100,S,synthetic
+Data Pipeline Engineer,0.0,mid,FT,"Casablanca, Morocco",0,M,synthetic
+Junior SAP Consultant,47566.98,entry,FT,"Lyon, France",50,S,synthetic
+Digital Marketing Intern,31094.42,entry,FT,Remote - Europe,50,S,synthetic
+Junior Accountant,31920.67,entry,FT,"Austin, TX",50,S,synthetic
+Junior HR Generalist,38213.4,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Recruitment Intern,0.0,entry,FT,"London, UK",0,S,synthetic
+Junior Marketing Analyst,49216.99,entry,FT,"Lyon, France",100,S,synthetic
+Web Developer Intern,0.0,entry,FT,"San Francisco, CA",50,L,synthetic
+Senior Financial Analyst,122485.09,senior,FT,"San Francisco, CA",0,M,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+Data Reporting Analyst,36562.57,entry,FT,"Dubai, UAE",0,M,synthetic
+Recruitment Intern,0.0,entry,FT,"Berlin, Germany",50,M,synthetic
+Principal Data Scientist,141885.28,senior,FT,"San Francisco, CA",0,M,synthetic
+Junior Accountant,0.0,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior Accountant,47453.32,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Junior Django Developer,57777.67,entry,FT,"Casablanca, Morocco",100,S,synthetic
+Junior PHP Developer,41360.36,entry,FT,"Tunis, Tunisia",100,M,synthetic
+Junior Accountant,46197.65,entry,FT,"Boston, MA",50,S,synthetic
+Director of Finance,107119.83,senior,FT,"Boston, MA",0,S,synthetic
+Content Marketing Intern,0.0,entry,FT,"Chicago, IL",50,S,synthetic
+Recruitment Intern,42494.66,entry,FT,"Austin, TX",0,M,synthetic
+Junior Full Stack Developer,40569.72,entry,FT,"Casablanca, Morocco",100,M,synthetic
+Community Manager Junior,47471.01,entry,FT,"Tunis, Tunisia",100,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Dubai, UAE",0,M,synthetic
+Cloud Data Engineer,78482.43,mid,FT,"Paris, France",100,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Chicago, IL",50,L,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,"Montreal, Canada",100,M,synthetic
+AI Engineer Entry Level,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Business Intelligence Analyst,0.0,entry,FT,Remote - Europe,50,M,synthetic
+Community Manager Junior,0.0,entry,FT,Remote - US,100,S,synthetic
+Senior Data Scientist,169732.82,senior,FT,"Toronto, Canada",50,L,synthetic
+Junior ML Engineer,59673.42,entry,FT,"Berlin, Germany",0,S,synthetic
+Data Reporting Analyst,53803.98,entry,FT,"Casablanca, Morocco",50,M,synthetic
+Junior Financial Analyst,48357.84,entry,FT,"Montreal, Canada",50,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"London, UK",0,S,synthetic
+HR Assistant,47581.84,entry,FT,"Lyon, France",0,L,synthetic
+Senior Audit Manager,113053.04,senior,FT,"Paris, France",0,L,synthetic
+Staff Machine Learning Engineer,149413.8,senior,FT,"Casablanca, Morocco",100,L,synthetic
+Junior BI Analyst,0.0,entry,FT,"Toronto, Canada",50,M,synthetic
+Finance Manager,0.0,senior,FT,"Austin, TX",0,M,synthetic
+Junior PHP Developer,33313.92,entry,FT,"Chicago, IL",50,L,synthetic
+Recruitment Intern,0.0,entry,FT,"Dubai, UAE",50,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,Remote - US,0,M,synthetic
+Junior NLP Engineer,58515.81,entry,FT,"Boston, MA",100,S,synthetic
+Reporting Analyst Junior,61471.49,entry,FT,"Casablanca, Morocco",0,L,synthetic
+ERP Analyst Junior,41824.28,entry,FT,"San Francisco, CA",0,M,synthetic
+Data Engineer,116677.53,mid,FT,"Dubai, UAE",0,L,synthetic
+ERP Support Analyst,56241.57,entry,FT,"Chicago, IL",0,L,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Frontend Developer Junior,51295.2,entry,FT,"Austin, TX",100,M,synthetic
+Recruitment Intern,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Cloud Data Engineer,74388.67,mid,FT,"Casablanca, Morocco",50,L,synthetic
+Business Intelligence Intern,62102.11,entry,FT,Remote - Worldwide,0,L,synthetic
+Junior Python Developer,0.0,entry,FT,"Seattle, WA",100,L,synthetic
+Principal Data Scientist,176798.44,senior,FT,Remote - Worldwide,0,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Dubai, UAE",50,M,synthetic
+Analytics Engineer,0.0,mid,FT,"Montreal, Canada",0,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,"New York, NY",0,S,synthetic
+Junior SEO Analyst,37857.26,entry,FT,"Tunis, Tunisia",100,M,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Toronto, Canada",50,L,synthetic
+Senior Computer Vision Engineer,182370.43,senior,FT,"Berlin, Germany",100,S,synthetic
+Audit Assistant,44453.04,entry,FT,Remote - US,50,L,synthetic
+Web Developer Intern,43912.56,entry,FT,"London, UK",50,S,synthetic
+Community Manager Junior,0.0,entry,FT,"San Francisco, CA",0,S,synthetic
+ETL Developer,128349.8,mid,FT,"Dubai, UAE",100,S,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Boston, MA",100,L,synthetic
+Senior NLP Engineer,110245.26,senior,FT,"Amsterdam, Netherlands",100,L,synthetic
+ERP Support Analyst,34068.22,entry,FT,"Toronto, Canada",0,L,synthetic
+Junior Full Stack Developer,39717.72,entry,FT,"Austin, TX",50,S,synthetic
+Data Pipeline Engineer,119104.31,mid,FT,"Casablanca, Morocco",0,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Data Analyst Intern,39427.14,entry,FT,"Boston, MA",50,L,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Recruitment Intern,34088.77,entry,FT,"Austin, TX",0,M,synthetic
+ERP Analyst Junior,49706.42,entry,FT,"Chicago, IL",50,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Dubai, UAE",50,M,synthetic
+Senior Machine Learning Engineer,129404.5,senior,FT,"Montreal, Canada",100,S,synthetic
+Finance Manager,93035.25,senior,FT,"London, UK",0,M,synthetic
+Head of Finance,131317.26,senior,FT,"Boston, MA",0,L,synthetic
+Data Reporting Analyst,55105.26,entry,FT,"Brussels, Belgium",50,L,synthetic
+Junior ML Engineer,60625.44,entry,FT,"London, UK",0,L,synthetic
+Junior NLP Engineer,0.0,entry,FT,Remote - Europe,50,M,synthetic
+Audit Assistant,0.0,entry,FT,"Dubai, UAE",0,L,synthetic
+Finance Graduate Trainee,43513.22,entry,FT,"Casablanca, Morocco",0,S,synthetic
+Junior Marketing Analyst,47885.2,entry,FT,"Madrid, Spain",100,L,synthetic
+Cloud Data Engineer,81252.6,mid,FT,"Berlin, Germany",50,M,synthetic
+Junior SEO Analyst,45431.5,entry,FT,"Madrid, Spain",100,M,synthetic
+Junior SAP Consultant,38535.93,entry,FT,"New York, NY",50,L,synthetic
+Analytics Engineer,99545.33,mid,FT,"Berlin, Germany",0,L,synthetic
+Junior Django Developer,30952.11,entry,FT,"Seattle, WA",50,S,synthetic
+Reporting Analyst Junior,53679.02,entry,FT,"Lyon, France",0,M,synthetic
+Junior Django Developer,40031.69,entry,FT,"London, UK",0,M,synthetic
+Recruitment Intern,43329.66,entry,FT,"London, UK",50,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Dubai, UAE",100,S,synthetic
+Machine Learning Analyst,63784.18,entry,FT,Remote - US,100,S,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Chicago, IL",0,L,synthetic
+Finance Graduate Trainee,37892.22,entry,FT,"Austin, TX",0,L,synthetic
+Lead AI Engineer,112599.03,senior,FT,"Paris, France",100,L,synthetic
+Senior Controller,89786.23,senior,FT,"Brussels, Belgium",50,M,synthetic
+Audit Assistant,34705.67,entry,FT,Remote - Worldwide,0,M,synthetic
+Senior Data Engineer,0.0,mid,FT,"Toronto, Canada",100,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,"Toronto, Canada",0,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Madrid, Spain",0,M,synthetic
+Senior Financial Analyst,91940.1,senior,FT,Remote - Europe,0,M,synthetic
+Head of Finance,127039.14,senior,FT,"San Francisco, CA",0,M,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Montreal, Canada",0,L,synthetic
+Odoo Developer Junior,38035.0,entry,FT,"New York, NY",0,M,synthetic
+Senior Data Scientist,145115.39,senior,FT,"Tunis, Tunisia",50,M,synthetic
+Junior BI Analyst,45205.26,entry,FT,"Casablanca, Morocco",50,M,synthetic
+Machine Learning Analyst,77706.99,entry,FT,"Dubai, UAE",50,L,synthetic
+Senior Controller,114588.67,senior,FT,"Berlin, Germany",0,M,synthetic
+Finance Manager,129405.03,senior,FT,"London, UK",0,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,Remote - US,100,S,synthetic
+AI Research Intern,59048.55,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Senior Computer Vision Engineer,120841.03,senior,FT,"Lyon, France",0,L,synthetic
+Lead ML Engineer,118858.87,senior,FT,"Chicago, IL",0,M,synthetic
+Junior Data Scientist,48778.66,entry,FT,"Dubai, UAE",50,L,synthetic
+Junior PHP Developer,59769.06,entry,FT,"Casablanca, Morocco",50,L,synthetic
+Head of Finance,0.0,senior,FT,"Amsterdam, Netherlands",0,M,synthetic
+Talent Acquisition Intern,30491.14,entry,FT,"Boston, MA",0,L,synthetic
+Audit Assistant,33188.89,entry,FT,Remote - Europe,50,M,synthetic
+Odoo Implementation Consultant,39668.48,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Business Intelligence Intern,47802.22,entry,FT,Remote - Europe,100,L,synthetic
+Junior Accountant,37287.58,entry,FT,Remote - Worldwide,0,L,synthetic
+Accounting Intern,0.0,entry,FT,"Lyon, France",50,L,synthetic
+Junior Financial Analyst,51747.16,entry,FT,"Berlin, Germany",0,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Lyon, France",0,L,synthetic
+Director of Finance,102596.58,senior,FT,"Dubai, UAE",0,L,synthetic
+Data Pipeline Engineer,128229.5,mid,FT,"San Francisco, CA",50,M,synthetic
+Junior SAP Consultant,35825.41,entry,FT,"Paris, France",50,L,synthetic
+Web Developer Intern,48508.26,entry,FT,"New York, NY",0,M,synthetic
+Data Reporting Analyst,40255.72,entry,FT,Remote,0,L,synthetic
+Accounting Intern,54891.61,entry,FT,"Toronto, Canada",50,L,synthetic
+Digital Marketing Intern,30006.19,entry,FT,"San Francisco, CA",50,S,synthetic
+ERP Analyst Junior,53564.61,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+ETL Developer,111906.98,mid,FT,"Lyon, France",100,L,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,Remote - Europe,50,L,synthetic
+Data Engineer,79656.12,mid,FT,"Madrid, Spain",50,M,synthetic
+Director of Finance,149016.78,senior,FT,"Paris, France",50,L,synthetic
+Head of Finance,130084.73,senior,FT,Remote - US,0,L,synthetic
+Social Media Manager Junior,47457.27,entry,FT,Remote - Worldwide,50,L,synthetic
+Senior Controller,140925.11,senior,FT,"Austin, TX",0,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,Remote - US,0,S,synthetic
+Principal Data Scientist,0.0,senior,FT,"Montreal, Canada",0,M,synthetic
+Junior Financial Analyst,0.0,entry,FT,"Seattle, WA",0,M,synthetic
+Junior Accountant,42408.22,entry,FT,"San Francisco, CA",0,S,synthetic
+Frontend Developer Junior,54632.24,entry,FT,"London, UK",50,S,synthetic
+Principal Data Scientist,138662.23,senior,FT,"Amsterdam, Netherlands",50,S,synthetic
+Data Engineer,108435.68,mid,FT,"London, UK",50,M,synthetic
+ERP Support Analyst,45280.7,entry,FT,"Berlin, Germany",0,L,synthetic
+Junior SEO Analyst,36853.11,entry,FT,"Madrid, Spain",100,L,synthetic
+HR Assistant,32745.51,entry,FT,Remote,50,M,synthetic
+Junior Controller,47196.08,entry,FT,"Toronto, Canada",0,S,synthetic
+Senior Data Engineer,128538.75,mid,FT,"Seattle, WA",0,S,synthetic
+Data Visualization Analyst,0.0,entry,FT,Remote,0,M,synthetic
+ETL Developer,0.0,mid,FT,Remote - Worldwide,100,M,synthetic
+Digital Marketing Intern,0.0,entry,FT,Remote - Europe,50,M,synthetic
+Junior Controller,43077.17,entry,FT,"Madrid, Spain",0,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Amsterdam, Netherlands",100,M,synthetic
+Analytics Intern,63964.21,entry,FT,"Toronto, Canada",0,M,synthetic
+Senior Data Engineer,72241.81,mid,FT,"Seattle, WA",100,L,synthetic
+Odoo Developer Junior,52343.08,entry,FT,"Seattle, WA",50,L,synthetic
+Analytics Engineer,113276.99,mid,FT,Remote - Worldwide,50,L,synthetic
+AI Engineer Entry Level,76124.1,entry,FT,Remote - US,100,S,synthetic
+Data Science Intern,48539.93,entry,FT,"London, UK",50,L,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Madrid, Spain",100,L,synthetic
+Frontend Developer Junior,59568.83,entry,FT,"London, UK",0,L,synthetic
+Junior Full Stack Developer,57955.34,entry,FT,"Seattle, WA",50,M,synthetic
+Junior PHP Developer,47001.05,entry,FT,"Casablanca, Morocco",100,L,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Dubai, UAE",0,S,synthetic
+Finance Manager,0.0,senior,FT,"Lyon, France",0,M,synthetic
+Junior Marketing Analyst,40142.62,entry,FT,"Seattle, WA",0,M,synthetic
+Junior Web Developer,31513.68,entry,FT,"Paris, France",50,M,synthetic
+Junior Web Developer,30392.58,entry,FT,"New York, NY",100,S,synthetic
+Senior Data Engineer,95241.04,mid,FT,Remote - Worldwide,100,S,synthetic
+Finance Manager,114890.63,senior,FT,"Montreal, Canada",0,L,synthetic
+Junior SAP Consultant,40606.91,entry,FT,"Madrid, Spain",0,S,synthetic
+Data Analyst Intern,35194.96,entry,FT,Remote,50,S,synthetic
+Junior Controller,43613.17,entry,FT,"Toronto, Canada",50,S,synthetic
+Content Marketing Intern,41461.8,entry,FT,Remote,50,L,synthetic
+Junior Computer Vision Engineer,49949.99,entry,FT,"Chicago, IL",0,M,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,Remote - Worldwide,50,M,synthetic
+ERP Support Analyst,0.0,entry,FT,"Lyon, France",50,M,synthetic
+Senior NLP Engineer,125687.34,senior,FT,"London, UK",100,M,synthetic
+Audit Assistant,0.0,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior Accountant,34201.27,entry,FT,"San Francisco, CA",0,M,synthetic
+Junior Python Developer,52467.35,entry,FT,Remote,100,L,synthetic
+Community Manager Junior,31030.93,entry,FT,"Amsterdam, Netherlands",100,S,synthetic
+Data Science Graduate,0.0,entry,FT,"Boston, MA",100,S,synthetic
+Senior Financial Analyst,100634.74,senior,FT,"Amsterdam, Netherlands",0,S,synthetic
+Junior HR Generalist,49805.61,entry,FT,Remote - US,50,L,synthetic
+Data Science Intern,65029.71,entry,FT,"Dubai, UAE",0,M,synthetic
+Data Visualization Analyst,49060.94,entry,FT,Remote,50,M,synthetic
+Audit Assistant,35613.01,entry,FT,"Dubai, UAE",50,S,synthetic
+Head of Finance,101434.88,senior,FT,Remote - Worldwide,50,L,synthetic
+Principal Data Scientist,0.0,senior,FT,"Tunis, Tunisia",50,L,synthetic
+Power BI Analyst,36192.25,entry,FT,Remote,0,S,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Amsterdam, Netherlands",0,L,synthetic
+ETL Developer,0.0,mid,FT,"London, UK",0,M,synthetic
+Junior Full Stack Developer,41695.39,entry,FT,"London, UK",100,S,synthetic
+Finance Manager,158371.23,senior,FT,Remote - Worldwide,0,L,synthetic
+Finance Graduate Trainee,41310.27,entry,FT,"Lyon, France",0,L,synthetic
+Junior Financial Analyst,40620.13,entry,FT,"Madrid, Spain",0,S,synthetic
+Lead ML Engineer,93211.15,senior,FT,Remote - US,100,L,synthetic
+Junior Django Developer,57668.39,entry,FT,"Madrid, Spain",50,M,synthetic
+Data Pipeline Engineer,90563.97,mid,FT,"Toronto, Canada",100,M,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,Remote - Worldwide,50,S,synthetic
+ML Platform Engineer Senior,138410.94,senior,FT,"Paris, France",100,L,synthetic
+AI Research Intern,0.0,entry,FT,"Amsterdam, Netherlands",100,L,synthetic
+BI Analyst Intern,60833.09,entry,FT,"Dubai, UAE",0,S,synthetic
+Cloud Data Engineer,103427.86,mid,FT,"Berlin, Germany",50,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"London, UK",100,L,synthetic
+Junior PHP Developer,35943.26,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Content Marketing Intern,30978.22,entry,FT,"Lyon, France",50,S,synthetic
+Junior Django Developer,0.0,entry,FT,"London, UK",0,M,synthetic
+Odoo Developer Junior,50138.97,entry,FT,"Seattle, WA",50,S,synthetic
+Lead AI Engineer,186098.25,senior,FT,Remote - Worldwide,100,S,synthetic
+Junior Full Stack Developer,56712.06,entry,FT,Remote - US,50,S,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,"Lyon, France",0,L,synthetic
+ETL Developer,124434.55,mid,FT,"Tunis, Tunisia",50,L,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Toronto, Canada",50,M,synthetic
+Audit Assistant,37248.97,entry,FT,"London, UK",0,S,synthetic
+Junior Financial Analyst,40703.7,entry,FT,Remote - US,0,M,synthetic
+Data Science Intern,48084.55,entry,FT,"Montreal, Canada",100,S,synthetic
+Recruitment Intern,0.0,entry,FT,"Montreal, Canada",0,L,synthetic
+Junior Controller,47321.48,entry,FT,"Brussels, Belgium",0,L,synthetic
+Analytics Engineer,70317.44,mid,FT,"Brussels, Belgium",50,S,synthetic
+Digital Marketing Intern,48178.47,entry,FT,"Paris, France",0,L,synthetic
+Principal Data Scientist,168182.94,senior,FT,Remote,100,L,synthetic
+Junior SQL Analyst,48076.55,entry,FT,"San Francisco, CA",0,M,synthetic
+Junior Django Developer,36295.36,entry,FT,"Chicago, IL",100,S,synthetic
+Frontend Developer Junior,33658.85,entry,FT,"San Francisco, CA",50,L,synthetic
+Senior Audit Manager,108563.51,senior,FT,"Paris, France",0,S,synthetic
+Analytics Engineer,85519.6,mid,FT,"Seattle, WA",0,L,synthetic
+Data Engineer,0.0,mid,FT,"Tunis, Tunisia",100,L,synthetic
+HR Assistant,43460.21,entry,FT,"Boston, MA",50,M,synthetic
+Principal Data Scientist,119317.97,senior,FT,"Berlin, Germany",0,L,synthetic
+Odoo Developer Junior,54037.41,entry,FT,"Austin, TX",50,M,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"San Francisco, CA",0,L,synthetic
+Junior Data Analyst,0.0,entry,FT,"Boston, MA",100,L,synthetic
+Finance Manager,104260.81,senior,FT,"Seattle, WA",0,M,synthetic
+Senior Audit Manager,118115.17,senior,FT,"Dubai, UAE",0,L,synthetic
+Odoo Implementation Consultant,52268.35,entry,FT,Remote,0,S,synthetic
+Junior PHP Developer,34365.68,entry,FT,"Brussels, Belgium",50,S,synthetic
+Junior Web Developer,57148.67,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,Remote - Worldwide,0,M,synthetic
+Data Analyst Intern,0.0,entry,FT,"Madrid, Spain",100,L,synthetic
+Audit Assistant,0.0,entry,FT,"Madrid, Spain",0,L,synthetic
+Junior Web Developer,0.0,entry,FT,"Toronto, Canada",50,L,synthetic
+ERP Analyst Junior,0.0,entry,FT,"New York, NY",0,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Dubai, UAE",0,L,synthetic
+Data Engineer,0.0,mid,FT,"Berlin, Germany",50,S,synthetic
+Data Analyst Graduate,43801.03,entry,FT,"Lyon, France",50,M,synthetic
+Junior Computer Vision Engineer,78176.65,entry,FT,"San Francisco, CA",100,S,synthetic
+Senior Computer Vision Engineer,172478.26,senior,FT,Remote - US,0,L,synthetic
+Junior Marketing Analyst,0.0,entry,FT,Remote - Worldwide,50,S,synthetic
+Community Manager Junior,0.0,entry,FT,Remote - Europe,100,S,synthetic
+Junior SAP Consultant,33505.99,entry,FT,"Madrid, Spain",50,S,synthetic
+Odoo Developer Junior,51679.05,entry,FT,"Toronto, Canada",0,S,synthetic
+Senior Computer Vision Engineer,155332.27,senior,FT,"Berlin, Germany",0,L,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,Remote - US,50,L,synthetic
+Accounting Intern,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Lead AI Engineer,124450.43,senior,FT,Remote,0,S,synthetic
+Data Reporting Analyst,0.0,entry,FT,"Lyon, France",50,M,synthetic
+Finance Manager,0.0,senior,FT,"Toronto, Canada",0,M,synthetic
+Finance Graduate Trainee,46501.96,entry,FT,"Berlin, Germany",50,L,synthetic
+Data Analyst Graduate,46868.96,entry,FT,"Chicago, IL",0,L,synthetic
+Junior HR Generalist,42753.23,entry,FT,"San Francisco, CA",50,L,synthetic
+Accounting Intern,0.0,entry,FT,"Brussels, Belgium",50,M,synthetic
+ERP Support Analyst,37962.7,entry,FT,"Brussels, Belgium",50,S,synthetic
+Senior NLP Engineer,0.0,senior,FT,"London, UK",100,S,synthetic
+HR Assistant,30554.34,entry,FT,Remote,0,M,synthetic
+Data Engineer,102836.94,mid,FT,"Toronto, Canada",50,M,synthetic
+Community Manager Junior,33718.05,entry,FT,Remote,100,M,synthetic
+Finance Graduate Trainee,40603.12,entry,FT,Remote - Europe,0,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Lyon, France",100,M,synthetic
+Junior HR Generalist,49350.84,entry,FT,"Boston, MA",50,M,synthetic
+Junior Django Developer,54607.94,entry,FT,"Chicago, IL",50,M,synthetic
+ERP Support Analyst,47551.84,entry,FT,"Seattle, WA",0,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,"New York, NY",50,S,synthetic
+Data Pipeline Engineer,97530.91,mid,FT,"New York, NY",50,M,synthetic
+Junior SEO Analyst,0.0,entry,FT,"London, UK",0,L,synthetic
+Data Science Intern,64658.92,entry,FT,"Lyon, France",100,L,synthetic
+Data Analyst Graduate,38356.03,entry,FT,Remote - Europe,50,M,synthetic
+Junior Marketing Analyst,43482.35,entry,FT,"Austin, TX",100,L,synthetic
+Senior Data Scientist,129139.23,senior,FT,"San Francisco, CA",50,M,synthetic
+Odoo Developer Junior,0.0,entry,FT,"Paris, France",50,L,synthetic
+Head of Finance,93638.17,senior,FT,"San Francisco, CA",50,S,synthetic
+Data Science Graduate,0.0,entry,FT,"San Francisco, CA",100,M,synthetic
+Reporting Analyst Junior,0.0,entry,FT,"Dubai, UAE",50,S,synthetic
+Analytics Engineer,83398.4,mid,FT,Remote - US,0,L,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"New York, NY",50,S,synthetic
+Head of Finance,147240.61,senior,FT,Remote,50,S,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Toronto, Canada",50,M,synthetic
+Junior SEO Analyst,0.0,entry,FT,Remote - US,0,S,synthetic
+Junior SAP Consultant,33186.34,entry,FT,"New York, NY",50,M,synthetic
+Analytics Engineer,76841.4,mid,FT,Remote - Worldwide,50,L,synthetic
+Odoo Developer Junior,34201.14,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Senior Data Engineer,0.0,mid,FT,"Berlin, Germany",50,M,synthetic
+Social Media Manager Junior,47638.95,entry,FT,"Montreal, Canada",100,S,synthetic
+Finance Manager,0.0,senior,FT,"New York, NY",0,S,synthetic
+Junior Controller,39063.07,entry,FT,"San Francisco, CA",50,L,synthetic
+HR Assistant,0.0,entry,FT,"Lyon, France",50,S,synthetic
+Junior HR Generalist,42525.03,entry,FT,Remote - Europe,50,S,synthetic
+Digital Marketing Intern,49417.37,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Director of Finance,127667.16,senior,FT,"Toronto, Canada",0,L,synthetic
+Junior SAP Consultant,50090.96,entry,FT,"Paris, France",0,M,synthetic
+Web Developer Intern,0.0,entry,FT,"Tunis, Tunisia",100,M,synthetic
+Digital Marketing Intern,0.0,entry,FT,Remote - Worldwide,50,M,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Lyon, France",0,S,synthetic
+Junior Django Developer,38953.25,entry,FT,Remote - Worldwide,100,S,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Dubai, UAE",100,L,synthetic
+Content Marketing Intern,39284.43,entry,FT,"Tunis, Tunisia",100,L,synthetic
+Junior Python Developer,31821.01,entry,FT,"London, UK",50,L,synthetic
+Frontend Developer Junior,48538.94,entry,FT,"Austin, TX",0,S,synthetic
+Data Analyst Intern,64987.17,entry,FT,Remote,100,L,synthetic
+Odoo Developer Junior,46775.67,entry,FT,"Paris, France",50,S,synthetic
+Junior Marketing Analyst,0.0,entry,FT,Remote - Europe,100,L,synthetic
+Principal Data Scientist,101352.17,senior,FT,"London, UK",100,M,synthetic
+Junior Accountant,32921.9,entry,FT,"Lyon, France",0,S,synthetic
+Senior Controller,91675.43,senior,FT,"Toronto, Canada",0,M,synthetic
+Junior SEO Analyst,32165.92,entry,FT,Remote - US,0,S,synthetic
+Business Intelligence Analyst,47129.5,entry,FT,"Chicago, IL",100,S,synthetic
+Talent Acquisition Intern,40285.83,entry,FT,"Madrid, Spain",50,M,synthetic
+Talent Acquisition Intern,39348.16,entry,FT,"New York, NY",0,L,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"San Francisco, CA",0,S,synthetic
+Junior Marketing Analyst,41611.41,entry,FT,Remote - Europe,50,M,synthetic
+Junior Controller,0.0,entry,FT,"Montreal, Canada",0,L,synthetic
+Junior SQL Analyst,0.0,entry,FT,"Austin, TX",50,S,synthetic
+Business Intelligence Analyst,0.0,entry,FT,"Chicago, IL",100,S,synthetic
+Lead ML Engineer,123081.01,senior,FT,"Dubai, UAE",0,L,synthetic
+Odoo Developer Junior,51689.81,entry,FT,"Austin, TX",50,S,synthetic
+Junior Data Scientist,78215.38,entry,FT,"San Francisco, CA",0,M,synthetic
+ERP Analyst Junior,0.0,entry,FT,"Chicago, IL",0,M,synthetic
+Junior Accountant,40292.29,entry,FT,"New York, NY",50,M,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Austin, TX",0,L,synthetic
+Junior BI Analyst,60851.21,entry,FT,"Austin, TX",100,L,synthetic
+Audit Assistant,40150.82,entry,FT,Remote - US,0,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"New York, NY",50,M,synthetic
+Finance Graduate Trainee,38972.96,entry,FT,Remote,50,L,synthetic
+Senior Computer Vision Engineer,179814.4,senior,FT,"New York, NY",50,M,synthetic
+Machine Learning Analyst,65699.69,entry,FT,Remote - US,50,M,synthetic
+Director of Finance,152016.68,senior,FT,"Seattle, WA",0,L,synthetic
+Web Developer Intern,48069.05,entry,FT,"New York, NY",100,S,synthetic
+Content Marketing Intern,31903.77,entry,FT,"Seattle, WA",0,M,synthetic
+Junior PHP Developer,0.0,entry,FT,"Berlin, Germany",100,M,synthetic
+Recruitment Intern,39301.06,entry,FT,"London, UK",50,S,synthetic
+Odoo Developer Junior,55096.72,entry,FT,"New York, NY",50,L,synthetic
+ETL Developer,77432.37,mid,FT,"Tunis, Tunisia",50,S,synthetic
+Data Science Graduate,65429.57,entry,FT,Remote - Worldwide,0,L,synthetic
+Junior Marketing Analyst,39940.55,entry,FT,"Amsterdam, Netherlands",100,S,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,Remote - Worldwide,50,L,synthetic
+Junior Marketing Analyst,37219.61,entry,FT,"Brussels, Belgium",50,M,synthetic
+Director of Finance,92128.9,senior,FT,"Seattle, WA",50,L,synthetic
+HR Assistant,0.0,entry,FT,"New York, NY",0,M,synthetic
+Analytics Intern,48132.77,entry,FT,"San Francisco, CA",100,L,synthetic
+Lead AI Engineer,0.0,senior,FT,"London, UK",100,L,synthetic
+Cloud Data Engineer,83335.21,mid,FT,Remote - Worldwide,50,S,synthetic
+Odoo Implementation Consultant,51830.21,entry,FT,"Dubai, UAE",50,L,synthetic
+Odoo Developer Junior,34705.59,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Lead ML Engineer,0.0,senior,FT,"Berlin, Germany",0,M,synthetic
+Junior Marketing Analyst,0.0,entry,FT,Remote,50,S,synthetic
+Junior Django Developer,0.0,entry,FT,"Toronto, Canada",50,L,synthetic
+Senior Computer Vision Engineer,199335.35,senior,FT,"Seattle, WA",0,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"Paris, France",0,L,synthetic
+Junior Financial Analyst,49520.05,entry,FT,"Seattle, WA",0,L,synthetic
+Data Analyst Graduate,63010.05,entry,FT,Remote - US,100,M,synthetic
+Social Media Manager Junior,36480.84,entry,FT,"London, UK",50,S,synthetic
+Junior SAP Consultant,48986.58,entry,FT,"Seattle, WA",0,L,synthetic
+Staff Machine Learning Engineer,106413.94,senior,FT,"Chicago, IL",100,M,synthetic
+Frontend Developer Junior,54757.58,entry,FT,Remote - Europe,100,S,synthetic
+ERP Analyst Junior,55187.02,entry,FT,"Boston, MA",0,L,synthetic
+Cloud Data Engineer,70558.27,mid,FT,"Madrid, Spain",100,M,synthetic
+Head of Finance,129658.39,senior,FT,"Paris, France",0,L,synthetic
+Senior Computer Vision Engineer,127946.41,senior,FT,Remote,100,S,synthetic
+Senior Financial Analyst,125261.12,senior,FT,"Toronto, Canada",0,M,synthetic
+Data Reporting Analyst,38199.6,entry,FT,"Madrid, Spain",50,M,synthetic
+Accounting Intern,31055.82,entry,FT,"Boston, MA",0,M,synthetic
+Finance Manager,154634.84,senior,FT,"Berlin, Germany",50,L,synthetic
+Senior Data Engineer,0.0,mid,FT,Remote - Europe,50,L,synthetic
+BI Analyst Intern,0.0,entry,FT,"Brussels, Belgium",100,S,synthetic
+Analytics Engineer,118392.4,mid,FT,Remote - Worldwide,0,L,synthetic
+HR Assistant,35183.02,entry,FT,"Paris, France",0,M,synthetic
+Frontend Developer Junior,39310.76,entry,FT,"Dubai, UAE",100,M,synthetic
+Power BI Developer Junior,0.0,entry,FT,"Boston, MA",0,S,synthetic
+Junior Marketing Analyst,39880.62,entry,FT,"Madrid, Spain",100,L,synthetic
+Junior Python Developer,46498.96,entry,FT,"Berlin, Germany",0,L,synthetic
+Data Science Graduate,74371.17,entry,FT,"Paris, France",50,L,synthetic
+Junior ML Engineer,0.0,entry,FT,"Madrid, Spain",0,M,synthetic
+Junior SAP Consultant,41822.23,entry,FT,"London, UK",0,S,synthetic
+ML Platform Engineer Senior,0.0,senior,FT,"Toronto, Canada",50,L,synthetic
+Data Visualization Analyst,0.0,entry,FT,Remote - Worldwide,50,M,synthetic
+Senior Financial Analyst,0.0,senior,FT,"Austin, TX",0,L,synthetic
+AI Engineer Entry Level,0.0,entry,FT,"Berlin, Germany",0,L,synthetic
+Talent Acquisition Intern,48038.33,entry,FT,"Brussels, Belgium",50,S,synthetic
+Junior Django Developer,55811.06,entry,FT,"Paris, France",0,M,synthetic
+Junior ML Engineer,58851.83,entry,FT,Remote,50,M,synthetic
+HR Assistant,33500.52,entry,FT,"Chicago, IL",0,L,synthetic
+Social Media Manager Junior,43058.51,entry,FT,"San Francisco, CA",0,L,synthetic
+ERP Analyst Junior,32813.96,entry,FT,"Casablanca, Morocco",0,M,synthetic
+Content Marketing Intern,0.0,entry,FT,Remote - Europe,100,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"New York, NY",50,L,synthetic
+Junior Controller,30438.63,entry,FT,"Seattle, WA",50,M,synthetic
+Digital Marketing Intern,42776.72,entry,FT,"Berlin, Germany",50,S,synthetic
+Recruitment Intern,34472.02,entry,FT,Remote - Europe,0,S,synthetic
+AI Research Intern,0.0,entry,FT,"Berlin, Germany",100,L,synthetic
+Content Marketing Intern,0.0,entry,FT,"Brussels, Belgium",50,S,synthetic
+Frontend Developer Junior,31005.31,entry,FT,"Montreal, Canada",0,M,synthetic
+Junior HR Generalist,29687.25,entry,FT,"Chicago, IL",0,S,synthetic
+Junior Computer Vision Engineer,58331.65,entry,FT,Remote,100,L,synthetic
+Cloud Data Engineer,105134.24,mid,FT,"Toronto, Canada",50,M,synthetic
+BI Analyst Intern,51361.0,entry,FT,"Berlin, Germany",100,L,synthetic
+Business Intelligence Intern,57437.77,entry,FT,"Brussels, Belgium",100,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Casablanca, Morocco",100,S,synthetic
+Junior SAP Consultant,33163.06,entry,FT,"Paris, France",50,S,synthetic
+Frontend Developer Junior,0.0,entry,FT,Remote - Europe,50,M,synthetic
+Content Marketing Intern,50640.52,entry,FT,"Brussels, Belgium",0,S,synthetic
+Junior SEO Analyst,45293.9,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Odoo Developer Junior,50081.45,entry,FT,"Lyon, France",50,M,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"Austin, TX",0,M,synthetic
+Recruitment Intern,0.0,entry,FT,"Lyon, France",0,L,synthetic
+Recruitment Intern,42514.39,entry,FT,"Madrid, Spain",0,S,synthetic
+Senior Financial Analyst,135344.5,senior,FT,"Brussels, Belgium",50,L,synthetic
+ERP Support Analyst,39161.95,entry,FT,"New York, NY",0,L,synthetic
+Senior Computer Vision Engineer,0.0,senior,FT,"San Francisco, CA",0,S,synthetic
+HR Assistant,30217.8,entry,FT,"Dubai, UAE",50,S,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Montreal, Canada",0,S,synthetic
+Digital Marketing Intern,50764.81,entry,FT,"Montreal, Canada",0,S,synthetic
+Director of Finance,0.0,senior,FT,"Amsterdam, Netherlands",50,S,synthetic
+ERP Analyst Junior,49662.38,entry,FT,"Berlin, Germany",0,M,synthetic
+Digital Marketing Intern,50351.98,entry,FT,"London, UK",50,L,synthetic
+Junior SEO Analyst,31108.41,entry,FT,"Boston, MA",100,L,synthetic
+Senior Controller,0.0,senior,FT,Remote - US,50,M,synthetic
+Senior Data Engineer,0.0,mid,FT,"Toronto, Canada",50,L,synthetic
+Junior SAP Consultant,0.0,entry,FT,Remote - Europe,50,M,synthetic
+Senior Controller,150231.74,senior,FT,"Tunis, Tunisia",0,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Amsterdam, Netherlands",50,M,synthetic
+Junior SEO Analyst,0.0,entry,FT,"Montreal, Canada",0,M,synthetic
+Junior Computer Vision Engineer,75387.41,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Data Pipeline Engineer,95764.58,mid,FT,"Amsterdam, Netherlands",100,M,synthetic
+Junior HR Generalist,41664.77,entry,FT,Remote,0,M,synthetic
+HR Assistant,48555.2,entry,FT,"Chicago, IL",0,M,synthetic
+Data Pipeline Engineer,92064.47,mid,FT,Remote - US,100,L,synthetic
+Director of Finance,145284.53,senior,FT,"Casablanca, Morocco",0,M,synthetic
+Finance Manager,121974.22,senior,FT,"Dubai, UAE",50,M,synthetic
+Web Developer Intern,48816.01,entry,FT,Remote - US,0,L,synthetic
+Senior Data Engineer,86145.01,mid,FT,Remote - US,0,M,synthetic
+Data Engineer,86960.61,mid,FT,"Casablanca, Morocco",100,L,synthetic
+Head of Finance,127012.7,senior,FT,"Montreal, Canada",0,L,synthetic
+Recruitment Intern,41757.67,entry,FT,Remote - Europe,50,L,synthetic
+Recruitment Intern,41658.72,entry,FT,"Seattle, WA",50,S,synthetic
+Director of Finance,95243.53,senior,FT,"Berlin, Germany",0,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,"Tunis, Tunisia",50,L,synthetic
+Senior Financial Analyst,117674.59,senior,FT,"Lyon, France",0,M,synthetic
+Recruitment Intern,0.0,entry,FT,"Toronto, Canada",50,L,synthetic
+Senior Controller,156908.17,senior,FT,"New York, NY",50,L,synthetic
+Junior HR Generalist,41477.03,entry,FT,"New York, NY",50,S,synthetic
+Junior Marketing Analyst,31605.28,entry,FT,Remote - Europe,0,L,synthetic
+Director of Finance,136591.91,senior,FT,Remote,50,L,synthetic
+ERP Support Analyst,0.0,entry,FT,Remote - Worldwide,50,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Montreal, Canada",0,M,synthetic
+Community Manager Junior,34712.56,entry,FT,"Seattle, WA",0,M,synthetic
+ERP Analyst Junior,0.0,entry,FT,"Tunis, Tunisia",0,S,synthetic
+Analytics Engineer,90397.95,mid,FT,"Casablanca, Morocco",0,S,synthetic
+Data Pipeline Engineer,0.0,mid,FT,"Chicago, IL",100,S,synthetic
+Junior Accountant,0.0,entry,FT,"Casablanca, Morocco",0,L,synthetic
+Odoo Implementation Consultant,43119.4,entry,FT,"Tunis, Tunisia",50,M,synthetic
+Principal Data Scientist,105377.23,senior,FT,"Montreal, Canada",0,S,synthetic
+Data Pipeline Engineer,73021.04,mid,FT,"New York, NY",50,S,synthetic
+ML Platform Engineer Senior,162835.35,senior,FT,"London, UK",50,L,synthetic
+Junior Accountant,0.0,entry,FT,"Chicago, IL",50,M,synthetic
+Senior Controller,0.0,senior,FT,"Madrid, Spain",0,S,synthetic
+Content Marketing Intern,31856.54,entry,FT,"Dubai, UAE",100,L,synthetic
+Junior Accountant,0.0,entry,FT,"Madrid, Spain",0,M,synthetic
+ML Platform Engineer Senior,181797.91,senior,FT,"Boston, MA",100,L,synthetic
+Finance Graduate Trainee,0.0,entry,FT,"Casablanca, Morocco",0,L,synthetic
+Lead AI Engineer,141031.94,senior,FT,"Austin, TX",100,L,synthetic
+Junior Controller,0.0,entry,FT,"Dubai, UAE",0,L,synthetic
+Social Media Manager Junior,39443.84,entry,FT,"Berlin, Germany",100,L,synthetic
+Analytics Engineer,103095.64,mid,FT,Remote,0,L,synthetic
+Odoo Implementation Consultant,36805.0,entry,FT,"Toronto, Canada",0,L,synthetic
+Junior HR Generalist,0.0,entry,FT,"Dubai, UAE",50,M,synthetic
+Lead AI Engineer,0.0,senior,FT,"Casablanca, Morocco",50,M,synthetic
+Community Manager Junior,49353.12,entry,FT,"Madrid, Spain",100,L,synthetic
+Data Reporting Analyst,42177.38,entry,FT,"San Francisco, CA",100,M,synthetic
+Finance Graduate Trainee,30185.75,entry,FT,"New York, NY",0,M,synthetic
+Lead ML Engineer,161200.62,senior,FT,Remote - Europe,100,M,synthetic
+Head of Finance,159105.49,senior,FT,"Dubai, UAE",0,L,synthetic
+ETL Developer,88979.99,mid,FT,Remote,100,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+HR Coordinator Entry Level,49100.97,entry,FT,"Madrid, Spain",50,L,synthetic
+Digital Marketing Intern,44854.98,entry,FT,"Chicago, IL",100,M,synthetic
+HR Coordinator Entry Level,49591.15,entry,FT,"San Francisco, CA",0,L,synthetic
+Junior Web Developer,0.0,entry,FT,"Montreal, Canada",50,M,synthetic
+Talent Acquisition Intern,0.0,entry,FT,Remote - Europe,0,S,synthetic
+Accounting Intern,36565.63,entry,FT,Remote - Worldwide,50,L,synthetic
+Data Science Graduate,79224.49,entry,FT,Remote - Worldwide,50,M,synthetic
+Machine Learning Engineer Intern,70475.03,entry,FT,"Casablanca, Morocco",50,S,synthetic
+Data Pipeline Engineer,0.0,mid,FT,Remote,0,M,synthetic
+Junior PHP Developer,0.0,entry,FT,Remote - Europe,0,S,synthetic
+Junior Data Scientist,63891.59,entry,FT,"Lyon, France",50,S,synthetic
+Senior Data Engineer,122710.54,mid,FT,Remote - Europe,100,L,synthetic
+ERP Support Analyst,0.0,entry,FT,"New York, NY",50,L,synthetic
+Finance Manager,155153.46,senior,FT,Remote - Europe,50,M,synthetic
+Accounting Intern,0.0,entry,FT,Remote - Europe,50,L,synthetic
+Junior Marketing Analyst,35725.87,entry,FT,Remote - Worldwide,50,L,synthetic
+Data Engineer,126658.06,mid,FT,"Lyon, France",100,S,synthetic
+ERP Analyst Junior,35181.79,entry,FT,"Amsterdam, Netherlands",50,S,synthetic
+Data Engineer,122673.61,mid,FT,"Austin, TX",100,M,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Junior Django Developer,0.0,entry,FT,"Austin, TX",50,L,synthetic
+Junior HR Generalist,42577.57,entry,FT,Remote - Europe,0,S,synthetic
+Data Pipeline Engineer,0.0,mid,FT,Remote - Worldwide,0,L,synthetic
+Analytics Engineer,77122.41,mid,FT,"London, UK",50,M,synthetic
+Analytics Intern,44926.44,entry,FT,"Madrid, Spain",0,M,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Madrid, Spain",0,S,synthetic
+Junior SEO Analyst,32477.32,entry,FT,Remote - US,100,L,synthetic
+Recruitment Intern,33824.52,entry,FT,"Austin, TX",50,S,synthetic
+Senior Machine Learning Engineer,181234.69,senior,FT,"Seattle, WA",0,S,synthetic
+Senior Data Scientist,199102.21,senior,FT,"Brussels, Belgium",50,M,synthetic
+Junior Accountant,0.0,entry,FT,Remote - Europe,0,L,synthetic
+Junior Accountant,53322.34,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Junior Django Developer,0.0,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Analytics Engineer,91938.65,mid,FT,"San Francisco, CA",100,M,synthetic
+Data Science Graduate,0.0,entry,FT,"New York, NY",100,M,synthetic
+BI Developer Entry Level,51600.77,entry,FT,"San Francisco, CA",0,L,synthetic
+Junior Financial Analyst,39569.98,entry,FT,"London, UK",0,M,synthetic
+Power BI Developer Junior,0.0,entry,FT,"New York, NY",0,M,synthetic
+Junior Accountant,0.0,entry,FT,Remote - US,0,M,synthetic
+AI Research Intern,45918.88,entry,FT,Remote - Europe,100,L,synthetic
+HR Assistant,33918.47,entry,FT,Remote - US,50,S,synthetic
+Content Marketing Intern,0.0,entry,FT,"Madrid, Spain",50,S,synthetic
+AI Research Intern,0.0,entry,FT,"Austin, TX",100,M,synthetic
+AI Research Intern,0.0,entry,FT,"Boston, MA",50,M,synthetic
+Senior Data Scientist,163503.71,senior,FT,"Lyon, France",0,S,synthetic
+Junior SEO Analyst,0.0,entry,FT,"London, UK",100,L,synthetic
+Machine Learning Engineer Intern,0.0,entry,FT,Remote - Worldwide,100,M,synthetic
+Lead ML Engineer,197584.57,senior,FT,"London, UK",100,M,synthetic
+HR Assistant,38411.1,entry,FT,Remote - Europe,50,M,synthetic
+Audit Assistant,32914.14,entry,FT,"Toronto, Canada",0,S,synthetic
+Junior Controller,0.0,entry,FT,"San Francisco, CA",0,S,synthetic
+Recruitment Intern,46286.86,entry,FT,"London, UK",0,S,synthetic
+Data Engineer,80116.35,mid,FT,"San Francisco, CA",0,S,synthetic
+Junior Financial Analyst,45699.9,entry,FT,Remote,0,M,synthetic
+Head of Finance,0.0,senior,FT,"San Francisco, CA",0,L,synthetic
+Senior Data Scientist,0.0,senior,FT,"London, UK",0,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"London, UK",0,L,synthetic
+Data Analyst Graduate,0.0,entry,FT,"Amsterdam, Netherlands",100,M,synthetic
+Junior SAP Consultant,0.0,entry,FT,Remote - Worldwide,0,M,synthetic
+Analytics Intern,0.0,entry,FT,"New York, NY",100,S,synthetic
+Accounting Intern,30319.65,entry,FT,"Dubai, UAE",50,L,synthetic
+Finance Graduate Trainee,32121.56,entry,FT,Remote - US,50,L,synthetic
+Lead AI Engineer,146585.65,senior,FT,Remote,50,L,synthetic
+Data Science Graduate,61736.37,entry,FT,"New York, NY",0,M,synthetic
+Data Visualization Analyst,43856.92,entry,FT,Remote,50,L,synthetic
+Data Pipeline Engineer,108835.55,mid,FT,"Dubai, UAE",0,M,synthetic
+Junior Data Scientist,0.0,entry,FT,Remote - Worldwide,100,L,synthetic
+ETL Developer,105164.81,mid,FT,"Seattle, WA",100,L,synthetic
+Audit Assistant,44827.13,entry,FT,"Chicago, IL",0,M,synthetic
+Junior Python Developer,0.0,entry,FT,"Seattle, WA",100,L,synthetic
+Junior NLP Engineer,0.0,entry,FT,Remote,100,L,synthetic
+Content Marketing Intern,0.0,entry,FT,"Seattle, WA",0,L,synthetic
+ETL Developer,107267.9,mid,FT,"New York, NY",100,S,synthetic
+Social Media Manager Junior,0.0,entry,FT,"Chicago, IL",0,S,synthetic
+Junior ML Engineer,56617.36,entry,FT,"Seattle, WA",0,S,synthetic
+Community Manager Junior,50411.67,entry,FT,"Paris, France",0,M,synthetic
+Junior Financial Analyst,46751.65,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+Director of Finance,111908.68,senior,FT,"Casablanca, Morocco",50,S,synthetic
+Community Manager Junior,0.0,entry,FT,Remote,50,L,synthetic
+Talent Acquisition Intern,47447.27,entry,FT,"Chicago, IL",0,M,synthetic
+Senior Machine Learning Engineer,0.0,senior,FT,Remote - Worldwide,50,M,synthetic
+ERP Support Analyst,38532.22,entry,FT,Remote - Europe,50,M,synthetic
+Junior Django Developer,0.0,entry,FT,"Seattle, WA",50,S,synthetic
+Odoo Implementation Consultant,0.0,entry,FT,"Berlin, Germany",50,L,synthetic
+AI Research Intern,66631.1,entry,FT,Remote - Worldwide,50,L,synthetic
+Web Developer Intern,51306.48,entry,FT,"Montreal, Canada",50,M,synthetic
+AI Engineer Entry Level,0.0,entry,FT,"Toronto, Canada",0,S,synthetic
+Data Analyst Graduate,35866.08,entry,FT,"Montreal, Canada",100,L,synthetic
+HR Assistant,0.0,entry,FT,"Chicago, IL",50,S,synthetic
+Data Engineer,115357.64,mid,FT,Remote - US,100,L,synthetic
+Lead ML Engineer,95157.25,senior,FT,Remote - Worldwide,50,M,synthetic
+Cloud Data Engineer,71516.33,mid,FT,"Toronto, Canada",0,S,synthetic
+Talent Acquisition Intern,37402.74,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior SAP Consultant,45422.86,entry,FT,"Berlin, Germany",0,L,synthetic
+Digital Marketing Intern,0.0,entry,FT,"Lyon, France",0,S,synthetic
+Audit Assistant,35128.88,entry,FT,"Montreal, Canada",0,L,synthetic
+Lead ML Engineer,147839.55,senior,FT,"Madrid, Spain",100,L,synthetic
+Recruitment Intern,43285.19,entry,FT,"Chicago, IL",0,M,synthetic
+Junior Controller,43654.16,entry,FT,"Tunis, Tunisia",0,M,synthetic
+Junior Controller,44490.71,entry,FT,Remote - Worldwide,50,L,synthetic
+HR Coordinator Entry Level,39388.97,entry,FT,"Austin, TX",50,L,synthetic
+ERP Support Analyst,0.0,entry,FT,"San Francisco, CA",0,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,Remote - Worldwide,0,L,synthetic
+Junior Accountant,0.0,entry,FT,"Dubai, UAE",0,S,synthetic
+Junior NLP Engineer,60518.41,entry,FT,"Lyon, France",100,S,synthetic
+Business Intelligence Analyst,0.0,entry,FT,Remote - US,0,S,synthetic
+Cloud Data Engineer,0.0,mid,FT,"Toronto, Canada",0,S,synthetic
+Senior NLP Engineer,0.0,senior,FT,"Toronto, Canada",100,S,synthetic
+Talent Acquisition Intern,0.0,entry,FT,"London, UK",0,L,synthetic
+HR Assistant,28968.28,entry,FT,"Berlin, Germany",0,L,synthetic
+Odoo Developer Junior,45484.87,entry,FT,"Seattle, WA",0,M,synthetic
+Finance Manager,138311.91,senior,FT,Remote,0,M,synthetic
+BI Developer Entry Level,0.0,entry,FT,"Lyon, France",100,S,synthetic
+Finance Manager,0.0,senior,FT,"Toronto, Canada",50,L,synthetic
+Junior Python Developer,39579.5,entry,FT,"Lyon, France",50,L,synthetic
+Staff Machine Learning Engineer,0.0,senior,FT,"Dubai, UAE",0,M,synthetic
+Senior Controller,90045.71,senior,FT,"New York, NY",50,L,synthetic
+Data Engineer,81341.26,mid,FT,Remote - Europe,100,L,synthetic
+Junior NLP Engineer,53053.88,entry,FT,"Amsterdam, Netherlands",50,L,synthetic
+Data Analyst Intern,0.0,entry,FT,"Montreal, Canada",50,L,synthetic
+Machine Learning Analyst,47581.27,entry,FT,"Toronto, Canada",50,M,synthetic
+Data Pipeline Engineer,0.0,mid,FT,Remote - Worldwide,50,L,synthetic
+Junior Data Scientist,65240.89,entry,FT,"San Francisco, CA",0,S,synthetic
+Senior Financial Analyst,115621.28,senior,FT,"Brussels, Belgium",0,M,synthetic
+BI Developer Entry Level,0.0,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior Web Developer,30249.51,entry,FT,"Seattle, WA",50,M,synthetic
+Junior SQL Analyst,46543.02,entry,FT,Remote - Worldwide,50,L,synthetic
+Data Pipeline Engineer,0.0,mid,FT,Remote - US,0,S,synthetic
+ERP Support Analyst,0.0,entry,FT,"Lyon, France",50,L,synthetic
+Recruitment Intern,35951.11,entry,FT,"Dubai, UAE",0,L,synthetic
+Accounting Intern,47332.08,entry,FT,"Amsterdam, Netherlands",0,M,synthetic
+Junior HR Generalist,49331.15,entry,FT,Remote - US,50,L,synthetic
+Junior Python Developer,32866.61,entry,FT,"Madrid, Spain",0,M,synthetic
+Director of Finance,126683.79,senior,FT,Remote,50,S,synthetic
+HR Assistant,0.0,entry,FT,Remote,0,M,synthetic
+Junior SAP Consultant,41982.34,entry,FT,"Lyon, France",50,S,synthetic
+Staff Machine Learning Engineer,120247.99,senior,FT,"Seattle, WA",0,M,synthetic
+Junior SAP Consultant,37783.49,entry,FT,"Seattle, WA",0,S,synthetic
+Data Pipeline Engineer,120659.05,mid,FT,"Seattle, WA",0,M,synthetic
+Junior Web Developer,0.0,entry,FT,"Toronto, Canada",0,M,synthetic
+Data Analyst Graduate,41903.55,entry,FT,"Dubai, UAE",50,M,synthetic
+ERP Analyst Junior,34838.8,entry,FT,"Tunis, Tunisia",50,S,synthetic
+Junior Python Developer,38413.8,entry,FT,"Seattle, WA",0,S,synthetic
+Analytics Engineer,77960.3,mid,FT,Remote - Worldwide,50,L,synthetic
+Talent Acquisition Intern,39116.44,entry,FT,"Brussels, Belgium",50,L,synthetic
+Junior SEO Analyst,46315.51,entry,FT,"San Francisco, CA",50,M,synthetic
+Lead AI Engineer,164485.08,senior,FT,"Boston, MA",0,S,synthetic
+Accounting Intern,0.0,entry,FT,Remote - Europe,50,S,synthetic
+ML Platform Engineer Senior,133179.84,senior,FT,"Chicago, IL",100,S,synthetic
+HR Coordinator Entry Level,0.0,entry,FT,"Dubai, UAE",0,L,synthetic
+Junior Full Stack Developer,52341.74,entry,FT,"Brussels, Belgium",100,L,synthetic
+Cloud Data Engineer,107897.59,mid,FT,"London, UK",0,L,synthetic
+Junior Computer Vision Engineer,0.0,entry,FT,Remote - US,50,S,synthetic
+Reporting Analyst Junior,35344.43,entry,FT,"San Francisco, CA",100,L,synthetic
+Senior Audit Manager,88418.15,senior,FT,"Boston, MA",50,L,synthetic
+Senior Machine Learning Engineer,108297.23,senior,FT,"New York, NY",100,L,synthetic
+Junior Accountant,49120.43,entry,FT,"Toronto, Canada",50,L,synthetic
+AI Research Intern,54547.7,entry,FT,"Austin, TX",0,L,synthetic
+Frontend Developer Junior,0.0,entry,FT,"Lyon, France",100,S,synthetic
+Head of Finance,141242.41,senior,FT,"New York, NY",0,M,synthetic
+Machine Learning Analyst,60870.13,entry,FT,"Tunis, Tunisia",50,L,synthetic
+Junior Django Developer,0.0,entry,FT,"Amsterdam, Netherlands",0,S,synthetic
+HR Assistant,39281.4,entry,FT,"London, UK",50,L,synthetic
+Talent Acquisition Intern,31753.95,entry,FT,Remote - US,50,M,synthetic
+Data Science Graduate,55473.2,entry,FT,"Boston, MA",100,M,synthetic
+Senior Data Engineer,125341.12,mid,FT,"Brussels, Belgium",100,L,synthetic
+Director of Finance,123194.61,senior,FT,"Paris, France",0,M,synthetic
+Social Media Manager Junior,34523.86,entry,FT,"New York, NY",50,S,synthetic
+Junior BI Analyst,0.0,entry,FT,"Madrid, Spain",50,L,synthetic
+Digital Marketing Intern,51423.7,entry,FT,"Boston, MA",0,L,synthetic
+Junior Python Developer,52972.02,entry,FT,"Madrid, Spain",100,S,synthetic
+Junior Controller,43254.16,entry,FT,"Dubai, UAE",50,L,synthetic
+Senior Financial Analyst,95750.15,senior,FT,"Toronto, Canada",0,M,synthetic
+Junior SQL Analyst,0.0,entry,FT,"New York, NY",0,S,synthetic
+Talent Acquisition Intern,36117.56,entry,FT,"London, UK",50,S,synthetic
+AI Engineer Entry Level,0.0,entry,FT,"New York, NY",0,M,synthetic
+Director of Finance,0.0,senior,FT,"Montreal, Canada",50,S,synthetic
+Senior NLP Engineer,139769.19,senior,FT,"Berlin, Germany",50,S,synthetic
+Power BI Developer Junior,42315.9,entry,FT,"London, UK",50,M,synthetic
+Junior SEO Analyst,0.0,entry,FT,"Lyon, France",100,S,synthetic
+Junior Controller,43131.61,entry,FT,"London, UK",0,L,synthetic
+Junior SEO Analyst,35769.58,entry,FT,Remote - Worldwide,100,L,synthetic
+Junior Controller,0.0,entry,FT,"San Francisco, CA",0,S,synthetic
+Junior Accountant,43496.66,entry,FT,"Seattle, WA",0,S,synthetic
+Finance Manager,148720.96,senior,FT,"Paris, France",50,S,synthetic
+Junior PHP Developer,32684.4,entry,FT,Remote - Europe,0,S,synthetic
+Recruitment Intern,33430.48,entry,FT,"London, UK",50,M,synthetic
+Accounting Intern,45465.76,entry,FT,"Austin, TX",0,S,synthetic
