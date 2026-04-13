@@ -1,0 +1,82 @@
+<div class="home">
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Propulsé par Sentence-BERT · all-MiniLM-L6-v2
+      </div>
+      <h1 class="hero-title">
+        Trouve ton emploi<br>
+        <em>idéal</em> en 1 seconde
+      </h1>
+      <p class="hero-subtitle">
+        Système de matching IA universel — CV contre 111 000+ offres.
+        Tous profils : tech, finance, marketing, RH, santé, droit...
+      </p>
+
+      <div class="hero-ctas">
+        <a routerLink="/match-text" class="btn-primary">
+          <span></span> Matcher par texte
+        </a>
+        <a routerLink="/match-file" class="btn-secondary">
+          <span>📄</span> Uploader un CV
+        </a>
+      </div>
+
+      @if (health()) {
+        <div class="health-card">
+          <div class="health-item" [class.ok]="health()!.engine_ready">
+            <span class="hi-dot"></span>
+            <span>{{ health()!.engine_ready ? 'Moteur actif' : 'Chargement...' }}</span>
+          </div>
+          <div class="health-item">
+            <span>🗂️</span>
+            <span>{{ health()!.corpus_size }} offres indexées</span>
+          </div>
+          <!-- <div class="health-item">
+            <span>🤖</span>
+            <span>{{ health()!.model_name }}</span>
+          </div> -->
+          <!-- <div class="health-item">
+            <span>v{{ health()!.version }}</span>
+          </div> -->
+        </div>
+      }
+      @if (error()) {
+        <div class="api-error">
+          ⚠️ API non joignable — Lance <code>python 08_api.py</code> sur le port 8000
+        </div>
+      }
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="fc-icon">🌍</div>
+        <h3>Multilingue</h3>
+        <p>Détection automatique FR / EN — CV mixtes acceptés</p>
+      </div>
+      <div class="feature-card">
+        <div class="fc-icon">⚡</div>
+        <h3>Ultra-rapide</h3>
+        <p>Résultats en &lt; 1 seconde sur 111 000+ offres</p>
+      </div>
+      <div class="feature-card">
+        <div class="fc-icon">🎯</div>
+        <h3>Universel</h3>
+        <p>Tech, Finance, RH, Marketing, Droit, Santé...</p>
+      </div>
+      <div class="feature-card">
+        <div class="fc-icon">📎</div>
+        <h3>Upload PDF/DOCX</h3>
+        <p>Parse ton CV directement — extraction automatique</p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,162 @@
+<div class="page">
+  <div class="page-header">
+    <h1> Matching par <em>fichier CV</em></h1>
+    <p>Upload ton CV en PDF, DOCX ou TXT — extraction automatique</p>
+  </div>
+
+  <div class="layout">
+    <div class="form-panel">
+      <!-- Drop Zone -->
+      <div
+        class="drop-zone"
+        [class.drag-over]="dragOver()"
+        [class.has-file]="selectedFile()"
+        (dragover)="onDragOver($event)"
+        (dragleave)="onDragLeave()"
+        (drop)="onDrop($event)"
+        (click)="fileInput.click()"
+      >
+        <input #fileInput type="file" accept=".pdf,.docx,.doc,.txt" (change)="onFileChange($event)" style="display:none" />
+
+        @if (!selectedFile()) {
+          <div class="dz-empty">
+            <div class="dz-icon">📎</div>
+            <p class="dz-title">Glisse ton CV ici</p>
+            <p class="dz-sub">ou clique pour parcourir</p>
+            <span class="dz-formats">PDF · DOCX · DOC · TXT · Max 10 Mo</span>
+          </div>
+        } @else {
+          <div class="dz-file">
+            <span class="file-icon">{{ selectedFile()!.name.endsWith('.pdf') ? '📕' : '📘' }}</span>
+            <div class="file-info">
+              <span class="file-name">{{ selectedFile()!.name }}</span>
+              <span class="file-size">{{ fileSizeLabel }}</span>
+            </div>
+            <button class="remove-btn" (click)="$event.stopPropagation(); removeFile()">✕</button>
+          </div>
+        }
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Niveau</label>
+          <select [(ngModel)]="params.experience_level" class="input">
+            <option value="auto">Auto-détection</option>
+            <option value="entry">Entry Level</option>
+            <option value="mid">Mid Level</option>
+            <option value="senior">Senior</option>
+            <option value="executive">Executive</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Type de contrat</label>
+          <select [(ngModel)]="params.employment_type" class="input">
+            <option value="">Tous</option>
+            <option value="FT">Full-Time</option>
+            <option value="PT">Part-Time</option>
+            <option value="CT">Contrat</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Localisation</label>
+          <input [(ngModel)]="params.desired_location" placeholder="Ex : France" class="input" />
+        </div>
+        <div class="form-group">
+          <label>Salaire min (USD)</label>
+          <input [(ngModel)]="params.min_salary" type="number" min="0" class="input" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Nb résultats</label>
+          <select [(ngModel)]="params.top_k" class="input">
+            <option [value]="5">5</option>
+            <option [value]="10">10</option>
+            <option [value]="20">20</option>
+            <option [value]="50">50</option>
+          </select>
+        </div>
+        <div class="form-group form-group-check">
+          <label class="check-label">
+            <input type="checkbox" [(ngModel)]="params.remote_only" class="checkbox" />
+            <span class="check-box"></span>
+            🌍 Remote uniquement
+          </label>
+        </div>
+      </div>
+
+      <button
+        class="btn-submit"
+        (click)="submit()"
+        [disabled]="loading() || !selectedFile()"
+      >
+        @if (loading()) {
+          <span class="spinner"></span> Analyse en cours...
+        } @else {
+          <span></span> Analyser le CV
+        }
+      </button>
+
+      @if (error()) {
+        <div class="error-msg">⚠️ {{ error() }}</div>
+      }
+    </div>
+
+    <div class="results-panel">
+      @if (result()) {
+        <div class="results-header">
+          <div class="results-summary">
+            <h2>CV de <em>{{ result()!.candidate_name }}</em></h2>
+            <div class="summary-pills">
+              <span class="pill">🎯 {{ result()!.domain_detected }}</span>
+              <span class="pill">📊 {{ result()!.experience_level }}</span>
+              <span class="pill">🗂️ {{ result()!.eligible_jobs | number }} éligibles</span>
+              <span class="pill time">⚡ {{ result()!.inference_time_ms }}ms</span>
+            </div>
+          </div>
+          <div class="score-stats">
+            <div class="stat-box">
+              <span class="stat-label">Top score</span>
+              <span class="stat-val top">{{ (result()!.top_score * 100) | number:'1.0-0' }}%</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">Moy.</span>
+              <span class="stat-val">{{ (result()!.avg_score * 100) | number:'1.0-0' }}%</span>
+            </div>
+          </div>
+        </div>
+
+        @if (result()!.skills_detected?.length) {
+          <div class="skills-section">
+            <span class="skills-title">Compétences détectées :</span>
+            <div class="skills-list">
+              @for (skill of result()!.skills_detected; track skill) {
+                <span class="skill-tag">{{ skill }}</span>
+              }
+            </div>
+          </div>
+        }
+
+        <div class="jobs-list">
+          @for (job of result()!.results; track job.rank) {
+            <app-job-card [job]="job"></app-job-card>
+          }
+        </div>
+      } @else if (!loading()) {
+        <div class="empty-state">
+          <div class="empty-icon">📄</div>
+          <p>Upload un CV et lance l'analyse</p>
+        </div>
+      } @else {
+        <div class="loading-state">
+          <div class="loading-spinner"></div>
+          <p>Lecture du CV et matching SBERT...</p>
+        </div>
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+<header class="header">
+  <nav class="nav-container">
+    <a routerLink="/home" class="brand" (click)="closeMenu()">
+      <span class="brand-icon">⚡</span>
+      <span class="brand-text">JobMatch<em>AI</em></span>
+    </a>
+
+    <ul class="nav-links" [class.open]="menuOpen()">
+      <li>
+        <a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">
+          <span class="nav-icon"></span> Accueil
+        </a>
+      </li>
+      <li>
+        <a routerLink="/match-text" routerLinkActive="active" (click)="closeMenu()">
+          <span class="nav-icon"></span> Texte
+        </a>
+      </li>
+      <li>
+        <a routerLink="/match-file" routerLinkActive="active" (click)="closeMenu()">
+          <span class="nav-icon"></span> Fichier CV
+        </a>
+      </li>
+      <li>
+        <a routerLink="/jobs" routerLinkActive="active" (click)="closeMenu()">
+          <span class="nav-icon"></span> Offres
+        </a>
+      </li>
+      <li>
+        <a routerLink="/stats" routerLinkActive="active" (click)="closeMenu()">
+          <span class="nav-icon"></span> Stats
+        </a>
+      </li>
+    </ul>
+
+    <div class="header-right">
+      <div class="engine-status" [class.ready]="engineReady()" [class.loading]="!engineReady()">
+        <span class="status-dot"></span>
+        <span class="status-text">{{ engineReady() ? 'Moteur prêt' : 'Chargement...' }}</span>
+      </div>
+      <button class="burger" (click)="toggleMenu()" [class.open]="menuOpen()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>

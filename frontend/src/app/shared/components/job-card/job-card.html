@@ -1,0 +1,65 @@
+<div class="job-card" [class.expanded]="expanded" (click)="toggleExpand()">
+  <div class="card-header">
+    <div class="rank-badge">#{{ job.rank }}</div>
+
+    <div class="job-main">
+      <h3 class="job-title">{{ job.job_title }}</h3>
+      <div class="job-meta">
+        <span class="meta-item">📍 {{ job.location || 'N/A' }}</span>
+        <span class="meta-item">{{ remoteLabel }}</span>
+        <!-- <span class="meta-item source-badge">{{ job.source }}</span> -->
+      </div>
+    </div>
+
+    <div class="score-section">
+      <div class="score-circle" [class]="scoreColor">
+        <span class="score-num">{{ scorePercent }}</span>
+        <span class="score-pct">%</span>
+      </div>
+      <span class="score-label">Match</span>
+    </div>
+  </div>
+
+  <div class="card-pills">
+    <span class="pill level">{{ job.experience_level }}</span>
+    <span class="pill type">{{ job.employment_type || 'N/A' }}</span>
+    <span class="pill company">{{ job.company_size || 'N/A' }}</span>
+    @if (job.has_salary) {
+      <span class="pill salary">💰 {{ job.salary_usd | currency:'USD':'symbol':'1.0-0' }}</span>
+    } @else {
+      <span class="pill salary-na">Salaire N/A</span>
+    }
+  </div>
+
+  @if (expanded) {
+    <div class="card-details" (click)="$event.stopPropagation()">
+      <div class="scores-row">
+        <div class="score-detail">
+          <span class="sd-label">SBERT Score</span>
+          <span class="sd-value">{{ (job.sbert_score * 100) | number:'1.1-1' }}%</span>
+        </div>
+        <div class="score-detail">
+          <span class="sd-label">Bonus filtre</span>
+          <span class="sd-value">+{{ (job.filter_bonus * 100) | number:'1.1-1' }}%</span>
+        </div>
+        <div class="score-detail highlight">
+          <span class="sd-label">Score final</span>
+          <span class="sd-value">{{ (job.final_score * 100) | number:'1.1-1' }}%</span>
+        </div>
+      </div>
+
+      @if (job.match_reasons?.length) {
+        <div class="match-reasons">
+          <span class="reasons-title">✅ Raisons du match</span>
+          <ul>
+            @for (reason of job.match_reasons; track reason) {
+              <li>{{ reason }}</li>
+            }
+          </ul>
+        </div>
+      }
+    </div>
+  }
+
+  <div class="expand-hint">{{ expanded ? '▲ Réduire' : '▼ Voir détails' }}</div>
+</div>

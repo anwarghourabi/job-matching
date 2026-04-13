@@ -1,0 +1,152 @@
+<div class="page">
+  <div class="page-header">
+    <h1> Matching par <em>texte libre</em></h1>
+    <p>Colle ton résumé, profil LinkedIn ou description de compétences</p>
+  </div>
+
+  <div class="layout">
+    <div class="form-panel">
+      <div class="examples-bar">
+        <span class="examples-label">Exemples :</span>
+        @for (ex of examples; track ex.label) {
+          <button class="example-btn" (click)="loadExample(ex.text)">{{ ex.label }}</button>
+        }
+      </div>
+
+      <div class="form-group">
+        <label>Nom du candidat</label>
+        <input [(ngModel)]="form.name" placeholder="Ex : Marie Dupont" class="input" />
+      </div>
+
+      <div class="form-group required">
+        <label>Texte du CV / Profil <span class="req">*</span></label>
+        <textarea
+          [(ngModel)]="form.cv_text"
+          placeholder="Ex : Développeur Full-Stack 5 ans, React, Node.js, PostgreSQL, Docker..."
+          class="textarea"
+          rows="6"
+        ></textarea>
+        <span class="char-count">{{ form.cv_text.length }} caractères</span>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Niveau</label>
+          <select [(ngModel)]="form.experience_level" class="input">
+            <option value="auto">Auto-détection</option>
+            <option value="entry">Entry Level</option>
+            <option value="mid">Mid Level</option>
+            <option value="senior">Senior</option>
+            <option value="executive">Executive</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Type de contrat</label>
+          <select [(ngModel)]="form.employment_type" class="input">
+            <option value="">Tous</option>
+            <option value="FT">Full-Time</option>
+            <option value="PT">Part-Time</option>
+            <option value="CT">Contrat</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Nb résultats</label>
+          <select [(ngModel)]="form.top_k" class="input">
+            <option [value]="5">5</option>
+            <option [value]="10">10</option>
+            <option [value]="20">20</option>
+            <option [value]="50">50</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Localisation souhaitée</label>
+          <input [(ngModel)]="form.desired_location" placeholder="Ex : Paris, France" class="input" />
+        </div>
+        <div class="form-group">
+          <label>Salaire min (USD)</label>
+          <input [(ngModel)]="form.min_salary" type="number" min="0" class="input" />
+        </div>
+      </div>
+
+      <div class="form-check">
+        <label class="check-label">
+          <input type="checkbox" [(ngModel)]="form.remote_only" class="checkbox" />
+          <span class="check-box"></span>
+           Remote uniquement
+        </label>
+      </div>
+
+      <button
+        class="btn-submit"
+        (click)="submit()"
+        [disabled]="loading() || form.cv_text.trim().length < 20"
+      >
+        @if (loading()) {
+          <span class="spinner"></span> Analyse en cours...
+        } @else {
+          <span></span> Lancer le matching
+        }
+      </button>
+
+      @if (error()) {
+        <div class="error-msg">⚠️ {{ error() }}</div>
+      }
+    </div>
+
+    <div class="results-panel">
+      @if (result()) {
+        <div class="results-header">
+          <div class="results-summary">
+            <h2>Résultats pour <em>{{ result()!.candidate_name }}</em></h2>
+            <div class="summary-pills">
+              <span class="pill">🎯 {{ result()!.domain_detected }}</span>
+              <span class="pill">📊 {{ result()!.experience_level }}</span>
+              <span class="pill">🗂️ {{ result()!.eligible_jobs | number }} offres éligibles</span>
+              <span class="pill time">⚡ {{ result()!.inference_time_ms }}ms</span>
+            </div>
+          </div>
+          <div class="score-stats">
+            <div class="stat-box">
+              <span class="stat-label">Top score</span>
+              <span class="stat-val top">{{ (result()!.top_score * 100) | number:'1.0-0' }}%</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-label">Moy. score</span>
+              <span class="stat-val">{{ (result()!.avg_score * 100) | number:'1.0-0' }}%</span>
+            </div>
+          </div>
+        </div>
+
+        @if (result()!.skills_detected?.length) {
+          <div class="skills-section">
+            <span class="skills-title">Compétences détectées :</span>
+            <div class="skills-list">
+              @for (skill of result()!.skills_detected; track skill) {
+                <span class="skill-tag">{{ skill }}</span>
+              }
+            </div>
+          </div>
+        }
+
+        <div class="jobs-list">
+          @for (job of result()!.results; track job.rank) {
+            <app-job-card [job]="job"></app-job-card>
+          }
+        </div>
+      } @else if (!loading()) {
+        <div class="empty-state">
+          <div class="empty-icon">🔍</div>
+          <p>Lance une analyse pour voir les offres les plus pertinentes</p>
+        </div>
+      } @else {
+        <div class="loading-state">
+          <div class="loading-spinner"></div>
+          <p>Analyse SBERT en cours...</p>
+        </div>
+      }
+    </div>
+  </div>
+</div>

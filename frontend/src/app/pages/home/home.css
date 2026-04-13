@@ -1,0 +1,179 @@
+.home { min-height: 100vh; }
+
+.hero {
+  position: relative;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.grid-lines {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(99,255,180,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99,255,180,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.12;
+}
+.orb-1 { width: 600px; height: 600px; background: #63ffb4; top: -200px; right: -200px; }
+.orb-2 { width: 400px; height: 400px; background: #3b82f6; bottom: -100px; left: -100px; }
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+  padding: 3rem 2rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--accent);
+  background: rgba(99,255,180,0.08);
+  border: 1px solid rgba(99,255,180,0.2);
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.3px;
+}
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.hero-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.1;
+  margin: 0 0 1.25rem;
+  letter-spacing: -1px;
+}
+.hero-title em { font-style: italic; color: var(--accent); }
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.7;
+  margin: 0 0 2.5rem;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #0a0a14;
+}
+.btn-primary:hover { background: #7fffca; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(99,255,180,0.3); }
+
+.btn-secondary {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.btn-secondary:hover { background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+
+.health-card {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+}
+
+.health-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+  font-family: 'Space Mono', monospace;
+}
+.health-item.ok { color: var(--accent); }
+.hi-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 5px var(--accent); }
+
+.api-error {
+  background: rgba(248,113,113,0.1);
+  border: 1px solid rgba(248,113,113,0.3);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  color: #fca5a5;
+  font-size: 0.875rem;
+}
+.api-error code { background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; font-family: 'Space Mono', monospace; }
+
+.features {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.feature-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem;
+  transition: all 0.25s;
+}
+.feature-card:hover { border-color: rgba(99,255,180,0.25); transform: translateY(-4px); }
+
+.fc-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+.feature-card h3 { color: #fff; font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem; }
+.feature-card p { color: rgba(255,255,255,0.45); font-size: 0.875rem; line-height: 1.5; margin: 0; }

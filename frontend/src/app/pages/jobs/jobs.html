@@ -1,0 +1,91 @@
+<div class="page">
+  <div class="page-header">
+    <h1> Offres d'emploi</h1>
+    <p>{{ total() | number }} offres disponibles</p>
+  </div>
+
+  <div class="toolbar">
+    <div class="search-bar">
+      <span class="search-icon">🔍</span>
+      <input
+        [(ngModel)]="searchQuery"
+        placeholder="Rechercher un titre de poste..."
+        class="search-input"
+        (keyup.enter)="search()"
+      />
+      @if (searchQuery) {
+        <button class="clear-btn" (click)="clearSearch()">✕</button>
+      }
+      <button class="search-btn" (click)="search()" [disabled]="searching()">
+        {{ searching() ? '...' : 'Rechercher' }}
+      </button>
+    </div>
+
+    <div class="filters">
+      <select [(ngModel)]="filters.source" (change)="applyFilters()" class="filter-select">
+        <option value="">Toutes les sources</option>
+        <option value="kaggle">Kaggle</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="indeed">Indeed</option>
+      </select>
+      <select [(ngModel)]="filters.level" (change)="applyFilters()" class="filter-select">
+        <option value="">Tous niveaux</option>
+        <option value="entry">Entry</option>
+        <option value="mid">Mid</option>
+        <option value="senior">Senior</option>
+        <option value="executive">Executive</option>
+      </select>
+    </div>
+  </div>
+
+  @if (searchResults() !== null) {
+    <div class="search-info">
+      🔍 <strong>{{ searchCount() | number }}</strong> résultats pour "{{ searchQuery }}"
+      <button class="link-btn" (click)="clearSearch()">Effacer la recherche</button>
+    </div>
+  }
+
+  @if (error()) {
+    <div class="error-msg">⚠️ {{ error() }}</div>
+  }
+
+  @if (loading() || searching()) {
+    <div class="loading-row">
+      <div class="loading-spinner"></div>
+      <span>Chargement...</span>
+    </div>
+  } @else {
+    <div class="jobs-grid">
+      @for (job of displayedJobs; track $index) {
+        <div class="job-row">
+          <div class="jr-title">{{ job.job_title }}</div>
+          <div class="jr-meta">
+            <span>📍 {{ job.location || 'N/A' }}</span>
+            <span class="level-badge">{{ job.experience_level }}</span>
+            <span class="remote-badge">{{ remoteLabel(job.remote_ratio) }}</span>
+            @if (job.salary_usd > 0) {
+              <span class="salary">💰 {{ job.salary_usd | currency:'USD':'symbol':'1.0-0' }}</span>
+            }
+            <!-- <span class="source-badge">{{ job.source }}</span> -->
+          </div>
+        </div>
+      }
+      @empty {
+        <div class="empty">Aucune offre trouvée</div>
+      }
+    </div>
+
+    @if (!searchResults()) {
+      <div class="pagination">
+        <button class="page-btn" (click)="goTo(1)" [disabled]="page() === 1">«</button>
+        <button class="page-btn" (click)="goTo(page() - 1)" [disabled]="page() === 1">‹</button>
+        @for (p of pageNumbers; track p) {
+          <button class="page-btn" [class.active]="p === page()" (click)="goTo(p)">{{ p }}</button>
+        }
+        <button class="page-btn" (click)="goTo(page() + 1)" [disabled]="page() === pages()">›</button>
+        <button class="page-btn" (click)="goTo(pages())" [disabled]="page() === pages()">»</button>
+        <span class="page-info">Page {{ page() }} / {{ pages() }}</span>
+      </div>
+    }
+  }
+</div>

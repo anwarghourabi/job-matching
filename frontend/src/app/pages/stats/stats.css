@@ -1,0 +1,120 @@
+.page { max-width: 1100px; margin: 0 auto; padding: 2.5rem 2rem; }
+.page-header { margin-bottom: 2rem; }
+.page-header h1 { font-family: 'DM Serif Display', serif; font-size: 2.2rem; font-weight: 400; color: #fff; margin: 0 0 0.4rem; }
+.page-header h1 em { font-style: italic; color: var(--accent); }
+.page-header p { color: rgba(255,255,255,0.45); font-size: 0.95rem; margin: 0; }
+
+.loading-state {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  padding: 4rem;
+  color: rgba(255,255,255,0.4);
+}
+.loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgba(99,255,180,0.2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg { background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.3); border-radius: 10px; padding: 0.75rem 1rem; color: #fca5a5; font-size: 0.85rem; }
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.kpi-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  transition: all 0.2s;
+}
+.kpi-card:hover { border-color: rgba(99,255,180,0.25); }
+.kpi-card.accent { border-color: rgba(99,255,180,0.3); background: rgba(99,255,180,0.05); }
+
+.kpi-icon { font-size: 1.5rem; }
+.kpi-value {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+.kpi-card.accent .kpi-value { color: var(--accent); }
+.kpi-label { font-size: 0.75rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.5px; }
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.chart-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.chart-card h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0 0 1.25rem;
+}
+
+.bar-chart { display: flex; flex-direction: column; gap: 0.7rem; }
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 70px;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.bar-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-track { height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+.bar-fill.level { background: linear-gradient(90deg, #a78bfa, #818cf8); }
+.bar-fill.type { background: linear-gradient(90deg, #38bdf8, #60a5fa); }
+.bar-fill.source { background: linear-gradient(90deg, var(--accent), #38bdf8); }
+.bar-val { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: rgba(255,255,255,0.4); text-align: right; }
+
+.source-list { display: flex; flex-direction: column; gap: 1rem; }
+.source-item { display: flex; flex-direction: column; gap: 0.3rem; }
+.source-top { display: flex; justify-content: space-between; align-items: center; }
+.source-name { font-size: 0.85rem; font-weight: 600; color: #fff; }
+.source-count { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: rgba(255,255,255,0.4); }
+.source-pct { font-size: 0.7rem; color: var(--accent); font-family: 'Space Mono', monospace; }
+
+.info-list { display: flex; flex-direction: column; gap: 0.9rem; }
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.5);
+}
+.info-item:last-child { border-bottom: none; padding-bottom: 0; }
+.info-val { font-family: 'Space Mono', monospace; font-weight: 700; color: var(--accent); }
+
+@media (max-width: 700px) {
+  .charts-grid { grid-template-columns: 1fr; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}

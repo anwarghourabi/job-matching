@@ -1,0 +1,124 @@
+<div class="page">
+  <div class="page-header">
+    <h1>Statistiques du <em>corpus</em></h1>
+    <p>Vue d'ensemble des offres indexées</p>
+  </div>
+
+  @if (loading()) {
+    <div class="loading-state">
+      <div class="loading-spinner"></div>
+      <span>Chargement des statistiques...</span>
+    </div>
+  } @else if (error()) {
+    <div class="error-msg">⚠️ {{ error() }}</div>
+  } @else if (stats()) {
+    <div class="kpi-grid">
+      <div class="kpi-card accent">
+        <span class="kpi-icon">🗂️</span>
+        <span class="kpi-value">{{ stats()!.total_jobs | number }}</span>
+        <span class="kpi-label">Offres totales</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-icon">💰</span>
+        <span class="kpi-value">{{ stats()!.jobs_with_salary | number }}</span>
+        <span class="kpi-label">Avec salaire</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-icon">🌍</span>
+        <span class="kpi-value">{{ stats()!.jobs_remote | number }}</span>
+        <span class="kpi-label">Full Remote</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-icon">📍</span>
+        <span class="kpi-value">{{ stats()!.unique_locations | number }}</span>
+        <span class="kpi-label">Localisations</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-icon">💼</span>
+        <span class="kpi-value">{{ stats()!.unique_titles | number }}</span>
+        <span class="kpi-label">Titres uniques</span>
+      </div>
+    </div>
+
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Répartition par niveau</h3>
+        <div class="bar-chart">
+          @for (entry of entries(stats()!.experience_distribution); track entry[0]) {
+            <div class="bar-row">
+              <span class="bar-label">{{ entry[0] }}</span>
+              <div class="bar-track">
+                <div
+                  class="bar-fill level"
+                  [style.width]="barWidth(entry[1], maxVal(stats()!.experience_distribution))"
+                ></div>
+              </div>
+              <span class="bar-val">{{ entry[1] | number }}</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Répartition par type de contrat</h3>
+        <div class="bar-chart">
+          @for (entry of entries(stats()!.employment_type_distribution); track entry[0]) {
+            <div class="bar-row">
+              <span class="bar-label">{{ entry[0] || 'N/A' }}</span>
+              <div class="bar-track">
+                <div
+                  class="bar-fill type"
+                  [style.width]="barWidth(entry[1], maxVal(stats()!.employment_type_distribution))"
+                ></div>
+              </div>
+              <span class="bar-val">{{ entry[1] | number }}</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h3>Sources de données</h3>
+        <div class="source-list">
+          @for (entry of entries(stats()!.sources); track entry[0]) {
+            <div class="source-item">
+              <div class="source-top">
+                <span class="source-name">{{ entry[0] }}</span>
+                <span class="source-count">{{ entry[1] | number }}</span>
+              </div>
+              <div class="bar-track">
+                <div
+                  class="bar-fill source"
+                  [style.width]="barWidth(entry[1], maxVal(stats()!.sources))"
+                ></div>
+              </div>
+              <span class="source-pct">{{ (entry[1] / stats()!.total_jobs * 100) | number:'1.1-1' }}%</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="chart-card info-card">
+        <h3>Infos supplémentaires</h3>
+        <div class="info-list">
+          <div class="info-item">
+            <span>Offres avec salaire</span>
+            <span class="info-val">{{ (stats()!.jobs_with_salary / stats()!.total_jobs * 100) | number:'1.1-1' }}%</span>
+          </div>
+          <div class="info-item">
+            <span>Offres remote</span>
+            <span class="info-val">{{ (stats()!.jobs_remote / stats()!.total_jobs * 100) | number:'1.1-1' }}%</span>
+          </div>
+          <div class="info-item">
+            <span>Localisations</span>
+            <span class="info-val">{{ stats()!.unique_locations | number }}</span>
+          </div>
+          <div class="info-item">
+            <span>Titres de poste uniques</span>
+            <span class="info-val">{{ stats()!.unique_titles | number }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</div>
