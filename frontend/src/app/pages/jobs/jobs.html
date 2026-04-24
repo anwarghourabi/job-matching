@@ -1,7 +1,12 @@
 <div class="page">
   <div class="page-header">
-    <h1> Offres d'emploi</h1>
-    <p>{{ total() | number }} offres disponibles</p>
+    <div class="page-header-text">
+      <h1>Offres d'emploi</h1>
+      <p>{{ total() | number }} offres disponibles</p>
+    </div>
+    <button class="btn-manage" (click)="showCrudModal = true">
+      🗂️ Gérer les offres
+    </button>
   </div>
 
   <div class="toolbar">
@@ -66,7 +71,6 @@
             @if (job.salary_usd > 0) {
               <span class="salary">💰 {{ job.salary_usd | currency:'USD':'symbol':'1.0-0' }}</span>
             }
-            <!-- <span class="source-badge">{{ job.source }}</span> -->
           </div>
         </div>
       }
@@ -89,3 +93,8 @@
     }
   }
 </div>
+
+<!-- Modal CRUD -->
+@if (showCrudModal) {
+  <app-job-crud-modal (closed)="onModalClosed()"></app-job-crud-modal>
+}

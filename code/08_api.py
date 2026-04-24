@@ -8,11 +8,13 @@ Endpoints :
   GET  /jobs/search    → Recherche par mot-clé
   GET  /health         → État du système
   GET  /stats          → Statistiques du corpus
+  ── CRUD ──
+  GET    /crud/jobs         → Liste offres personnalisées
+  POST   /crud/jobs         → Créer une offre
+  PUT    /crud/jobs/{id}    → Modifier une offre
+  DELETE /crud/jobs/{id}    → Supprimer une offre
 
 Swagger UI : http://localhost:8000/docs
-
-Lancer :
-  python api.py
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
@@ -35,6 +37,8 @@ import tempfile
 import importlib
 import importlib.util
 import glob
+import sqlite3
+import pandas as pd
 from pathlib import Path
 from typing import List, Optional
 
@@ -42,6 +46,8 @@ import numpy as np
 from fastapi import FastAPI, UploadFile, File, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+sys.path.insert(0, str(Path(__file__).parent))
+from crud_router import router as crud_router, set_engine, init_db, _vectorize_and_append
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -112,6 +118,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Inclure le router CRUD
+app.include_router(crud_router)
+
+# DEBUG temporaire
+print("Routes enregistrées :")
+for route in app.routes:
+    print(f"  {route.path}")
 # ── État global ───────────────────────────────────────────────
 engine: MatchingEngine = None
 parser: CVParser = None
@@ -125,7 +138,28 @@ async def startup_event():
         engine = MatchingEngine()
         engine.load()
         parser = CVParser()
+
+        # ── CRUD : initialiser SQLite ─────────────────────────
+        init_db()
+
+        # ── CRUD : injecter l'engine dans le router ───────────
+        set_engine(engine)
+
+        # ── CRUD : recharger les offres custom au démarrage ───
+        DB_PATH = Path("data/processed/custom_jobs.db")
+        if DB_PATH.exists():
+            conn = sqlite3.connect(DB_PATH)
+            custom_jobs = pd.read_sql("SELECT * FROM custom_jobs", conn)
+            conn.close()
+            if len(custom_jobs) > 0:
+                for _, row in custom_jobs.iterrows():
+                    job_dict = row.to_dict()
+                    job_dict["custom_id"] = job_dict.pop("id")
+                    _vectorize_and_append(job_dict)
+                print(f"   ✅ {len(custom_jobs)} offres custom rechargées depuis SQLite")
+
         print("✅ API v3 prête !")
+
     except Exception as e:
         print(f"❌ Erreur au démarrage : {e}")
         print("   L'API démarre quand même — certains endpoints seront indisponibles.")
@@ -144,31 +178,17 @@ def _check_engine():
 # ══════════════════════════════════════════════════════════════
 
 class MatchRequest(BaseModel):
-    """Corps de la requête pour /match/text"""
-    name: str = Field(
-        "Candidat",
-        description="Nom du candidat"
-    )
-    cv_text: str = Field(
-        ...,
-        min_length=20,
-        description="Texte du CV (résumé, compétences, expériences) — n'importe quel domaine"
-    )
-    experience_level: str = Field(
-        "auto",
-        description="Niveau : auto (détection auto) / entry / mid / senior / executive"
-    )
-    desired_location: str = Field(
-        "",
-        description="Ville ou pays souhaité (laisser vide = tous pays)"
-    )
+    name: str = Field("Candidat", description="Nom du candidat")
+    cv_text: str = Field(..., min_length=20,
+        description="Texte du CV (résumé, compétences, expériences) — n'importe quel domaine")
+    experience_level: str = Field("auto",
+        description="Niveau : auto (détection auto) / entry / mid / senior / executive")
+    desired_location: str = Field("", description="Ville ou pays souhaité (laisser vide = tous pays)")
     min_salary: float = Field(0, ge=0, description="Salaire minimum en USD (0 = pas de filtre)")
     max_salary: float = Field(0, ge=0, description="Salaire maximum en USD (0 = pas de filtre)")
     remote_only: bool = Field(False, description="True = offres remote uniquement")
-    employment_type: str = Field(
-        "",
-        description="Type de contrat : FT (plein temps) / PT (partiel) / CT (contrat) / vide = tous"
-    )
+    employment_type: str = Field("",
+        description="Type de contrat : FT (plein temps) / PT (partiel) / CT (contrat) / vide = tous")
     top_k: int = Field(10, ge=1, le=50, description="Nombre de résultats (1-50)")
 
     class Config:
@@ -229,13 +249,13 @@ class HealthResponse(BaseModel):
 
 
 class StatsResponse(BaseModel):
-    total_jobs:                int
-    jobs_with_salary:          int
-    jobs_remote:               int
-    unique_locations:          int
-    unique_titles:             int
-    sources:                   dict
-    experience_distribution:   dict
+    total_jobs:                   int
+    jobs_with_salary:             int
+    jobs_remote:                  int
+    unique_locations:             int
+    unique_titles:                int
+    sources:                      dict
+    experience_distribution:      dict
     employment_type_distribution: dict
 
 
@@ -243,12 +263,8 @@ class StatsResponse(BaseModel):
 # ENDPOINTS
 # ══════════════════════════════════════════════════════════════
 
-@app.get(
-    "/health",
-    response_model=HealthResponse,
-    tags=["Système"],
-    summary="État du système",
-)
+@app.get("/health", response_model=HealthResponse, tags=["Système"],
+         summary="État du système")
 async def health_check():
     return HealthResponse(
         status       = "ok" if engine and engine._loaded else "loading",
@@ -259,12 +275,8 @@ async def health_check():
     )
 
 
-@app.get(
-    "/stats",
-    response_model=StatsResponse,
-    tags=["Système"],
-    summary="Statistiques du corpus d'offres",
-)
+@app.get("/stats", response_model=StatsResponse, tags=["Système"],
+         summary="Statistiques du corpus d'offres")
 async def get_stats():
     _check_engine()
     df = engine.df
@@ -280,34 +292,14 @@ async def get_stats():
     )
 
 
-@app.post(
-    "/match/text",
-    response_model=MatchResponse,
-    tags=["Matching"],
-    summary="Matching depuis texte libre",
-    description="""
-Lance le matching à partir d'un **texte libre** (résumé, profil, extrait de CV).
-
-**Fonctionne pour tous les domaines :**
-tech, finance, marketing, RH, droit, santé, management, vente...
-
-**Étapes internes :**
-1. Extraction automatique des compétences (tous domaines)
-2. Détection du domaine (tech / finance / RH / marketing / ...)
-3. Détection du niveau (entry / mid / senior / executive)
-4. Encodage Sentence-BERT + matching sur toutes les offres
-5. Application des filtres et bonus
-6. Retour des Top-K offres
-    """,
-)
+@app.post("/match/text", response_model=MatchResponse, tags=["Matching"],
+          summary="Matching depuis texte libre")
 async def match_from_text(request: MatchRequest):
     _check_engine()
     t0 = time.time()
 
-    # Parser le texte pour extraire automatiquement skills + niveau + domaine
     cv = parser.parse_text(request.cv_text)
 
-    # Si le niveau est fourni (pas "auto"), on l'utilise ; sinon on garde celui détecté
     exp_level = (
         cv.experience_level
         if request.experience_level in ("auto", "unknown", "")
@@ -350,23 +342,8 @@ async def match_from_text(request: MatchRequest):
     )
 
 
-@app.post(
-    "/match/file",
-    response_model=MatchResponse,
-    tags=["Matching"],
-    summary="Matching depuis fichier CV (PDF / DOCX / TXT)",
-    description="""
-Lance le matching à partir d'un **fichier CV uploadé**.
-
-**Formats acceptés :** `.pdf`, `.docx`, `.doc`, `.txt`
-
-**Étapes internes :**
-1. Extraction du texte (pdfplumber / python-docx)
-2. Parsing universel : nom, email, compétences, niveau, domaine, localisation
-3. Encodage SBERT + matching
-4. Retour des Top-K offres les plus pertinentes
-    """,
-)
+@app.post("/match/file", response_model=MatchResponse, tags=["Matching"],
+          summary="Matching depuis fichier CV (PDF / DOCX / TXT)")
 async def match_from_file(
     file: UploadFile = File(..., description="Fichier CV — PDF, DOCX ou TXT"),
     experience_level: str   = Query("auto",  description="auto / entry / mid / senior / executive"),
@@ -378,26 +355,19 @@ async def match_from_file(
 ):
     _check_engine()
 
-    # Vérifier le format
     allowed_ext = {".pdf", ".docx", ".doc", ".txt"}
     file_ext    = Path(file.filename or "file.txt").suffix.lower()
     if file_ext not in allowed_ext:
-        raise HTTPException(
-            status_code=400,
-            detail=(
-                f"Format non supporté : '{file_ext}'. "
-                f"Utilise PDF, DOCX, DOC ou TXT."
-            )
-        )
+        raise HTTPException(status_code=400,
+            detail=f"Format non supporté : '{file_ext}'. Utilise PDF, DOCX, DOC ou TXT.")
 
     t0 = time.time()
 
-    # Sauvegarder temporairement
     with tempfile.NamedTemporaryFile(delete=False, suffix=file_ext) as tmp:
         content = await file.read()
         if len(content) == 0:
             raise HTTPException(status_code=400, detail="Fichier vide.")
-        if len(content) > 10 * 1024 * 1024:  # 10 Mo max
+        if len(content) > 10 * 1024 * 1024:
             raise HTTPException(status_code=413, detail="Fichier trop lourd (max 10 Mo).")
         tmp.write(content)
         tmp_path = tmp.name
@@ -415,13 +385,9 @@ async def match_from_file(
             pass
 
     if not cv.is_valid():
-        raise HTTPException(
-            status_code=422,
-            detail=(
-                "CV illisible ou trop court. "
-                "Vérifie que le fichier contient du texte (pas une image scannée)."
-            )
-        )
+        raise HTTPException(status_code=422,
+            detail="CV illisible ou trop court. "
+                   "Vérifie que le fichier contient du texte (pas une image scannée).")
 
     exp_level = (
         cv.experience_level
@@ -464,17 +430,12 @@ async def match_from_file(
     )
 
 
-@app.get(
-    "/jobs",
-    tags=["Offres"],
-    summary="Liste paginée des offres",
-    description="Retourne les offres du corpus avec pagination.",
-)
+@app.get("/jobs", tags=["Offres"], summary="Liste paginée des offres")
 async def list_jobs(
-    page:     int = Query(1,   ge=1,          description="Page (commence à 1)"),
-    per_page: int = Query(20,  ge=1,  le=100, description="Offres par page (max 100)"),
-    source:   str = Query("",                 description="Filtrer par source"),
-    level:    str = Query("",                 description="Filtrer par niveau : entry / mid / senior"),
+    page:     int = Query(1,  ge=1,         description="Page (commence à 1)"),
+    per_page: int = Query(20, ge=1, le=100, description="Offres par page (max 100)"),
+    source:   str = Query("",              description="Filtrer par source"),
+    level:    str = Query("",              description="Filtrer par niveau : entry / mid / senior"),
 ):
     _check_engine()
 
@@ -492,21 +453,11 @@ async def list_jobs(
             "employment_type", "remote_ratio", "company_size", "source"]
     jobs = df.iloc[start:end][cols].fillna("").to_dict(orient="records")
 
-    return {
-        "total":    total,
-        "page":     page,
-        "per_page": per_page,
-        "pages":    max(1, (total + per_page - 1) // per_page),
-        "jobs":     jobs,
-    }
+    return {"total": total, "page": page, "per_page": per_page,
+            "pages": max(1, (total + per_page - 1) // per_page), "jobs": jobs}
 
 
-@app.get(
-    "/jobs/search",
-    tags=["Offres"],
-    summary="Recherche d'offres par mot-clé",
-    description="Recherche par mot-clé dans les titres de postes.",
-)
+@app.get("/jobs/search", tags=["Offres"], summary="Recherche d'offres par mot-clé")
 async def search_jobs(
     q:   str = Query(..., min_length=2, description="Mot-clé dans le titre"),
     top: int = Query(20,  ge=1, le=100, description="Nombre max de résultats"),
@@ -542,11 +493,7 @@ if __name__ == "__main__":
     print("  📖 ReDoc       : http://localhost:8000/redoc")
     print("  🔍 Health      : http://localhost:8000/health")
     print("  📊 Stats       : http://localhost:8000/stats")
+    print("  🗂️  CRUD Jobs   : http://localhost:8000/crud/jobs")
     print("="*60 + "\n")
 
-    uvicorn.run(
-        app,
-        host  = "0.0.0.0",
-        port  = 8000,
-        reload= False,
-    )
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=False)

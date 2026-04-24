@@ -2,11 +2,12 @@ import { Component, OnInit, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ApiService } from '../../core/services/api';
+import { JobCrudModal } from '../job-crud-modal/job-crud-modal';
 
 @Component({
   selector: 'app-jobs',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, JobCrudModal],
   templateUrl: './jobs.html',
   styleUrls: ['./jobs.css']
 })
@@ -28,6 +29,9 @@ export class JobsComponent implements OnInit {
   filters = { source: '', level: '' };
   perPage = 20;
 
+  // Modal CRUD
+  showCrudModal = false;
+
   ngOnInit() { this.loadJobs(); }
 
   loadJobs() {
@@ -42,6 +46,12 @@ export class JobsComponent implements OnInit {
       },
       error: e => { this.error.set(e.error?.detail || 'Erreur API'); this.loading.set(false); }
     });
+  }
+
+  // Fermer le modal et recharger les offres
+  onModalClosed() {
+    this.showCrudModal = false;
+    this.loadJobs();
   }
 
   search() {

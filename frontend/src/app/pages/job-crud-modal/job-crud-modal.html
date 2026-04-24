@@ -1,0 +1,99 @@
+<!-- Overlay -->
+<div class="modal-overlay" (click)="close()"></div>
+
+<!-- Modal -->
+<div class="modal-container">
+  <div class="modal-header">
+    <h2>🗂️ Gestion des offres personnalisées</h2>
+    <button class="btn-close" (click)="close()">✕</button>
+  </div>
+
+  <div class="modal-body">
+
+    <!-- Formulaire -->
+    <div class="form-section">
+      <h3>{{ mode === 'create' ? '➕ Nouvelle offre' : '✏️ Modifier l\'offre' }}</h3>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Titre du poste *</label>
+          <input [(ngModel)]="form.job_title" placeholder="Ex: Data Scientist Senior" />
+        </div>
+
+        <div class="form-group">
+          <label>Localisation</label>
+          <input [(ngModel)]="form.location" placeholder="Ex: Paris, France" />
+        </div>
+
+        <div class="form-group">
+          <label>Niveau d'expérience</label>
+          <select [(ngModel)]="form.experience_level">
+            <option value="entry">Junior (entry)</option>
+            <option value="mid">Intermédiaire (mid)</option>
+            <option value="senior">Senior</option>
+            <option value="executive">Executive</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Salaire (USD/an)</label>
+          <input type="number" [(ngModel)]="form.salary_usd" placeholder="Ex: 80000" />
+        </div>
+
+        <div class="form-group">
+          <label>Remote</label>
+          <select [(ngModel)]="form.remote_ratio">
+            <option [value]="0">Sur site (0%)</option>
+            <option [value]="50">Hybride (50%)</option>
+            <option [value]="100">Full remote (100%)</option>
+          </select>
+        </div>
+
+        <div class="form-group full-width">
+          <label>Compétences requises</label>
+          <input [(ngModel)]="form.skills_desc" placeholder="Ex: Python, SQL, Machine Learning" />
+        </div>
+
+        <div class="form-group full-width">
+          <label>Description du poste</label>
+          <textarea [(ngModel)]="form.description" rows="4"
+                    placeholder="Décrivez le poste..."></textarea>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn-secondary" (click)="resetForm()" *ngIf="mode === 'edit'">
+          Annuler
+        </button>
+        <button class="btn-primary" (click)="submit()" [disabled]="loading || !form.job_title">
+          {{ loading ? '⏳ En cours...' : (mode === 'create' ? '➕ Ajouter' : '💾 Enregistrer') }}
+        </button>
+      </div>
+
+      <p class="message" *ngIf="message">{{ message }}</p>
+    </div>
+
+    <!-- Liste des offres custom -->
+    <div class="list-section">
+      <h3>📋 Offres ajoutées ({{ customJobs.length }})</h3>
+
+      <div class="empty-state" *ngIf="customJobs.length === 0">
+        Aucune offre personnalisée pour l'instant.
+      </div>
+
+      <div class="job-card" *ngFor="let job of customJobs">
+        <div class="job-info">
+          <strong>{{ job.job_title }}</strong>
+          <span class="badge">{{ job.experience_level }}</span>
+          <span class="meta">📍 {{ job.location || 'N/A' }}</span>
+          <span class="meta" *ngIf="job.salary_usd > 0">💰 ${{ job.salary_usd | number }}</span>
+        </div>
+        <div class="job-actions">
+          <button class="btn-edit" (click)="editJob(job)">✏️</button>
+          <button class="btn-delete" (click)="deleteJob(job.id)">🗑️</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

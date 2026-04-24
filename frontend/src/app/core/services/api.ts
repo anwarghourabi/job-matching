@@ -5,7 +5,17 @@ import {
   MatchRequest, MatchResponse, HealthResponse,
   StatsResponse, JobsResponse
 } from '../models/api.models';
-
+export interface CustomJob {
+  id?: number;
+  job_title: string;
+  description?: string;
+  skills_desc?: string;
+  experience_level?: string;
+  location?: string;
+  salary_usd?: number;
+  remote_ratio?: number;
+  created_at?: string;
+}
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   private readonly http = inject(HttpClient);
@@ -60,5 +70,25 @@ export class ApiService {
   searchJobs(q: string, top = 20): Observable<any> {
     const params = new HttpParams().set('q', q).set('top', top.toString());
     return this.http.get<any>(`${this.BASE}/jobs/search`, { params });
+  }
+
+    // ══════════════════════════════════════════════════════════
+  // CRUD Offres personnalisées
+  // ══════════════════════════════════════════════════════════
+
+  getCustomJobs(): Observable<CustomJob[]> {
+    return this.http.get<CustomJob[]>(`${this.BASE}/crud/jobs`);
+  }
+
+  createJob(job: CustomJob): Observable<{ id: number; message: string }> {
+    return this.http.post<{ id: number; message: string }>(`${this.BASE}/crud/jobs`, job);
+  }
+
+  updateJob(id: number, job: Partial<CustomJob>): Observable<{ message: string }> {
+    return this.http.put<{ message: string }>(`${this.BASE}/crud/jobs/${id}`, job);
+  }
+
+  deleteJob(id: number): Observable<{ message: string }> {
+    return this.http.delete<{ message: string }>(`${this.BASE}/crud/jobs/${id}`);
   }
 }
