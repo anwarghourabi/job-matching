@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ApiService } from '../../core/services/api';
+import { AuthService } from '../../core/services/auth';
 import { MatchRequest, MatchResponse } from '../../core/models/api.models';
 import { JobCardComponent } from '../../shared/components/job-card/job-card';
 
@@ -14,6 +15,7 @@ import { JobCardComponent } from '../../shared/components/job-card/job-card';
 })
 export class MatchTextComponent {
   private api = inject(ApiService);
+  private auth = inject(AuthService);
 
   form: MatchRequest = {
     name: '',
@@ -55,17 +57,47 @@ export class MatchTextComponent {
   }
 
   submit() {
-    if (!this.form.cv_text.trim()) return;
-    this.loading.set(true);
-    this.error.set('');
-    this.result.set(null);
+  if (!this.form.cv_text.trim()) return;
+  this.loading.set(true);
+  this.error.set('');
+  this.result.set(null);
 
-    this.api.matchText(this.form).subscribe({
-      next: r => { this.result.set(r); this.loading.set(false); },
-      error: e => {
-        this.error.set(e.error?.detail || 'Erreur de connexion à l\'API');
-        this.loading.set(false);
+  // ── Forcer les types numériques ──
+  const payload: MatchRequest = {
+    ...this.form,
+    top_k: Number(this.form.top_k),
+    min_salary: Number(this.form.min_salary),
+    max_salary: Number(this.form.max_salary),
+  };
+
+  this.api.matchText(payload).subscribe({
+    next: r => {
+      this.result.set(r);
+      this.loading.set(false);
+
+      if (this.auth.isLoggedIn()) {
+        this.auth.updateProfile({
+          cv_text: this.form.cv_text,
+          experience_level: this.form.experience_level !== 'auto'
+            ? this.form.experience_level
+            : r.experience_level,
+          desired_location: this.form.desired_location || undefined,
+          skills: r.skills_detected.join(', '),
+        }).subscribe();
+
+        r.results.slice(0, 5).forEach(job => {
+          this.auth.addToHistory({
+            job_title: job.job_title,
+            job_source: job.source,
+            score: job.final_score
+          }).subscribe();
+        });
       }
-    });
-  }
+    },
+    error: e => {
+      this.error.set(e.error?.detail || 'Erreur de connexion à l\'API');
+      this.loading.set(false);
+    }
+  });
+} 
 }

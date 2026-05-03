@@ -1,0 +1,155 @@
+<div class="modal-overlay" (click)="close()"></div>
+
+<div class="modal-container">
+  <div class="modal-header">
+    <h2>
+      {{ mode === 'login' ? '🔐 Connexion' :
+         signupStep === 'form' ? '✨ Créer un compte' : '📧 Vérification' }}
+    </h2>
+    <button class="btn-close" (click)="close()">✕</button>
+  </div>
+
+  <div class="modal-body">
+
+    <!-- TABS -->
+    <div class="auth-tabs" *ngIf="signupStep === 'form'">
+      <button [class.active]="mode === 'login'"
+              (click)="mode = 'login'; error.set(''); success.set('')">
+        Connexion
+      </button>
+      <button [class.active]="mode === 'signup'"
+              (click)="mode = 'signup'; error.set(''); success.set('')">
+        Inscription
+      </button>
+    </div>
+
+    <!-- ══════════════════════════════════
+         LOGIN
+    ══════════════════════════════════ -->
+    @if (mode === 'login') {
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" [(ngModel)]="form.email" placeholder="votre@email.com" />
+      </div>
+
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-eye">
+          <input [type]="showPassword ? 'text' : 'password'"
+                 [(ngModel)]="form.password" placeholder="Votre mot de passe" />
+          <button class="eye-btn" (click)="showPassword = !showPassword" type="button">
+            {{ showPassword ? '🙈' : '👁️' }}
+          </button>
+        </div>
+      </div>
+
+      <div class="error-msg" *ngIf="error()">⚠️ {{ error() }}</div>
+
+      <button class="btn-primary" (click)="submit()"
+              [disabled]="loading() || !form.email || !form.password">
+        {{ loading() ? '⏳ Connexion...' : 'Se connecter' }}
+      </button>
+    }
+
+    <!-- ══════════════════════════════════
+         SIGNUP — ÉTAPE 1 : Formulaire
+    ══════════════════════════════════ -->
+    @if (mode === 'signup' && signupStep === 'form') {
+      <div class="form-group">
+        <label>Nom complet</label>
+        <input [(ngModel)]="form.full_name" placeholder="Ex: Anwar Ghourabi" />
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" [(ngModel)]="form.email" placeholder="votre@email.com" />
+      </div>
+
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-eye">
+          <input [type]="showPassword ? 'text' : 'password'"
+                 [(ngModel)]="form.password" placeholder="Min. 6 caractères" />
+          <button class="eye-btn" (click)="showPassword = !showPassword" type="button">
+            {{ showPassword ? '🙈' : '👁️' }}
+          </button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Confirmer le mot de passe</label>
+        <div class="input-eye">
+          <input [type]="showConfirmPassword ? 'text' : 'password'"
+                 [(ngModel)]="form.confirm_password" placeholder="Répète ton mot de passe" />
+          <button class="eye-btn" (click)="showConfirmPassword = !showConfirmPassword" type="button">
+            {{ showConfirmPassword ? '🙈' : '👁️' }}
+          </button>
+        </div>
+        @if (form.confirm_password && form.password !== form.confirm_password) {
+          <span class="field-error">❌ Les mots de passe ne correspondent pas</span>
+        }
+        @if (form.confirm_password && form.password === form.confirm_password && form.password.length >= 6) {
+          <span class="field-ok">✅ Mots de passe identiques</span>
+        }
+      </div>
+
+      <div class="error-msg" *ngIf="error()">⚠️ {{ error() }}</div>
+
+      <button class="btn-primary" (click)="submit()"
+              [disabled]="loading() || !form.email || !form.password ||
+                          !form.full_name || form.password !== form.confirm_password">
+        {{ loading() ? '⏳ Envoi du code...' : '📧 Envoyer le code de vérification' }}
+      </button>
+    }
+
+    <!-- ══════════════════════════════════
+         SIGNUP — ÉTAPE 2 : Code
+    ══════════════════════════════════ -->
+    @if (mode === 'signup' && signupStep === 'verify') {
+      <div class="verify-info">
+        <div class="verify-icon">📧</div>
+        <p>Un code a été envoyé à</p>
+        <strong>{{ form.email }}</strong>
+      </div>
+
+      <div class="form-group">
+        <label>Code de vérification</label>
+        <input [(ngModel)]="verifyCode"
+               placeholder="Ex: 123456"
+               maxlength="6"
+               class="code-input"
+               (keyup.enter)="verifyAndCreate()" />
+      </div>
+
+      <div class="success-msg" *ngIf="success()">✅ {{ success() }}</div>
+      <div class="error-msg" *ngIf="error()">⚠️ {{ error() }}</div>
+
+      <button class="btn-primary" (click)="verifyAndCreate()"
+              [disabled]="loading() || verifyCode.length < 6">
+        {{ loading() ? '⏳ Vérification...' : '✅ Vérifier et créer mon compte' }}
+      </button>
+
+      <div class="resend-row">
+        <span>Pas reçu le code ?</span>
+        <button class="link-btn" (click)="resendCode()" [disabled]="loading()">
+          Renvoyer
+        </button>
+      </div>
+
+      <button class="btn-back" (click)="signupStep = 'form'; error.set('')">
+        ← Modifier mes informations
+      </button>
+    }
+
+    <!-- Switch mode -->
+    @if (signupStep === 'form') {
+      <p class="switch-text">
+        {{ mode === 'login' ? 'Pas encore de compte ?' : 'Déjà un compte ?' }}
+        <button class="link-btn" (click)="switchMode()">
+          {{ mode === 'login' ? 'S\'inscrire' : 'Se connecter' }}
+        </button>
+      </p>
+    }
+
+  </div>
+</div>

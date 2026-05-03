@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ApiService } from '../../core/services/api';
+import { AuthService } from '../../core/services/auth';
 import { MatchResponse } from '../../core/models/api.models';
 import { JobCardComponent } from '../../shared/components/job-card/job-card';
 
@@ -14,6 +15,7 @@ import { JobCardComponent } from '../../shared/components/job-card/job-card';
 })
 export class MatchFileComponent {
   private api = inject(ApiService);
+  private auth = inject(AuthService);
 
   selectedFile = signal<File | null>(null);
   dragOver = signal(false);
@@ -75,7 +77,28 @@ export class MatchFileComponent {
     this.result.set(null);
 
     this.api.matchFile(file, this.params).subscribe({
-      next: r => { this.result.set(r); this.loading.set(false); },
+      next: r => {
+        this.result.set(r);
+        this.loading.set(false);
+
+        // Sauvegarder dans le profil si connecté
+        if (this.auth.isLoggedIn()) {
+          this.auth.updateProfile({
+            experience_level: r.experience_level,
+            skills: r.skills_detected.join(', '),
+            desired_location: this.params.desired_location || undefined,
+          }).subscribe();
+
+          // Historique top 5
+          r.results.slice(0, 5).forEach(job => {
+            this.auth.addToHistory({
+              job_title: job.job_title,
+              job_source: job.source,
+              score: job.final_score
+            }).subscribe();
+          });
+        }
+      },
       error: e => {
         this.error.set(e.error?.detail || 'Erreur lors du traitement du fichier');
         this.loading.set(false);

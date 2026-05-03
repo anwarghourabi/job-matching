@@ -38,9 +38,25 @@
         <span class="status-dot"></span>
         <span class="status-text">{{ engineReady() ? 'Moteur prêt' : 'Chargement...' }}</span>
       </div>
+
+      <!-- Auth Section -->
+      @if (auth.isLoggedIn()) {
+        <div class="user-menu">
+          <span class="user-name">👤 {{ auth.currentUser()?.full_name }}</span>
+          <a routerLink="/recommendations" class="nav-link" (click)="closeMenu()">✨ Recommandations</a>
+          <button class="btn-logout" (click)="auth.logout()">Déconnexion</button>
+        </div>
+      } @else {
+        <button class="btn-login" (click)="showAuthModal = true">🔐 Connexion</button>
+      }
+
       <button class="burger" (click)="toggleMenu()" [class.open]="menuOpen()">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 </header>
+
+@if (showAuthModal) {
+  <app-auth-modal (closed)="showAuthModal = false"></app-auth-modal>
+}

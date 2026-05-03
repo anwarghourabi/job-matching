@@ -563,10 +563,12 @@ class MatchingEngine:
     def _apply_filters(self, candidate: CandidateProfile) -> np.ndarray:
         mask = np.ones(len(self.df), dtype=bool)
 
+        # ── Salaire minimum — exclure les offres SOUS le seuil
+        # On garde uniquement : salary >= min OU salary non renseigné
+        # Si l'utilisateur veut UNIQUEMENT des offres avec salaire, supprimer le "== 0"
         if candidate.min_salary > 0:
             mask &= (
-                (self.df["salary_usd"] >= candidate.min_salary) |
-                (self.df["salary_usd"] == 0)
+                (self.df["salary_usd"] >= candidate.min_salary)
             ).values
 
         if candidate.max_salary > 0:
@@ -574,6 +576,20 @@ class MatchingEngine:
                 (self.df["salary_usd"] <= candidate.max_salary) |
                 (self.df["salary_usd"] == 0)
             ).values
+
+        # ── Niveau d'expérience — filtre strict si spécifié
+        if candidate.experience_level not in ("auto", "unknown", ""):
+            exp_map = {"entry": 1, "mid": 2, "senior": 3, "executive": 4}
+            c_lvl = exp_map.get(candidate.experience_level.lower(), 0)
+            if c_lvl > 0:
+                job_levels = self.df["experience_level"].apply(
+                    lambda x: exp_map.get(str(x).lower(), 0)
+                )
+                # STRICT : uniquement niveau exact + unknown
+                mask &= (
+                    (job_levels == 0) |        # unknown → inclus (non renseigné)
+                    (job_levels == c_lvl)      # niveau EXACT uniquement
+                ).values
 
         if candidate.remote_only:
             mask &= (self.df["remote_ratio"] == 100).values
@@ -589,7 +605,6 @@ class MatchingEngine:
             loc_mask  = self.df["location"].str.lower().str.contains(
                 loc_lower, na=False, regex=False
             )
-            # Appliquer filtre localisation seulement si assez de résultats
             if loc_mask.sum() >= 10:
                 mask &= loc_mask.values
 

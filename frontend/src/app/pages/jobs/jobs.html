@@ -5,7 +5,7 @@
       <p>{{ total() | number }} offres disponibles</p>
     </div>
     <button class="btn-manage" (click)="showCrudModal = true">
-      🗂️ Gérer les offres
+       Gérer les offres
     </button>
   </div>
 
@@ -27,12 +27,12 @@
     </div>
 
     <div class="filters">
-      <select [(ngModel)]="filters.source" (change)="applyFilters()" class="filter-select">
+      <!-- <select [(ngModel)]="filters.source" (change)="applyFilters()" class="filter-select">
         <option value="">Toutes les sources</option>
         <option value="kaggle">Kaggle</option>
         <option value="linkedin">LinkedIn</option>
         <option value="indeed">Indeed</option>
-      </select>
+      </select> -->
       <select [(ngModel)]="filters.level" (change)="applyFilters()" class="filter-select">
         <option value="">Tous niveaux</option>
         <option value="entry">Entry</option>

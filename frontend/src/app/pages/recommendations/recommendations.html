@@ -1,0 +1,75 @@
+<div class="page">
+  <div class="page-header">
+    <div>
+      <h1>✨ Recommandations</h1>
+      <p>Offres sélectionnées pour {{ auth.currentUser()?.full_name || 'vous' }}</p>
+    </div>
+  </div>
+
+  @if (basedOn() && (basedOn().cv || basedOn().history > 0)) {
+    <div class="based-on">
+      Basé sur :
+      @if (basedOn().cv) { <span class="tag">📄 Votre profil CV</span> }
+      @if (basedOn().history > 0) {
+        <span class="tag">🕓 {{ basedOn().history }} offres consultées</span>
+      }
+    </div>
+  }
+
+  @if (loading()) {
+    <div class="loading-row">
+      <div class="loading-spinner"></div>
+      <span>Calcul des recommandations...</span>
+    </div>
+  } @else if (recommendations().length === 0) {
+    <!-- Pas encore de CV → rediriger vers matching -->
+    <div class="empty-state">
+      <div class="empty-icon">🎯</div>
+      <p>Lance d'abord un matching pour obtenir des recommandations personnalisées</p>
+      <div class="empty-actions">
+        <a routerLink="/match-text" class="btn-action" (click)="closeMenu()">
+          ✍️ Matching par texte
+        </a>
+        <a routerLink="/match-file" class="btn-action">
+          📄 Matching par fichier CV
+        </a>
+      </div>
+    </div>
+  } @else {
+    <div class="jobs-grid">
+      @for (job of recommendations(); track $index) {
+        <div class="job-row">
+          <div class="jr-left">
+            <div class="jr-title">{{ job.job_title }}</div>
+            <div class="jr-meta">
+              <span>📍 {{ job.location || 'N/A' }}</span>
+              <span class="level-badge">{{ job.experience_level }}</span>
+              <span class="remote-badge">{{ remoteLabel(job.remote_ratio) }}</span>
+              @if (job.salary_usd > 0) {
+                <span class="salary">
+                  💰 {{ job.salary_usd | currency:'USD':'symbol':'1.0-0' }}
+                </span>
+              }
+            </div>
+          </div>
+          <div class="score-badge">{{ (job.score * 100).toFixed(0) }}%</div>
+        </div>
+      }
+    </div>
+  }
+
+  @if (history().length > 0) {
+    <div class="history-section">
+      <h3>🕓 Historique des matchings</h3>
+      <div class="history-list">
+        @for (item of history().slice(0, 10); track $index) {
+          <div class="history-item">
+            <span class="h-title">{{ item.job_title }}</span>
+            <span class="h-score">{{ (item.score * 100).toFixed(0) }}%</span>
+            <span class="h-date">{{ item.viewed_at | date:'dd/MM HH:mm' }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  }
+</div>

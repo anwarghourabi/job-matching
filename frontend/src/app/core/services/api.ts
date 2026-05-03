@@ -75,20 +75,39 @@ export class ApiService {
     // ══════════════════════════════════════════════════════════
   // CRUD Offres personnalisées
   // ══════════════════════════════════════════════════════════
-
   getCustomJobs(): Observable<CustomJob[]> {
-    return this.http.get<CustomJob[]>(`${this.BASE}/crud/jobs`);
+    return this.http.get<CustomJob[]>(
+      `${this.BASE}/crud/jobs`,
+      { headers: this.authHeaders() }
+    );
   }
 
   createJob(job: CustomJob): Observable<{ id: number; message: string }> {
-    return this.http.post<{ id: number; message: string }>(`${this.BASE}/crud/jobs`, job);
+    return this.http.post<{ id: number; message: string }>(
+      `${this.BASE}/crud/jobs`,
+      job,
+      { headers: this.authHeaders() }
+    );
   }
 
   updateJob(id: number, job: Partial<CustomJob>): Observable<{ message: string }> {
-    return this.http.put<{ message: string }>(`${this.BASE}/crud/jobs/${id}`, job);
+    return this.http.put<{ message: string }>(
+      `${this.BASE}/crud/jobs/${id}`,
+      job,
+      { headers: this.authHeaders() }
+    );
   }
 
   deleteJob(id: number): Observable<{ message: string }> {
-    return this.http.delete<{ message: string }>(`${this.BASE}/crud/jobs/${id}`);
+    return this.http.delete<{ message: string }>(
+      `${this.BASE}/crud/jobs/${id}`,
+      { headers: this.authHeaders() }
+    );
+  }
+
+  // Méthode helper pour les headers auth
+  private authHeaders(): Record<string, string> {
+    const token = localStorage.getItem('token');
+    return token ? { Authorization: `Bearer ${token}` } : {};
   }
 }

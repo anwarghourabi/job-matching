@@ -67,7 +67,7 @@
         </div>
         <div class="form-group">
           <label>Salaire min (USD)</label>
-          <input [(ngModel)]="form.min_salary" type="number" min="0" class="input" />
+          <input [(ngModel)]="form.min_salary" type="number" min="0" class="input" (change)="form.min_salary = +form.min_salary" />
         </div>
       </div>
 

@@ -48,6 +48,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 sys.path.insert(0, str(Path(__file__).parent))
 from crud_router import router as crud_router, set_engine, init_db, _vectorize_and_append
+from auth_router import router as auth_router, recommendations_router, init_auth_db, set_auth_engine
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -120,6 +121,8 @@ app.add_middleware(
 
 # Inclure le router CRUD
 app.include_router(crud_router)
+app.include_router(auth_router)
+app.include_router(recommendations_router)
 
 # DEBUG temporaire
 print("Routes enregistrées :")
@@ -145,6 +148,9 @@ async def startup_event():
         # ── CRUD : injecter l'engine dans le router ───────────
         set_engine(engine)
 
+        init_auth_db()
+        set_auth_engine(engine)
+        
         # ── CRUD : recharger les offres custom au démarrage ───
         DB_PATH = Path("data/processed/custom_jobs.db")
         if DB_PATH.exists():
