@@ -485,3 +485,431 @@
 }
 .btn-edit:hover  { background: rgba(167,139,250,0.12); border-color: rgba(167,139,250,0.3); }
 .btn-delete:hover { background: rgba(248,113,113,0.12); border-color: rgba(248,113,113,0.3); }
+
+/* ══════════════════════════════════════════════════════════
+   AJOUTS CSS — Bouton Postuler + Modal candidature
+   À ajouter à la fin de jobs.css
+══════════════════════════════════════════════════════════ */
+
+/* ── Job row — footer avec bouton ────────────────────────── */
+.job-row {
+  position: relative;
+  transition: border-color 0.2s, transform 0.15s;
+}
+.job-row.applied {
+  border-color: rgba(99,255,180,0.2) !important;
+}
+
+.applied-badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: rgba(99,255,180,0.1);
+  border: 1px solid rgba(99,255,180,0.25);
+  border-radius: 20px;
+  padding: 2px 9px;
+}
+
+.jr-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.btn-apply {
+  background: var(--accent);
+  color: #0a0a14;
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.btn-apply:hover {
+  background: #7fffca;
+  box-shadow: 0 0 18px rgba(99,255,180,0.25);
+  transform: translateY(-1px);
+}
+.btn-apply.btn-applied {
+  background: rgba(99,255,180,0.1);
+  color: var(--accent);
+  border: 1px solid rgba(99,255,180,0.25);
+  cursor: default;
+  box-shadow: none;
+  transform: none;
+}
+.btn-apply:disabled {
+  opacity: 1; /* override — on veut garder le style "postulé" visible */
+  cursor: default;
+}
+
+/* ══════════════════════════════════════════════════════════
+   MODAL POSTULER
+══════════════════════════════════════════════════════════ */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.72);
+  backdrop-filter: blur(6px);
+  z-index: 200;
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp {
+  from { opacity: 0; transform: translate(-50%, -47%); }
+  to   { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.modal-container {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #13132a;
+  border: 1px solid rgba(99,255,180,0.15);
+  border-radius: 16px;
+  width: 520px;
+  max-width: 96vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 201;
+  box-shadow: 0 32px 100px rgba(0,0,0,0.7);
+  animation: slideUp 0.25s ease;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  position: sticky;
+  top: 0;
+  background: #13132a;
+  z-index: 1;
+}
+
+.modal-tag {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.modal-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 0 0.4rem;
+  line-height: 1.25;
+}
+
+.modal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.btn-close {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.4);
+  border-radius: 8px;
+  width: 32px; height: 32px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.btn-close:hover {
+  background: rgba(248,113,113,0.15);
+  color: #fca5a5;
+  border-color: rgba(248,113,113,0.3);
+}
+
+.modal-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  position: sticky;
+  bottom: 0;
+  background: #13132a;
+}
+
+/* ── Login prompt (non connecté) ─────────────────────────── */
+.login-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.login-prompt-icon { font-size: 2.5rem; }
+.login-prompt p { color: var(--text-muted); font-size: 0.92rem; }
+
+/* ── Profile hint ─────────────────────────────────────────── */
+.profile-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(99,255,180,0.06);
+  border: 1px solid rgba(99,255,180,0.15);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  font-family: 'Space Mono', monospace;
+}
+.hint-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* ── Fields ───────────────────────────────────────────────── */
+.field { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.field-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.4);
+}
+.field-hint {
+  font-family: 'Outfit', sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: rgba(255,255,255,0.2);
+  font-size: 0.72rem;
+}
+
+.field-input {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.88rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 0.65rem 0.9rem;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s, background 0.2s;
+}
+.field-input:focus {
+  border-color: rgba(99,255,180,0.35);
+  background: rgba(99,255,180,0.04);
+}
+.field-input::placeholder { color: rgba(255,255,255,0.2); }
+
+.field-textarea {
+  resize: vertical;
+  min-height: 110px;
+  line-height: 1.6;
+}
+
+.char-count {
+  align-self: flex-end;
+  font-size: 0.68rem;
+  font-family: 'Space Mono', monospace;
+  color: rgba(255,255,255,0.2);
+  margin-top: -2px;
+}
+
+/* ── CV recap ─────────────────────────────────────────────── */
+.cv-recap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+}
+.cv-recap-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.35);
+}
+.cv-recap-text {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* ── Boutons modal ────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--accent);
+  color: #0a0a14;
+  border: none;
+  border-radius: 10px;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background: #7fffca;
+  box-shadow: 0 0 24px rgba(99,255,180,0.3);
+  transform: translateY(-1px);
+}
+.btn-primary:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: none; }
+
+.btn-ghost {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.88rem;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-ghost:hover { border-color: rgba(255,255,255,0.25); color: #fff; }
+
+/* ── Error ────────────────────────────────────────────────── */
+.error-msg {
+  background: rgba(248,113,113,0.1);
+  border: 1px solid rgba(248,113,113,0.3);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+  color: #fca5a5;
+  font-size: 0.83rem;
+}
+
+/* ── Toast ────────────────────────────────────────────────── */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(99,255,180,0.12);
+  border: 1px solid rgba(99,255,180,0.3);
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: 'Space Mono', monospace;
+  padding: 0.65rem 1.5rem;
+  border-radius: 40px;
+  z-index: 300;
+  animation: toastIn 0.3s ease, toastOut 0.3s ease 3.2s forwards;
+  white-space: nowrap;
+  box-shadow: 0 0 30px rgba(99,255,180,0.15);
+}
+.toast-error {
+  background: rgba(248,113,113,0.1);
+  border-color: rgba(248,113,113,0.3);
+  color: #fca5a5;
+  box-shadow: 0 0 30px rgba(248,113,113,0.1);
+}
+@keyframes toastIn  { from { opacity:0; transform: translateX(-50%) translateY(10px); } to { opacity:1; transform: translateX(-50%) translateY(0); } }
+@keyframes toastOut { from { opacity:1; } to { opacity:0; } }
+
+/* ── CV upload zone ───────────────────────────────────────── */
+.cv-upload-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px dashed rgba(255,255,255,0.15);
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+.cv-upload-zone:hover {
+  border-color: rgba(99,255,180,0.35);
+  background: rgba(99,255,180,0.04);
+}
+.cv-upload-icon { font-size: 1.4rem; }
+.cv-upload-text {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.45);
+}
+.cv-upload-text u { color: var(--accent); }
+.cv-upload-formats {
+  font-size: 0.65rem;
+  font-family: 'Space Mono', monospace;
+  color: rgba(255,255,255,0.2);
+}
+
+/* ── CV sélectionné ───────────────────────────────────────── */
+.cv-selected {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(99,255,180,0.06);
+  border: 1px solid rgba(99,255,180,0.2);
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+}
+.cv-file-icon { font-size: 1.2rem; }
+.cv-file-name {
+  flex: 1;
+  font-size: 0.82rem;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cv-remove {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.3);
+  cursor: pointer;
+  font-size: 0.78rem;
+  padding: 2px 6px;
+  border-radius: 5px;
+  transition: all 0.15s;
+}
+.cv-remove:hover { color: #fca5a5; background: rgba(248,113,113,0.1); }

@@ -1,4 +1,5 @@
-<div class="job-card" [class.expanded]="expanded" (click)="toggleExpand()">
+<div class="job-card" [class.expanded]="expanded" [class.jc-applied]="applied()" (click)="toggleExpand()">
+
   <div class="card-header">
     <div class="rank-badge">#{{ job.rank }}</div>
 
@@ -7,7 +8,6 @@
       <div class="job-meta">
         <span class="meta-item">📍 {{ job.location || 'N/A' }}</span>
         <span class="meta-item">{{ remoteLabel }}</span>
-        <!-- <span class="meta-item source-badge">{{ job.source }}</span> -->
       </div>
     </div>
 
@@ -61,5 +61,77 @@
     </div>
   }
 
-  <div class="expand-hint">{{ expanded ? '▲ Réduire' : '▼ Voir détails' }}</div>
+  <!-- ── Footer : expand hint + bouton postuler ── -->
+  <div class="card-footer" (click)="$event.stopPropagation()">
+    <span class="expand-hint" (click)="toggleExpand()">
+      {{ expanded ? '▲ Réduire' : '▼ Voir détails' }}
+    </span>
+
+    <!-- Caché pour les recruteurs -->
+    @if (!isRecruiter) {
+      @if (applied()) {
+        <span class="apply-done">✓ Candidature envoyée</span>
+      } @else {
+        <button class="btn-apply" (click)="openApply($event)">
+          Postuler →
+        </button>
+      }
+    }
+  </div>
+
+  <!-- ── Inline panel de candidature ── -->
+  @if (applyOpen()) {
+    <div class="apply-panel" (click)="$event.stopPropagation()">
+
+      <div class="apply-panel-header">
+        <span class="apply-panel-title">Votre candidature</span>
+        <button class="apply-close" (click)="closeApply($event)">✕</button>
+      </div>
+
+      <!-- Non connecté -->
+      @if (!isLoggedIn) {
+        <div class="apply-login-prompt">
+          <span>🔐 Connectez-vous pour postuler à cette offre</span>
+        </div>
+      } @else {
+
+        <!-- Profil hint -->
+        @if (auth.currentUser()?.skills) {
+          <div class="apply-profile-hint">
+            <span class="hint-dot"></span>
+            {{ auth.currentUser()?.experience_level || 'Profil' }}
+            · {{ auth.currentUser()!.skills!.split(',').slice(0,2).join(', ') }}…
+          </div>
+        }
+
+        <!-- Textarea -->
+        <div class="apply-field">
+          <label class="apply-label">
+            Message <span class="apply-optional">(optionnel)</span>
+          </label>
+          <textarea
+            class="apply-textarea"
+            [(ngModel)]="coverLetter"
+            placeholder="Quelques mots sur votre motivation…"
+            rows="3"
+            maxlength="1000"
+            (click)="$event.stopPropagation()">
+          </textarea>
+          <span class="apply-char">{{ coverLetter.length }}/1000</span>
+        </div>
+
+        @if (applyError()) {
+          <div class="apply-error">⚠️ {{ applyError() }}</div>
+        }
+
+        <div class="apply-actions">
+          <button class="apply-cancel" (click)="closeApply($event)">Annuler</button>
+          <button class="apply-submit" (click)="submitApply($event)" [disabled]="applying()">
+            {{ applying() ? '⏳ Envoi…' : 'Envoyer' }}
+          </button>
+        </div>
+      }
+    </div>
+  }
+
 </div>

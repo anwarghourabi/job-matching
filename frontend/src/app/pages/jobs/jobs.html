@@ -4,9 +4,11 @@
       <h1>Offres d'emploi</h1>
       <p>{{ total() | number }} offres disponibles</p>
     </div>
-    <button class="btn-manage" (click)="showCrudModal = true">
-       Gérer les offres
-    </button>
+    @if (auth.isLoggedIn() && auth.currentUser()?.role === 'recruteur') {
+      <button class="btn-manage" (click)="showCrudModal = true">
+        ⚙ Gérer les offres
+      </button>
+    }
   </div>
 
   <div class="toolbar">
@@ -27,12 +29,6 @@
     </div>
 
     <div class="filters">
-      <!-- <select [(ngModel)]="filters.source" (change)="applyFilters()" class="filter-select">
-        <option value="">Toutes les sources</option>
-        <option value="kaggle">Kaggle</option>
-        <option value="linkedin">LinkedIn</option>
-        <option value="indeed">Indeed</option>
-      </select> -->
       <select [(ngModel)]="filters.level" (change)="applyFilters()" class="filter-select">
         <option value="">Tous niveaux</option>
         <option value="entry">Entry</option>
@@ -62,8 +58,15 @@
   } @else {
     <div class="jobs-grid">
       @for (job of displayedJobs; track $index) {
-        <div class="job-row">
+        <div class="job-row" [class.applied]="isApplied(job.job_title)">
+
+          <!-- Badge "Déjà postulé" -->
+          @if (isApplied(job.job_title)) {
+            <span class="applied-badge">✓ Postulé</span>
+          }
+
           <div class="jr-title">{{ job.job_title }}</div>
+
           <div class="jr-meta">
             <span>📍 {{ job.location || 'N/A' }}</span>
             <span class="level-badge">{{ job.experience_level }}</span>
@@ -72,6 +75,20 @@
               <span class="salary">💰 {{ job.salary_usd | currency:'USD':'symbol':'1.0-0' }}</span>
             }
           </div>
+
+          <!-- Bouton postuler — visible seulement pour candidat ou guest -->
+          @if (auth.currentUser()?.role !== 'recruteur') {
+            <div class="jr-footer">
+              <button
+                class="btn-apply"
+                [class.btn-applied]="isApplied(job.job_title)"
+                [disabled]="isApplied(job.job_title)"
+                (click)="openApply(job)">
+                {{ isApplied(job.job_title) ? '✓ Candidature envoyée' : 'Postuler →' }}
+              </button>
+            </div>
+          }
+
         </div>
       }
       @empty {
@@ -93,6 +110,129 @@
     }
   }
 </div>
+
+<!-- ══════════════════════════════════════════════════════
+     MODAL POSTULER
+══════════════════════════════════════════════════════ -->
+@if (applyModal.open) {
+  <div class="modal-overlay" (click)="closeApply()"></div>
+
+  <div class="modal-container">
+    <div class="modal-header">
+      <div>
+        <span class="modal-tag">Candidature</span>
+        <h2 class="modal-title">{{ applyModal.job?.job_title }}</h2>
+        <div class="modal-meta">
+          @if (applyModal.job?.location) {
+            <span>📍 {{ applyModal.job?.location }}</span>
+          }
+          @if (applyModal.job?.salary_usd > 0) {
+            <span>💰 {{ applyModal.job?.salary_usd | currency:'USD':'symbol':'1.0-0' }}</span>
+          }
+          <span class="remote-badge">{{ remoteLabel(applyModal.job?.remote_ratio) }}</span>
+        </div>
+      </div>
+      <button class="btn-close" (click)="closeApply()">✕</button>
+    </div>
+
+    <div class="modal-body">
+
+      <!-- Si non connecté -->
+      @if (!auth.isLoggedIn()) {
+        <div class="login-prompt">
+          <div class="login-prompt-icon">🔐</div>
+          <p>Connectez-vous pour postuler à cette offre</p>
+          <button class="btn-primary" (click)="closeApply(); showAuthModal = true">
+            Se connecter / S'inscrire
+          </button>
+        </div>
+      } @else {
+
+        <!-- Profil détecté -->
+        @if (auth.currentUser()?.skills) {
+          <div class="profile-hint">
+            <span class="hint-dot"></span>
+            Profil détecté · {{ auth.currentUser()?.experience_level || 'Non renseigné' }}
+            @if (auth.currentUser()?.skills) {
+              · {{ auth.currentUser()!.skills!.split(',').slice(0,3).join(', ') }}…
+            }
+          </div>
+        }
+
+        <!-- Lettre de motivation -->
+        <div class="field">
+          <label class="field-label">
+            Message de motivation
+            <span class="field-hint">(optionnel)</span>
+          </label>
+          <textarea
+            class="field-input field-textarea"
+            [(ngModel)]="applyModal.coverLetter"
+            placeholder="Décrivez en quelques lignes pourquoi vous êtes le bon candidat…"
+            rows="5">
+          </textarea>
+          <span class="char-count">{{ applyModal.coverLetter.length }} / 1000</span>
+        </div>
+
+        <!-- Récap CV -->
+        @if (auth.currentUser()?.cv_text) {
+          <!-- <div class="cv-recap">
+            <span class="cv-recap-label">📄 CV enregistré</span>
+            <span class="cv-recap-text">{{ auth.currentUser()?.cv_text?.slice(0, 80) }}…</span>
+          </div> -->
+          <div class="field">
+            <label class="field-label">
+              Glisse ton CV ici 
+            </label>
+
+            @if (!selectedCv()) {
+              <label class="cv-upload-zone">
+                <input type="file" accept=".pdf,.docx,.doc,.txt"
+                      (change)="onCvChange($event)" style="display:none" #cvInput />
+                <span class="cv-upload-icon">📎</span>
+                <span class="cv-upload-text">Glisser ou <u>parcourir</u></span>
+                <span class="cv-upload-formats">PDF · DOCX · DOC · TXT</span>
+              </label>
+            } @else {
+              <div class="cv-selected">
+                <span class="cv-file-icon">
+                  {{ selectedCv()!.name.endsWith('.pdf') ? '📕' : '📘' }}
+                </span>
+                <span class="cv-file-name">{{ selectedCv()!.name }}</span>
+                <button class="cv-remove" (click)="removeCv()">✕</button>
+              </div>
+            }
+          </div>
+        }
+
+        @if (applyError()) {
+          <div class="error-msg">⚠️ {{ applyError() }}</div>
+        }
+      }
+    </div>
+
+    @if (auth.isLoggedIn()) {
+      <div class="modal-footer">
+        <button class="btn-ghost" (click)="closeApply()">Annuler</button>
+        <button class="btn-primary" (click)="submitApply()" [disabled]="applying()">
+          {{ applying() ? '⏳ Envoi…' : ' Envoyer ma candidature' }}
+        </button>
+      </div>
+    }
+  </div>
+}
+
+<!-- Toast -->
+@if (toast()) {
+  <div class="toast" [class.toast-error]="toast()!.type === 'error'">
+    {{ toast()!.msg }}
+  </div>
+}
+
+<!-- Modal auth (si non connecté) -->
+@if (showAuthModal) {
+  <app-auth-modal (closed)="onAuthClosed()"></app-auth-modal>
+}
 
 <!-- Modal CRUD -->
 @if (showCrudModal) {

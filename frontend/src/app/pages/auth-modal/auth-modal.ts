@@ -14,8 +14,9 @@ export class AuthModalComponent {
   @Output() closed = new EventEmitter<void>();
 
   mode: 'login' | 'signup' = 'login';
-  signupStep: 'form' | 'verify' = 'form';
+  signupStep: 'role' | 'form' | 'verify' = 'role';
 
+  selectedRole: 'candidate' | 'recruiter' | null = null;
   loading = signal(false);
   error = signal('');
   success = signal('');
@@ -35,6 +36,15 @@ export class AuthModalComponent {
 
   constructor(private auth: AuthService) {}
 
+  selectRole(role: 'candidate' | 'recruiter') {
+    this.selectedRole = role;
+  }
+
+  goToForm() {
+    if (!this.selectedRole) return;
+    this.signupStep = 'form';
+    this.error.set('');
+  }
   submit() {
     this.error.set('');
     this.loading.set(true);
@@ -53,13 +63,10 @@ export class AuthModalComponent {
       }
       this.auth.sendVerificationCode(
         this.form.email, this.form.password,
-        this.form.confirm_password, this.form.full_name
+        this.form.confirm_password, this.form.full_name,
+        this.selectedRole!   // ← transmettre le rôle
       ).subscribe({
-        next: () => {
-          this.loading.set(false);
-          this.signupStep = 'verify';
-          this.success.set(`Code envoyé à ${this.form.email}`);
-        },
+        next:  () => { this.loading.set(false); this.signupStep = 'verify'; this.success.set(`Code envoyé à ${this.form.email}`); },
         error: (e) => { this.error.set(e.error?.detail || 'Erreur'); this.loading.set(false); }
       });
     }
@@ -80,16 +87,18 @@ export class AuthModalComponent {
     this.loading.set(true);
     this.auth.sendVerificationCode(
       this.form.email, this.form.password,
-      this.form.confirm_password, this.form.full_name
+      this.form.confirm_password, this.form.full_name,
+      this.selectedRole!
     ).subscribe({
-      next: () => { this.loading.set(false); this.success.set('Nouveau code envoyé !'); },
+      next:  () => { this.loading.set(false); this.success.set('Nouveau code envoyé !'); },
       error: (e) => { this.error.set(e.error?.detail || 'Erreur'); this.loading.set(false); }
     });
   }
 
   switchMode() {
     this.mode = this.mode === 'login' ? 'signup' : 'login';
-    this.signupStep = 'form';
+    this.signupStep = 'role';           // ← reset à l'étape rôle
+    this.selectedRole = null;
     this.error.set('');
     this.success.set('');
     this.form = { email: '', password: '', confirm_password: '', full_name: '' };

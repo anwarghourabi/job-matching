@@ -1,12 +1,12 @@
 import { Component, OnInit, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AuthService } from '../../core/services/auth';
-import { Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-recommendations',
   standalone: true,
-  imports: [CommonModule ,RouterLink, RouterLinkActive],
+  imports: [CommonModule ,RouterLink],
   templateUrl: './recommendations.html',
   styleUrls: ['./recommendations.css']
 })

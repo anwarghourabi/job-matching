@@ -177,3 +177,175 @@
   transition: color 0.2s;
 }
 .btn-back:hover { color: rgba(255,255,255,0.7); }
+
+/* ── Étape sélection du rôle ── */
+.role-intro {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 0.25rem;
+}
+
+.role-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.role-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.role-card:hover {
+  background: rgba(99,255,180,0.05);
+  border-color: rgba(99,255,180,0.2);
+}
+.role-card.selected {
+  background: rgba(99,255,180,0.08);
+  border-color: rgba(99,255,180,0.5);
+  box-shadow: 0 0 0 1px rgba(99,255,180,0.18);
+}
+
+.role-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.role-icon-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+.role-card.selected .role-icon-wrap {
+  background: rgba(99,255,180,0.1);
+  border-color: rgba(99,255,180,0.3);
+}
+
+.role-check {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: transparent;
+  transition: all 0.2s;
+}
+.role-card.selected .role-check {
+  background: #63ffb4;
+  border-color: #63ffb4;
+  color: #0a0a14;
+}
+
+.role-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+  transition: color 0.2s;
+}
+.role-card.selected .role-label { color: #63ffb4; }
+
+.role-badge {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 20px;
+  width: fit-content;
+}
+.badge-candidate {
+  background: rgba(99,255,180,0.1);
+  border: 1px solid rgba(99,255,180,0.25);
+  color: #63ffb4;
+}
+.badge-recruiter {
+  background: rgba(139,92,246,0.1);
+  border: 1px solid rgba(139,92,246,0.25);
+  color: #a78bfa;
+}
+
+.role-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+}
+.role-features li {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.35);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.role-features li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: rgba(255,255,255,0.12);
+  transition: background 0.2s;
+}
+.role-card.selected .role-features li {
+  color: rgba(255,255,255,0.6);
+}
+.role-card.selected .role-features li::before {
+  background: #63ffb4;
+}
+
+/* ── Pill "rôle sélectionné" affichée dans l'étape formulaire ── */
+.selected-role-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(99,255,180,0.06);
+  border: 1px solid rgba(99,255,180,0.18);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.45);
+  font-family: 'Space Mono', monospace;
+}
+.selected-role-pill .pill-role {
+  color: #63ffb4;
+  font-weight: 700;
+}
+.selected-role-pill .pill-change {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.72rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.selected-role-pill .pill-change:hover {
+  color: rgba(255,255,255,0.7);
+}

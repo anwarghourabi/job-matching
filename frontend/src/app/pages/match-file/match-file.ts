@@ -89,6 +89,9 @@ export class MatchFileComponent {
             desired_location: this.params.desired_location || undefined,
           }).subscribe();
 
+           // ← Uploader le fichier CV binaire
+          this.auth.uploadCv(file).subscribe();
+
           // Historique top 5
           r.results.slice(0, 5).forEach(job => {
             this.auth.addToHistory({

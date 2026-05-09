@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { adminGuard } from './core/guards/admin-guard';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,10 +23,18 @@ export const routes: Routes = [
     path: 'stats',
     loadComponent: () => import('./pages/stats/stats').then(m => m.StatsComponent)
   },
-
-  { path: 'recommendations', 
+  {
+    path: 'crud/jobs',
+    loadComponent: () => import('./pages/manage-jobs/manage-jobs').then(m => m.ManageJobsComponent)
+  },
+  {
+    path: 'recommendations',
     loadComponent: () => import('./pages/recommendations/recommendations').then(m => m.RecommendationsComponent)
   },
+  {
+    path: 'admin',                          // ← ajouter
+    loadComponent: () => import('./pages/admin/admin').then(m => m.AdminComponent),
+    canActivate: [adminGuard]
+  },
   { path: '**', redirectTo: 'home' },
-
 ];

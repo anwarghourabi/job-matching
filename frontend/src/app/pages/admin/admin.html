@@ -1,0 +1,407 @@
+<div class="admin-page">
+
+  <!-- ── Sidebar ─────────────────────────────────────────── -->
+  <aside class="admin-sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-icon">⚡</span>
+      <div>
+        <span class="brand-name">JobMatch<em>AI</em></span>
+        <span class="brand-sub">Admin Panel</span>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <button class="sidebar-item" [class.active]="activeTab() === 'dashboard'"
+              (click)="switchTab('dashboard')">
+        <span class="si-icon">📊</span> Dashboard
+      </button>
+      <button class="sidebar-item" [class.active]="activeTab() === 'users'"
+              (click)="switchTab('users')">
+        <span class="si-icon">👥</span> Utilisateurs
+        @if (dashboard()) {
+          <span class="si-badge">{{ dashboard().users.total }}</span>
+        }
+      </button>
+      <button class="sidebar-item" [class.active]="activeTab() === 'jobs'"
+              (click)="switchTab('jobs')">
+        <span class="si-icon">💼</span> Offres
+        @if (dashboard()) {
+          <span class="si-badge">{{ dashboard().jobs }}</span>
+        }
+      </button>
+      <button class="sidebar-item" [class.active]="activeTab() === 'applications'"
+              (click)="switchTab('applications')">
+        <span class="si-icon">📋</span> Candidatures
+        @if (dashboard()) {
+          <span class="si-badge pending">{{ dashboard().applications.pending }}</span>
+        }
+      </button>
+    </nav>
+
+    <a routerLink="/home" class="sidebar-back">← Retour au site</a>
+  </aside>
+
+  <!-- ── Main content ────────────────────────────────────── -->
+  <main class="admin-main">
+
+    <!-- ════════════════════════════════════════════════════
+         DASHBOARD
+    ════════════════════════════════════════════════════ -->
+    @if (activeTab() === 'dashboard') {
+      <div class="admin-section">
+        <div class="section-header">
+          <h1 class="section-title">Dashboard</h1>
+          <button class="btn-refresh" (click)="loadDashboard()">↻ Actualiser</button>
+        </div>
+
+        @if (loadingDash()) {
+          <div class="admin-loading"><div class="loader-ring"></div><span>Chargement…</span></div>
+        } @else if (dashboard()) {
+
+          <!-- KPI row 1 — Users -->
+          <div class="kpi-section-label">Utilisateurs</div>
+          <div class="kpi-row">
+            <div class="kpi-card accent-green">
+              <span class="kpi-icon">👥</span>
+              <span class="kpi-val">{{ dashboard().users.total }}</span>
+              <span class="kpi-lbl">Total</span>
+            </div>
+            <div class="kpi-card accent-blue">
+              <span class="kpi-icon">👤</span>
+              <span class="kpi-val">{{ dashboard().users.candidates }}</span>
+              <span class="kpi-lbl">Candidats</span>
+            </div>
+            <div class="kpi-card accent-purple">
+              <span class="kpi-icon">🏢</span>
+              <span class="kpi-val">{{ dashboard().users.recruiters }}</span>
+              <span class="kpi-lbl">Recruteurs</span>
+            </div>
+            <div class="kpi-card">
+              <span class="kpi-icon">💼</span>
+              <span class="kpi-val">{{ dashboard().jobs }}</span>
+              <span class="kpi-lbl">Offres publiées</span>
+            </div>
+          </div>
+
+          <!-- KPI row 2 — Applications -->
+          <div class="kpi-section-label">Candidatures</div>
+          <div class="kpi-row">
+            <div class="kpi-card">
+              <span class="kpi-icon">📋</span>
+              <span class="kpi-val">{{ dashboard().applications.total }}</span>
+              <span class="kpi-lbl">Total</span>
+            </div>
+            <div class="kpi-card accent-yellow">
+              <span class="kpi-icon">⏳</span>
+              <span class="kpi-val">{{ dashboard().applications.pending }}</span>
+              <span class="kpi-lbl">En attente</span>
+            </div>
+            <div class="kpi-card accent-green">
+              <span class="kpi-icon">✅</span>
+              <span class="kpi-val">{{ dashboard().applications.accepted }}</span>
+              <span class="kpi-lbl">Acceptées</span>
+            </div>
+            <div class="kpi-card accent-red">
+              <span class="kpi-icon">❌</span>
+              <span class="kpi-val">{{ dashboard().applications.rejected }}</span>
+              <span class="kpi-lbl">Rejetées</span>
+            </div>
+          </div>
+
+          <!-- Activité 7 jours -->
+          <div class="dash-charts">
+            <div class="dash-chart-card">
+              <h3>Inscriptions — 7 derniers jours</h3>
+              @if (dashboard().registrations_7d.length === 0) {
+                <p class="no-data">Aucune inscription récente</p>
+              } @else {
+                <div class="mini-bars">
+                  @for (d of dashboard().registrations_7d; track d.day) {
+                    <div class="mini-bar-col">
+                        <div class="mini-bar"
+                            [style.height]="barWidth(d.count, maxRegistrations)">
+                        </div>
+                      <span class="mini-bar-val">{{ d.count }}</span>
+                      <span class="mini-bar-lbl">{{ d.day | slice:5 }}</span>
+                    </div>
+                  }
+                </div>
+              }
+            </div>
+
+            <div class="dash-chart-card">
+              <h3>Candidatures — 7 derniers jours</h3>
+              @if (dashboard().applications_7d.length === 0) {
+                <p class="no-data">Aucune candidature récente</p>
+              } @else {
+                <div class="mini-bars">
+                  @for (d of dashboard().applications_7d; track d.day) {
+                    <div class="mini-bar-col">
+                        <div class="mini-bar accent-purple-bar"
+                            [style.height]="barWidth(d.count, maxApplications)">
+                        </div>
+                      <span class="mini-bar-val">{{ d.count }}</span>
+                      <span class="mini-bar-lbl">{{ d.day | slice:5 }}</span>
+                    </div>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Corpus stats -->
+            @if (corpusStats()) {
+              <div class="dash-chart-card">
+                <h3>Corpus d'offres</h3>
+                <div class="corpus-kpis">
+                  <div class="corpus-item">
+                    <span class="corpus-val">{{ corpusStats()!.total_jobs | number }}</span>
+                    <span class="corpus-lbl">Offres indexées</span>
+                  </div>
+                  <div class="corpus-item">
+                    <span class="corpus-val">{{ corpusStats()!.jobs_remote | number }}</span>
+                    <span class="corpus-lbl">Full Remote</span>
+                  </div>
+                  <div class="corpus-item">
+                    <span class="corpus-val">{{ corpusStats()!.unique_locations | number }}</span>
+                    <span class="corpus-lbl">Localisations</span>
+                  </div>
+                  <div class="corpus-item">
+                    <span class="corpus-val">{{ corpusStats()!.unique_titles | number }}</span>
+                    <span class="corpus-lbl">Titres uniques</span>
+                  </div>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    }
+
+    <!-- ════════════════════════════════════════════════════
+         USERS
+    ════════════════════════════════════════════════════ -->
+    @if (activeTab() === 'users') {
+      <div class="admin-section">
+        <div class="section-header">
+          <h1 class="section-title">Utilisateurs <span class="section-count">{{ usersTotal() }}</span></h1>
+        </div>
+
+        <!-- Toolbar -->
+        <div class="admin-toolbar">
+          <div class="search-wrap">
+            <span class="search-icon">⌕</span>
+            <input class="search-input" placeholder="Rechercher nom ou email…"
+                   [(ngModel)]="usersSearch" (keyup.enter)="usersPage.set(1); loadUsers()" />
+          </div>
+          <select class="filter-select" [(ngModel)]="usersRole" (change)="usersPage.set(1); loadUsers()">
+            <option value="">Tous les rôles</option>
+            <option value="candidat">Candidats</option>
+            <option value="recruteur">Recruteurs</option>
+          </select>
+          <button class="btn-search" (click)="usersPage.set(1); loadUsers()">Rechercher</button>
+        </div>
+
+        @if (loadingUsers()) {
+          <div class="admin-loading"><div class="loader-ring"></div></div>
+        } @else {
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Utilisateur</th>
+                  <th>Email</th>
+                  <th>Rôle</th>
+                  <th>Niveau</th>
+                  <th>Inscription</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (u of users(); track u.id) {
+                  <tr [class.deleting]="deletingUserId() === u.id">
+                    <td>
+                      <div class="user-cell">
+                        <div class="user-avatar">{{ u.full_name.slice(0,2).toUpperCase() }}</div>
+                        <span>{{ u.full_name }}</span>
+                      </div>
+                    </td>
+                    <td class="muted">{{ u.email }}</td>
+                    <td>
+                      <select class="role-select"
+                              [value]="u.role"
+                              (change)="updateRole(u, $any($event.target).value)">
+                        <option value="candidat">Candidat</option>
+                        <option value="recruteur">Recruteur</option>
+                      </select>
+                    </td>
+                    <td><span class="level-chip">{{ u.experience_level || '—' }}</span></td>
+                    <td class="muted mono">{{ u.created_at | date:'dd/MM/yyyy' }}</td>
+                    <td>
+                      <button class="btn-del" (click)="deleteUser(u)"
+                              [disabled]="deletingUserId() === u.id">
+                        {{ deletingUserId() === u.id ? '…' : '🗑' }}
+                      </button>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Pagination -->
+          <div class="admin-pagination">
+            <button class="page-btn" (click)="usersGoTo(usersPage()-1)" [disabled]="usersPage()===1">‹</button>
+            @for (p of userPageNumbers; track p) {
+              <button class="page-btn" [class.active]="p===usersPage()" (click)="usersGoTo(p)">{{ p }}</button>
+            }
+            <button class="page-btn" (click)="usersGoTo(usersPage()+1)" [disabled]="usersPage()===usersPages()">›</button>
+            <span class="page-info">{{ usersPage() }} / {{ usersPages() }}</span>
+          </div>
+        }
+      </div>
+    }
+
+    <!-- ════════════════════════════════════════════════════
+         JOBS
+    ════════════════════════════════════════════════════ -->
+    @if (activeTab() === 'jobs') {
+      <div class="admin-section">
+        <div class="section-header">
+          <h1 class="section-title">Offres publiées <span class="section-count">{{ jobsTotal() }}</span></h1>
+        </div>
+
+        <div class="admin-toolbar">
+          <div class="search-wrap">
+            <span class="search-icon">⌕</span>
+            <input class="search-input" placeholder="Rechercher titre ou lieu…"
+                   [(ngModel)]="jobsSearch" (keyup.enter)="jobsPage.set(1); loadJobs()" />
+          </div>
+          <button class="btn-search" (click)="jobsPage.set(1); loadJobs()">Rechercher</button>
+        </div>
+
+        @if (loadingJobs()) {
+          <div class="admin-loading"><div class="loader-ring"></div></div>
+        } @else {
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Titre</th>
+                  <th>Recruteur</th>
+                  <th>Lieu</th>
+                  <th>Niveau</th>
+                  <th>Salaire</th>
+                  <th>Date</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (j of adminJobs(); track j.id) {
+                  <tr [class.deleting]="deletingJobId() === j.id">
+                    <td class="job-title-cell">{{ j.job_title }}</td>
+                    <td>
+                      <div class="recruiter-cell">
+                        <span>{{ j.recruiter_name }}</span>
+                        <span class="muted mono small">{{ j.recruiter_email }}</span>
+                      </div>
+                    </td>
+                    <td class="muted">{{ j.location || '—' }}</td>
+                    <td><span class="level-chip">{{ j.experience_level || '—' }}</span></td>
+                    <td class="accent mono">{{ formatSalary(j.salary_usd) }}</td>
+                    <td class="muted mono">{{ j.created_at | date:'dd/MM/yyyy' }}</td>
+                    <td>
+                      <button class="btn-del" (click)="deleteJob(j)"
+                              [disabled]="deletingJobId() === j.id">
+                        {{ deletingJobId() === j.id ? '…' : '🗑' }}
+                      </button>
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+
+          <div class="admin-pagination">
+            <button class="page-btn" (click)="jobsGoTo(jobsPage()-1)" [disabled]="jobsPage()===1">‹</button>
+            @for (p of jobPageNumbers; track p) {
+              <button class="page-btn" [class.active]="p===jobsPage()" (click)="jobsGoTo(p)">{{ p }}</button>
+            }
+            <button class="page-btn" (click)="jobsGoTo(jobsPage()+1)" [disabled]="jobsPage()===jobsPages()">›</button>
+            <span class="page-info">{{ jobsPage() }} / {{ jobsPages() }}</span>
+          </div>
+        }
+      </div>
+    }
+
+    <!-- ════════════════════════════════════════════════════
+         APPLICATIONS
+    ════════════════════════════════════════════════════ -->
+    @if (activeTab() === 'applications') {
+      <div class="admin-section">
+        <div class="section-header">
+          <h1 class="section-title">Candidatures <span class="section-count">{{ appsTotal() }}</span></h1>
+        </div>
+
+        <div class="admin-toolbar">
+          <select class="filter-select" [(ngModel)]="appsStatus" (change)="appsPage.set(1); loadApplications()">
+            <option value="">Tous les statuts</option>
+            <option value="envoyée">En attente</option>
+            <option value="acceptée">Acceptées</option>
+            <option value="rejetée">Rejetées</option>
+          </select>
+        </div>
+
+        @if (loadingApps()) {
+          <div class="admin-loading"><div class="loader-ring"></div></div>
+        } @else {
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Candidat</th>
+                  <th>Email</th>
+                  <th>Offre</th>
+                  <th>Statut</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (a of adminApps(); track a.id) {
+                  <tr>
+                    <td>
+                      <div class="user-cell">
+                        <div class="user-avatar small">{{ a.candidate_name.slice(0,2).toUpperCase() }}</div>
+                        {{ a.candidate_name }}
+                      </div>
+                    </td>
+                    <td class="muted mono small">{{ a.candidate_email }}</td>
+                    <td class="job-title-cell">{{ a.job_title }}</td>
+                    <td>
+                      <span class="status-badge" [class]="statusClass(a.status)">{{ a.status }}</span>
+                    </td>
+                    <td class="muted mono">{{ a.applied_at | date:'dd/MM/yyyy HH:mm' }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+
+          <div class="admin-pagination">
+            <button class="page-btn" (click)="appsGoTo(appsPage()-1)" [disabled]="appsPage()===1">‹</button>
+            @for (p of appPageNumbers; track p) {
+              <button class="page-btn" [class.active]="p===appsPage()" (click)="appsGoTo(p)">{{ p }}</button>
+            }
+            <button class="page-btn" (click)="appsGoTo(appsPage()+1)" [disabled]="appsPage()===appsPages()">›</button>
+            <span class="page-info">{{ appsPage() }} / {{ appsPages() }}</span>
+          </div>
+        }
+      </div>
+    }
+
+  </main>
+</div>
+
+<!-- Toast -->
+@if (toast()) {
+  <div class="toast" [class.toast-error]="toast()!.type === 'error'">{{ toast()!.msg }}</div>
+}

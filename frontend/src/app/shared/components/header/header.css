@@ -213,3 +213,61 @@
   .user-name { display: none; }
   .user-menu .nav-link { display: none; }
 }
+
+/* ── User info bloc ───────────────────────────────────────── */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.role-indicator {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.user-role {
+  font-size: 0.6rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.recruiter-indicator ~ .user-details .user-role {
+  color: #a78bfa; /* violet pour recruteur */
+}
+
+.candidate-indicator ~ .user-details .user-role {
+  color: var(--accent); /* vert pour candidat */
+}
+
+/* Fallback direct si le sélecteur ~ ne fonctionne pas */
+.user-menu:has(.recruiter-indicator) .user-role {
+  color: #a78bfa;
+}
+.user-menu:has(.candidate-indicator) .user-role {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .user-details { display: none; }
+  .role-indicator { font-size: 1.2rem; }
+}
+.role-admin { color: #fbbf24; }  /* jaune/or pour admin */
+
+.admin-link {
+  border-color: rgba(251,191,36,0.3) !important;
+  background: rgba(251,191,36,0.07) !important;
+  color: #fbbf24 !important;
+}
+.admin-link:hover {
+  background: rgba(251,191,36,0.15) !important;
+  border-color: rgba(251,191,36,0.5) !important;
+}

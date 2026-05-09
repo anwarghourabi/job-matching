@@ -4,24 +4,73 @@
   <div class="modal-header">
     <h2>
       {{ mode === 'login' ? '🔐 Connexion' :
-         signupStep === 'form' ? '✨ Créer un compte' : '📧 Vérification' }}
+         signupStep === 'role' ? '👋 Créer un compte' :
+         signupStep === 'form' ? '✨ Informations' : '📧 Vérification' }}
     </h2>
     <button class="btn-close" (click)="close()">✕</button>
   </div>
 
   <div class="modal-body">
 
-    <!-- TABS -->
-    <div class="auth-tabs" *ngIf="signupStep === 'form'">
+    <!-- TABS (uniquement si pas sur l'étape role) -->
+    <div class="auth-tabs" *ngIf="mode === 'login' || signupStep === 'form'">
       <button [class.active]="mode === 'login'"
               (click)="mode = 'login'; error.set(''); success.set('')">
         Connexion
       </button>
       <button [class.active]="mode === 'signup'"
-              (click)="mode = 'signup'; error.set(''); success.set('')">
+              (click)="mode = 'signup'; signupStep = 'role'; selectedRole = null; error.set(''); success.set('')">
         Inscription
       </button>
     </div>
+
+    <!-- ══════════════════════════════════
+         ÉTAPE 0 — SÉLECTION DU RÔLE
+    ══════════════════════════════════ -->
+    @if (mode === 'signup' && signupStep === 'role') {
+      <p class="role-intro">Bienvenue ! Quel est votre profil ?</p>
+
+      <div class="role-cards">
+
+        <div class="role-card"
+             [class.selected]="selectedRole === 'candidate'"
+             (click)="selectRole('candidate')">
+          <div class="role-icon">👤</div>
+          <div class="role-label">Candidat</div>
+          <span class="role-badge badge-candidate">Job seeker</span>
+          <ul class="role-features">
+            <li>Matching CV automatique</li>
+            <li>Postuler aux offres</li>
+            <li>Recommandations IA</li>
+            <li>Historique des matchs</li>
+          </ul>
+        </div>
+
+        <div class="role-card"
+             [class.selected]="selectedRole === 'recruiter'"
+             (click)="selectRole('recruiter')">
+          <div class="role-icon">🏢</div>
+          <div class="role-label">Recruteur</div>
+          <span class="role-badge badge-recruiter">Employer</span>
+          <ul class="role-features">
+            <li>Publier des offres</li>
+            <li>Gérer les candidatures</li>
+            <li>Modifier / supprimer</li>
+            <li>Dashboard CRUD</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <button class="btn-primary" (click)="goToForm()" [disabled]="!selectedRole">
+        Continuer en tant que {{ selectedRole === 'recruiter' ? 'Recruteur' : 'Candidat' }} →
+      </button>
+
+      <p class="switch-text">
+        Déjà un compte ?
+        <button class="link-btn" (click)="mode = 'login'; error.set('')">Se connecter</button>
+      </p>
+    }
 
     <!-- ══════════════════════════════════
          LOGIN
@@ -55,6 +104,10 @@
          SIGNUP — ÉTAPE 1 : Formulaire
     ══════════════════════════════════ -->
     @if (mode === 'signup' && signupStep === 'form') {
+      <div class="selected-role-badge">
+        {{ selectedRole === 'recruiter' ? '🏢 Recruteur' : '👤 Candidat' }}
+        <button class="link-btn" (click)="signupStep = 'role'">Changer</button>
+      </div>
       <div class="form-group">
         <label>Nom complet</label>
         <input [(ngModel)]="form.full_name" placeholder="Ex: Anwar Ghourabi" />

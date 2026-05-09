@@ -110,4 +110,35 @@ export class ApiService {
     const token = localStorage.getItem('token');
     return token ? { Authorization: `Bearer ${token}` } : {};
   }
+
+  applyToJob(data: {
+    job_title:    string;
+    job_source:   string;
+    job_location: string;
+    salary_usd:   number;
+    cover_letter: string;
+  }): Observable<any> {
+    return this.http.post(`${this.BASE}/auth/apply`, data, { headers: this.authHeaders() });
+  }
+  
+  getApplications(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.BASE}/auth/applications`, { headers: this.authHeaders() });
+  }
+
+  getRecruiterApplications(): Observable<any[]> {
+    return this.http.get<any[]>(
+      `${this.BASE}/auth/recruiter/applications`,
+      { headers: this.authHeaders() }
+    );
+  }
+ 
+  updateApplicationStatus(appId: number, status: 'acceptée' | 'rejetée'): Observable<any> {
+    return this.http.put(
+      `${this.BASE}/auth/recruiter/applications/${appId}`,
+      { status },
+      { headers: this.authHeaders() }
+    );
+  }
+
+  
 }

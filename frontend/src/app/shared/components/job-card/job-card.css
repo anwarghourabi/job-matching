@@ -196,3 +196,243 @@
   margin-top: 0.75rem;
   letter-spacing: 0.5px;
 }
+/* ══════════════════════════════════════════════════════════
+   AJOUTS CSS — Bouton postuler + panel inline
+   À ajouter à la fin de job-card.css
+══════════════════════════════════════════════════════════ */
+
+/* ── Card état postulé ────────────────────────────────────── */
+.job-card.jc-applied {
+  border-color: rgba(99,255,180,0.25) !important;
+}
+.job-card.jc-applied::before {
+  /* Si tu as déjà un ::before sur .job-card, adapte selon ton CSS */
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(99,255,180,0.5), transparent);
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ── Bouton Postuler ──────────────────────────────────────── */
+.btn-apply {
+  background: var(--accent, #63ffb4);
+  color: #0a0a14;
+  border: none;
+  border-radius: 7px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.btn-apply:hover {
+  background: #7fffca;
+  box-shadow: 0 0 14px rgba(99,255,180,0.3);
+  transform: translateY(-1px);
+}
+
+/* ── Badge "Candidature envoyée" ──────────────────────────── */
+.apply-done {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent, #63ffb4);
+  background: rgba(99,255,180,0.08);
+  border: 1px solid rgba(99,255,180,0.2);
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+/* ── Panel inline ─────────────────────────────────────────── */
+.apply-panel {
+  margin-top: 0.75rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(99,255,180,0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  animation: panelIn 0.2s ease;
+}
+@keyframes panelIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.apply-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apply-panel-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent, #63ffb4);
+}
+
+.apply-close {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.3);
+  cursor: pointer;
+  font-size: 0.78rem;
+  padding: 2px 6px;
+  border-radius: 5px;
+  transition: all 0.15s;
+}
+.apply-close:hover { color: #fca5a5; background: rgba(248,113,113,0.1); }
+
+/* ── Prompt non connecté ──────────────────────────────────── */
+.apply-login-prompt {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 8px;
+  padding: 0.65rem 0.9rem;
+  text-align: center;
+}
+
+/* ── Profil hint ──────────────────────────────────────────── */
+.apply-profile-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.4);
+  font-family: 'Space Mono', monospace;
+  background: rgba(99,255,180,0.05);
+  border: 1px solid rgba(99,255,180,0.12);
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+}
+.hint-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent, #63ffb4);
+  box-shadow: 0 0 5px var(--accent, #63ffb4);
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+
+/* ── Field textarea ───────────────────────────────────────── */
+.apply-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.apply-label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.35);
+}
+
+.apply-optional {
+  font-family: 'Outfit', sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: rgba(255,255,255,0.2);
+  font-size: 0.68rem;
+}
+
+.apply-textarea {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.82rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 0.6rem 0.8rem;
+  outline: none;
+  resize: vertical;
+  min-height: 72px;
+  line-height: 1.55;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+.apply-textarea:focus {
+  border-color: rgba(99,255,180,0.35);
+  background: rgba(99,255,180,0.03);
+}
+.apply-textarea::placeholder { color: rgba(255,255,255,0.2); }
+
+.apply-char {
+  align-self: flex-end;
+  font-size: 0.65rem;
+  font-family: 'Space Mono', monospace;
+  color: rgba(255,255,255,0.2);
+}
+
+/* ── Erreur ───────────────────────────────────────────────── */
+.apply-error {
+  background: rgba(248,113,113,0.08);
+  border: 1px solid rgba(248,113,113,0.25);
+  border-radius: 7px;
+  padding: 0.5rem 0.75rem;
+  color: #fca5a5;
+  font-size: 0.78rem;
+}
+
+/* ── Boutons actions ──────────────────────────────────────── */
+.apply-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.apply-cancel {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.4);
+  border-radius: 7px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.apply-cancel:hover { border-color: rgba(255,255,255,0.25); color: rgba(255,255,255,0.7); }
+
+.apply-submit {
+  background: var(--accent, #63ffb4);
+  color: #0a0a14;
+  border: none;
+  border-radius: 7px;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.apply-submit:hover:not(:disabled) {
+  background: #7fffca;
+  box-shadow: 0 0 14px rgba(99,255,180,0.3);
+}
+.apply-submit:disabled { opacity: 0.4; cursor: not-allowed; }
